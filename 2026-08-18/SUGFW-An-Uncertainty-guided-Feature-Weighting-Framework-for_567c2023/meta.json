@@ -4,5 +4,31 @@
  "title": "SUGFW-An-Uncertainty-guided-Feature-Weighting-Framework-for",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-18 02:56:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1db1bef2-ce85-4324-9b6e-099adba60885.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1db1bef2-ce85-4324-9b6e-099adba60885.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:25:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cold start active learning",
+    "SAM adaptation",
+    "uncertainty estimation",
+    "medical image segmentation",
+    "foundation model"
+   ],
+   "field": "医学图像分析中的主动学习与基础模型适配",
+   "innovations": [
+    "提出 SUGFW+ 统一框架，将 SAM 不确定性引导的特征加权与贪心选择用于冷启动样本筛选",
+    "设计 UPFT 微调方法，用不确定性图作为空间提示替代原始 prompt，实现 SAM 在极低标注预算下的高效自动分割适配",
+    "结合 PFUC、PGDR、GSCU 与 UPFT，在四个公开数据集上达到 SOTA 性能，部分场景超越全监督 UNet"
+   ],
+   "benchmarks": [
+    "Promise12",
+    "UTAH",
+    "MSD Liver",
+    "ISIC 2018"
+   ]
+  }
+ }
 }

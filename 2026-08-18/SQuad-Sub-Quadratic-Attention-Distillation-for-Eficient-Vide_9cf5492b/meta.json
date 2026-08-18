@@ -4,5 +4,32 @@
  "title": "SQuad-Sub-Quadratic-Attention-Distillation-for-Eficient-Vide",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-18 02:59:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cad8ab69-0fcd-481c-9c81-76d9b501ca3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cad8ab69-0fcd-481c-9c81-76d9b501ca3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 14:26:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "注意力蒸馏",
+    "子二次复杂度",
+    "扩散Transformer",
+    "分布匹配蒸馏",
+    "Efficient Attention"
+   ],
+   "field": "视频生成与高效注意力",
+   "innovations": [
+    "提出SQuad-Attention将O(n²)软注意力因子化为O(n√n)的局部+全局两次真实softmax操作，全程保留softmax表达力",
+    "提出两阶段蒸馏框架（Flow-Matching SFT + DMD2），同时实现质量恢复和6步采样加速",
+    "理论推导最优窗口w*=√n并证明单次组合即可恢复完整感受野"
+   ],
+   "benchmarks": [
+    "VBench",
+    "Wan 2.2 5B",
+    "Wan 2.1 1.3B",
+    "Wan 2.1 14B"
+   ]
+  }
+ }
 }
