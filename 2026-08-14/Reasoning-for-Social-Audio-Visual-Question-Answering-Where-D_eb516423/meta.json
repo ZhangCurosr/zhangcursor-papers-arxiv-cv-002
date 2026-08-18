@@ -4,5 +4,33 @@
  "title": "Reasoning-for-Social-Audio-Visual-Question-Answering-Where-D",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-14 04:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/550580fd-022a-4741-bdb4-13315a2a5bfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/550580fd-022a-4741-bdb4-13315a2a5bfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:57:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Social Audio-Visual QA",
+    "Chain-of-Thought Reasoning",
+    "Multimodal LLM",
+    "IntentBench-Prime",
+    "Vanilla SFT",
+    "Benchmark Quality",
+    "Video Caption",
+    "Social Understanding"
+   ],
+   "field": "多模态社会理解",
+   "innovations": [
+    "发布清洗版 IntentBench-Prime 基准，首次系统量化并修复原基准的破损和文本可答问题",
+    "证明 Vanilla SFT 基线可匹敌或超越复杂 CoT 推理方法，揭示推理在社交 AV-QA 中的低效性",
+    "发现纯文本摘要足以替代完整音视频实现相近性能，量化了 MLLM 对多模态信号的利用率不足"
+   ],
+   "benchmarks": [
+    "IntentBench-Prime",
+    "WorldSense",
+    "Daily-Omni"
+   ]
+  }
+ }
 }

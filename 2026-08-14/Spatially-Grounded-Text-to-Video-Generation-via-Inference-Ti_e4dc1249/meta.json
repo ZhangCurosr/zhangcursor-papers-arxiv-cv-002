@@ -4,5 +4,31 @@
  "title": "Spatially-Grounded-Text-to-Video-Generation-via-Inference-Ti",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-14 04:12:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e7e588ca-9809-4a61-901c-e94e7af83d68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e7e588ca-9809-4a61-901c-e94e7af83d68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:03:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Video Generation",
+    "Spatially-Grounded Generation",
+    "Gradient-Free Control",
+    "Diffusion Transformer",
+    "Cross-Attention Manipulation",
+    "Training-Free Methods"
+   ],
+   "field": "可控视频生成",
+   "innovations": [
+    "提出GATO-Vid，首个训练-free且梯度-free的空间定位T2V生成方法，推理开销仅增0.4%",
+    "将跨注意力优化转化为可解析求解的代理目标，推导闭式最优方向避免反向传播",
+    "设计几何感知的查询注入机制，尊重RMSNorm流形约束并引入正交投影防失真"
+   ],
+   "benchmarks": [
+    "Set 1 (Gemini prompts + SAM3 boxes)",
+    "Set 2 (ChatGPT synthetic challenging prompts)",
+    "VBench quality metrics"
+   ]
+  }
+ }
 }

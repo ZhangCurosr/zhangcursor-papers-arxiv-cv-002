@@ -4,5 +4,32 @@
  "title": "SNM-VFI-Symmetric-Nonlinear-Motion-Guided-Generative-Video-F",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-14 14:48:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/64d7e7b4-99f7-4114-a89a-7e2e19c2494c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/64d7e7b4-99f7-4114-a89a-7e2e19c2494c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Frame Interpolation",
+    "Optical Flow",
+    "Diffusion Model",
+    "Nonlinear Motion",
+    "Training-free",
+    "Temporal Coherence",
+    "Confidence Fusion"
+   ],
+   "field": "视频帧插值",
+   "innovations": [
+    "对称非线性光流建模与遮挡感知对齐",
+    "Flow-guided latent 迭代引导扩散过程",
+    "置信度感知软融合流与生成输出"
+   ],
+   "benchmarks": [
+    "DAVIS",
+    "Sintel",
+    "KITTI"
+   ]
+  }
+ }
 }

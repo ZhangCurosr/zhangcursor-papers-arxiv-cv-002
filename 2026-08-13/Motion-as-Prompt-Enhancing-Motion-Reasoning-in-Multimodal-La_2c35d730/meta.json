@@ -4,5 +4,31 @@
  "title": "Motion-as-Prompt-Enhancing-Motion-Reasoning-in-Multimodal-La",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 14:55:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f4fe24a-9656-4ee2-845e-d6357be0acea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:51:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "运动推理",
+    "多模态大语言模型",
+    "视觉提示",
+    "帧间运动损失",
+    "关键帧采样",
+    "无训练方法"
+   ],
+   "field": "多模态视频理解与视觉提示",
+   "innovations": [
+    "提出跨帧运动恢复提示，将帧间轨迹显式渲染为视觉标记",
+    "设计三维度运动能量分数引导关键帧采样",
+    "在无训练、无架构修改条件下显著提升 MLLM 运动推理能力"
+   ],
+   "benchmarks": [
+    "CLEVRER",
+    "Something-Something-v2",
+    "TempCompass"
+   ]
+  }
+ }
 }

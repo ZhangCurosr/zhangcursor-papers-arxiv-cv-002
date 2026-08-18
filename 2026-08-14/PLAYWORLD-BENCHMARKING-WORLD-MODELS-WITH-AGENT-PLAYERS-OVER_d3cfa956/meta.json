@@ -4,5 +4,28 @@
  "title": "PLAYWORLD-BENCHMARKING-WORLD-MODELS-WITH-AGENT-PLAYERS-OVER",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-14 04:08:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8b8ad4ce-b151-4756-a6a2-e98168179360.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8b8ad4ce-b151-4756-a6a2-e98168179360.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:52:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Model",
+    "Benchmark",
+    "Interactive Video Generation",
+    "Agent Player",
+    "Long-horizon Evaluation",
+    "VQA Verifier"
+   ],
+   "field": "视频世界模型评估",
+   "innovations": [
+    "Agent Player闭环自适应评估框架：以多模态Agent模拟人类玩家长视距目标交互，Presets+在线调整策略实现跨模型公平比较",
+    "VQA Rubric Verifier四维评分体系：几何一致性/交互保真度/视线外演化/洞察演化，前置Gate校验+加权Yes/No聚合"
+   ],
+   "benchmarks": [
+    "PlayWorld"
+   ]
+  }
+ }
 }

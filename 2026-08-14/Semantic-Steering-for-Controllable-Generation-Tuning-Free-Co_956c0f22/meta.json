@@ -4,5 +4,35 @@
  "title": "Semantic-Steering-for-Controllable-Generation-Tuning-Free-Co",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-14 14:49:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/89020093-48ac-4e60-a20c-d546428c48d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/89020093-48ac-4e60-a20c-d546428c48d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:01:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MM-DiT",
+    "概念擦除",
+    "语义导向",
+    "免训练",
+    "整流流",
+    "多模态扩散Transformer"
+   ],
+   "field": "多模态生成模型安全与可控生成",
+   "innovations": [
+    "发现并利用MM-DiT分块生成角色差异实现精准导向",
+    "仅基于稀疏文本分支构建单一导向向量实现高效概念擦除",
+    "利用整流流直线轨迹实现跨时间步全局一致的无训练干预"
+   ],
+   "benchmarks": [
+    "GIPHY celebrity detection",
+    "LLaVA-1.5 celebrity detection",
+    "Gram matrix style evaluation",
+    "NudeNet nudity detection",
+    "Aesthetic Predictor V2",
+    "FID",
+    "CLIP Score"
+   ]
+  }
+ }
 }

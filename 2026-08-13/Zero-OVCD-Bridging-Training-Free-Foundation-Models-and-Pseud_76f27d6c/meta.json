@@ -4,5 +4,34 @@
  "title": "Zero-OVCD-Bridging-Training-Free-Foundation-Models-and-Pseud",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 07:12:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/621a9200-f599-4986-87b4-bfc744741e74.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/621a9200-f599-4986-87b4-bfc744741e74.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:52:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary change detection",
+    "training-free inference",
+    "pseudo-label learning",
+    "vision foundation models",
+    "remote sensing",
+    "SAM3",
+    "DINOv3",
+    "SegEarth-OV"
+   ],
+   "field": "开放词汇变化检测",
+   "innovations": [
+    "提出无需目标域标注的两阶段OVCD框架，桥接training-free推理与伪标签监督学习",
+    "设计MRM+SMFM+MCCM渐进式伪标签精炼管线，解决候选掩码误差传播与语义歧义问题",
+    "引入checkpoint投票与高一致性样本选择的噪声感知训练策略，降低伪标签残差噪声影响"
+   ],
+   "benchmarks": [
+    "LEVIR-CD",
+    "WHU-CD",
+    "S2Looking",
+    "SECOND"
+   ]
+  }
+ }
 }

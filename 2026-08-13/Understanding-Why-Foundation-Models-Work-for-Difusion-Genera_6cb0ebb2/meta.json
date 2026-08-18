@@ -4,5 +4,31 @@
  "title": "Understanding-Why-Foundation-Models-Work-for-Difusion-Genera",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:55:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d011212f-d4e4-417e-b75f-199b8f8b87d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d011212f-d4e4-417e-b75f-199b8f8b87d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:51:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI生成图像检测",
+    "扩散模型",
+    "视觉基础模型",
+    "DDIM反演",
+    "频域分析",
+    "数字取证"
+   ],
+   "field": "AI生成图像检测",
+   "innovations": [
+    "设计DDIM反演分析协议，在语义恒定约束下隔离扩散生成的非语义痕迹",
+    "揭示VFM检测器依赖低-中频分布差异而非高频伪影",
+    "量化扩散模型latent空间有效维度和方差的系统性下降"
+   ],
+   "benchmarks": [
+    "GenImage",
+    "RAISE",
+    "Synthbuster"
+   ]
+  }
+ }
 }

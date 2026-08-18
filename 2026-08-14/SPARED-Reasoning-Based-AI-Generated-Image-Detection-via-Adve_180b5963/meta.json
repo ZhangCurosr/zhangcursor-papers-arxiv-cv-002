@@ -4,5 +4,10 @@
  "title": "SPARED-Reasoning-Based-AI-Generated-Image-Detection-via-Adve",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-14 14:49:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b7752861-37d7-4659-978d-862cf38afa53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b7752861-37d7-4659-978d-862cf38afa53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:00:07",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "STREAMTTT-RECONCILING-REAL-TIME-PERCEPTION-AND-LONG-TERM-MEM",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-14 14:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d56b0ff3-7a59-4cb9-973a-db3d8efe64b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d56b0ff3-7a59-4cb9-973a-db3d8efe64b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:01:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流式视觉语言模型",
+    "测试时训练",
+    "快权重记忆",
+    "实时感知",
+    "长期记忆",
+    "OVO-Bench"
+   ],
+   "field": "流式多模态理解",
+   "innovations": [
+    "将长期历史存储在注意力外的在线快权重中，与滑动KV缓存分离以解决感知-记忆权衡",
+    "构建112.4K实时QA语料并将主动查询重定位至答案时刻以补充实时感知监督",
+    "提出跨窗口全局连续M-RoPE位置编码支持分段流式推理"
+   ],
+   "benchmarks": [
+    "OVO-Bench",
+    "StreamingBench RTVU"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "STREAMTTT-RECONCILING-REAL-TIME-PERCEPTION-AND-LONG-TERM-MEM",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-14 04:08:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d56b0ff3-7a59-4cb9-973a-db3d8efe64b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d56b0ff3-7a59-4cb9-973a-db3d8efe64b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:01:20",
+  "chunks": 1
+ }
 }

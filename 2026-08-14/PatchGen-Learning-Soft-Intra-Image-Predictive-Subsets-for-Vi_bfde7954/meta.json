@@ -4,5 +4,37 @@
  "title": "PatchGen-Learning-Soft-Intra-Image-Predictive-Subsets-for-Vi",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-14 14:49:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ac13c4f2-3be2-4dc1-a324-3e37c603eb59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ac13c4f2-3be2-4dc1-a324-3e37c603eb59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:52:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "domain generalization",
+    "patch selection",
+    "soft mask",
+    "visual classification",
+    "predictive subset",
+    "continual category discovery"
+   ],
+   "field": "视觉泛化",
+   "innovations": [
+    "提出内图像预测子集结构假设与复杂度理论分析",
+    "设计样本自适应软掩码学习与多损失联合优化框架",
+    "在数据移位、目标移位及全移位任务上统一提升泛化性能"
+   ],
+   "benchmarks": [
+    "PACS",
+    "VLCS",
+    "OfficeHome",
+    "TerraIncognita",
+    "DomainNet",
+    "HISTOPANTUM",
+    "HISTOCOLON",
+    "CIFAR-100",
+    "CUB"
+   ]
+  }
+ }
 }

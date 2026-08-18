@@ -4,5 +4,10 @@
  "title": "New-Orthogonal-Multiwavelet-Filters-Derived-By-Matrix-Spectr",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/05ccd7bf-0e1f-4eaf-98eb-2629ad5c37dd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/05ccd7bf-0e1f-4eaf-98eb-2629ad5c37dd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:55:59",
+  "chunks": 5
+ }
 }

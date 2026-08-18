@@ -4,5 +4,40 @@
  "title": "Semantic-Steering-for-Controllable-Generation-Tuning-Free-Co",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-14 04:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/89020093-48ac-4e60-a20c-d546428c48d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/89020093-48ac-4e60-a20c-d546428c48d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:02:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Diffusion Transformer",
+    "Concept Erasure",
+    "Tuning-Free Method",
+    "Internal Activation Intervention",
+    "Semantic Steering",
+    "Rectified Flow",
+    "Text-to-Image Safety"
+   ],
+   "field": "文生图安全与可控生成",
+   "innovations": [
+    "首次针对大型MM-DiT架构提出无微调语义导向概念擦除方法，揭示块级生成角色分工并仅在稀疏文本分支构建导向向量",
+    "利用Rectified Flow直线采样轨迹实现中间时步提取的导向向量跨时步一致复用，消除逐时步重复计算开销"
+   ],
+   "benchmarks": [
+    "GIPHY Celebrity Detector",
+    "LLaVA-1.5",
+    "Gram Matrix Score",
+    "LPIPS",
+    "NudeNet",
+    "FID",
+    "CLIP Score",
+    "Aesthetic Predictor V2",
+    "Ring-A-Bell",
+    "MMA-Diffusion",
+    "I2P",
+    "P4D"
+   ]
+  }
+ }
 }

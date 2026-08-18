@@ -4,5 +4,31 @@
  "title": "Reasoning-for-Social-Audio-Visual-Question-Answering-Where-D",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-14 14:49:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/550580fd-022a-4741-bdb4-13315a2a5bfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/550580fd-022a-4741-bdb4-13315a2a5bfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:57:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Social Audio-Visual QA",
+    "CoT Reasoning",
+    "Multimodal LLM",
+    "Benchmark Evaluation",
+    "Vanilla SFT",
+    "IntentBench"
+   ],
+   "field": "多模态社交理解",
+   "innovations": [
+    "发现简单Vanilla SFT可直接匹敌复杂CoT推理方法",
+    "提出IntentBench-Prime清洗基准",
+    "揭示文本caption可达与视频相当性能"
+   ],
+   "benchmarks": [
+    "IntentBench-Prime",
+    "WorldSense",
+    "Daily-Omni"
+   ]
+  }
+ }
 }

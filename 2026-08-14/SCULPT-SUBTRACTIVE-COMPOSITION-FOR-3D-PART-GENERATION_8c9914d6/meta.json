@@ -4,5 +4,29 @@
  "title": "SCULPT-SUBTRACTIVE-COMPOSITION-FOR-3D-PART-GENERATION",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-14 04:11:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0f3a3b08-504b-401f-96b7-3a0a05ec654f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0f3a3b08-504b-401f-96b7-3a0a05ec654f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:00:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D part generation",
+    "subtractive composition",
+    "structured latent",
+    "joint split predictor",
+    "sparse support",
+    "rectified flow matching"
+   ],
+   "field": "3D 内容生成",
+   "innovations": [
+    "提出减法组合形式化，将可变部件集合生成转化为固定签名的循环部件-剩余分裂",
+    "设计联合分割预测器，通过原生支持约束实现部件与剩余的几何-材质同步生成",
+    "引入 sparse-support composition loss 与推理时裁剪机制，保证递归状态合法性与边界连续性"
+   ],
+   "benchmarks": [
+    "PartObjaverse"
+   ]
+  }
+ }
 }

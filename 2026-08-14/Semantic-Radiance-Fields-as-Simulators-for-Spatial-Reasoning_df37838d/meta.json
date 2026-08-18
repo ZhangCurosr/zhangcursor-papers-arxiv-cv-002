@@ -4,5 +4,31 @@
  "title": "Semantic-Radiance-Fields-as-Simulators-for-Spatial-Reasoning",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-14 04:13:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1f6eff4f-ebb8-4e43-a292-11ed171438ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1f6eff4f-ebb8-4e43-a292-11ed171438ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:01:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Semantic Radiance Field",
+    "Neural Radiance Field",
+    "Spatial Reasoning",
+    "Embodied AI",
+    "Multi-class Segmentation",
+    "Simulator",
+    "NeRF",
+    "3D Reconstruction"
+   ],
+   "field": "具身智能与3D视觉",
+   "innovations": [
+    "将语义辐射场定义为统一的空间推理模拟器，联合编码几何、外观与逐类语义",
+    "采用C个独立sigmoid语义头替代softmax互斥头，支持多类别共存与重叠对象建模",
+    "定义Render/Semantic/Occupancy三个标准查询接口，实现SRF与物理引擎的端到端闭环集成"
+   ],
+   "benchmarks": [
+    "Fruit-NeRF dataset"
+   ]
+  }
+ }
 }

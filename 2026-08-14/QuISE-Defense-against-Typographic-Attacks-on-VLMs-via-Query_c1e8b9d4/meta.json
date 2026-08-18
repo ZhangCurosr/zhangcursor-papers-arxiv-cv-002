@@ -4,5 +4,32 @@
  "title": "QuISE-Defense-against-Typographic-Attacks-on-VLMs-via-Query",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-14 14:49:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a8b6772d-7407-4811-b526-4de123d206eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a8b6772d-7407-4811-b526-4de123d206eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:56:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "typographic attack",
+    "VLM defense",
+    "semantic editing",
+    "black-box defense",
+    "multimodal security"
+   ],
+   "field": "多模态安全与鲁棒性",
+   "innovations": [
+    "首次提出基于查询无关语义编辑的黑盒防御框架",
+    "影响力感知文本定位结合Q0-I0语义替换",
+    "双重编辑+一致性验证的防御选择策略"
+   ],
+   "benchmarks": [
+    "SCAM",
+    "SceneTAP",
+    "SELF",
+    "TextVQA",
+    "ST-VQA"
+   ]
+  }
+ }
 }

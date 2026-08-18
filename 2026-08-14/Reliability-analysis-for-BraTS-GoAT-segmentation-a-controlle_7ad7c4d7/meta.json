@@ -4,5 +4,10 @@
  "title": "Reliability-analysis-for-BraTS-GoAT-segmentation-a-controlle",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-14 04:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ee65928f-0eb7-47aa-851c-dd4c86db851d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ee65928f-0eb7-47aa-851c-dd4c86db851d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:58:55",
+  "chunks": 1
+ }
 }

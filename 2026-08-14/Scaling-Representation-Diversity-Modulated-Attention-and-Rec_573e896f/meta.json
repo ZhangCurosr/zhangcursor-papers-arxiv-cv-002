@@ -4,5 +4,31 @@
  "title": "Scaling-Representation-Diversity-Modulated-Attention-and-Rec",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-14 14:49:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/047a476a-8864-4bde-a18b-1b583ba465d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/047a476a-8864-4bde-a18b-1b583ba465d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:01:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual grounding",
+    "representation diversity",
+    "open-vocabulary grounding",
+    "JEPA",
+    "cross-modal alignment",
+    "multi-dataset generalization"
+   ],
+   "field": "视觉语言定位",
+   "innovations": [
+    "提出mACH+JEPA双目标框架，利用互补梯度子空间防止表征退化",
+    "构建O365-Caption数据集，将离散标签升级为9.6M上下文感知指代表达",
+    "提供表征多样性的理论分析和谱实证，证明双目标几乎消除对齐盲区"
+   ],
+   "benchmarks": [
+    "RefCOCO",
+    "RefCOCO+",
+    "RefCOCOg"
+   ]
+  }
+ }
 }

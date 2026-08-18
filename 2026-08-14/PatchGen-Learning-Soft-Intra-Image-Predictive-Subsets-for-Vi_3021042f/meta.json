@@ -4,5 +4,37 @@
  "title": "PatchGen-Learning-Soft-Intra-Image-Predictive-Subsets-for-Vi",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-14 04:13:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ac13c4f2-3be2-4dc1-a324-3e37c603eb59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/ac13c4f2-3be2-4dc1-a324-3e37c603eb59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:53:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "domain generalization",
+    "patch selection",
+    "visual generalization",
+    "intra-image predictive subset",
+    "continual category discovery",
+    "histopathology"
+   ],
+   "field": "视觉域泛化与分布偏移鲁棒性",
+   "innovations": [
+    "提出oracle图内预测子集假设并给出Rademacher复杂度收紧保证",
+    "设计样本自适应软掩码及三重正则化（低分抑制/置信正则/类对齐）联合优化",
+    "无文本监督即在mDG/CCD/mDG+GCD三种偏移场景下达到与VLM基线可比性能"
+   ],
+   "benchmarks": [
+    "PACS",
+    "VLCS",
+    "OfficeHome",
+    "TerraIncognita",
+    "DomainNet",
+    "HISTOPANTUM",
+    "HISTOcolon",
+    "CIFAR-100",
+    "CUB"
+   ]
+  }
+ }
 }

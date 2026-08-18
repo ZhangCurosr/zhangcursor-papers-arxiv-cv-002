@@ -4,5 +4,30 @@
  "title": "Sign-Language-Video-Synthesis-via-Loss-Guided-Multi-Expert-G",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-14 04:09:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/25080a22-1144-4607-b24b-6e48dae2cfa7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/25080a22-1144-4607-b24b-6e48dae2cfa7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:02:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手语视频合成",
+    "多判别器GAN",
+    "生成对抗网络",
+    "Multi-Expert",
+    "视频生成",
+    "无障碍通信"
+   ],
+   "field": "视觉生成与多模态学习",
+   "innovations": [
+    "United Loss多判别器软共识机制",
+    "双路径卷积-Transformer可学习特征融合",
+    "交替三模式训练解耦全局与局部优化"
+   ],
+   "benchmarks": [
+    "PSNR（过滤测试集）",
+    "自定义156GB手语数据集"
+   ]
+  }
+ }
 }

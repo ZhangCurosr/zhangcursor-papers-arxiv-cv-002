@@ -4,5 +4,29 @@
  "title": "RGB-D-Video-Generation-for-Improving-Human-to-Robot-Object-H",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-14 14:48:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862e9d68-c903-451e-9cae-ef2185089f51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862e9d68-c903-451e-9cae-ef2185089f51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:56:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-robot collaboration",
+    "RGB-D generation",
+    "intention prediction",
+    "Sim-to-real",
+    "video diffusion"
+   ],
+   "field": "人机协作与机器人感知",
+   "innovations": [
+    "PassGen生成管道：融合SVD与时序面部编码器的RGB-D生成",
+    "形态学深度噪声模拟：基于L515传感器空洞分布的边缘侵蚀策略",
+    "Intention Gating：注视+速度的多模态意图门控机制"
+   ],
+   "benchmarks": [
+    "Hand2Bot-Real",
+    "UR5e真实H2R交接"
+   ]
+  }
+ }
 }

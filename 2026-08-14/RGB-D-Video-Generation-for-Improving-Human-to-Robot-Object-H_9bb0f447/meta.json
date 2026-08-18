@@ -4,5 +4,30 @@
  "title": "RGB-D-Video-Generation-for-Improving-Human-to-Robot-Object-H",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-14 04:11:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862e9d68-c903-451e-9cae-ef2185089f51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862e9d68-c903-451e-9cae-ef2185089f51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:56:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human-robot collaboration",
+    "RGB-D generation",
+    "intent prediction",
+    "sim-to-real transfer",
+    "video diffusion",
+    "dataset construction"
+   ],
+   "field": "人机交互与机器人感知",
+   "innovations": [
+    "PassGen: SVD-based RGB-D generation with TFE for gaze-aware handover synthesis",
+    "Morphology-based depth noise simulation replicating L515 sensor artifacts",
+    "Intention Gating: multimodal fusion of gaze confidence and object velocity for proactive trigger"
+   ],
+   "benchmarks": [
+    "Hand2Bot-Real",
+    "Real-world UR5e H2R handover"
+   ]
+  }
+ }
 }

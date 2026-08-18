@@ -4,5 +4,28 @@
  "title": "SCULPT-SUBTRACTIVE-COMPOSITION-FOR-3D-PART-GENERATION",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-14 14:48:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0f3a3b08-504b-401f-96b7-3a0a05ec654f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/0f3a3b08-504b-401f-96b7-3a0a05ec654f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:59:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Part Generation",
+    "Subtractive Composition",
+    "Diffusion Transformer",
+    "Part-aware 3D",
+    "Structrured Latent",
+    "Object Decomposition"
+   ],
+   "field": "3D 生成与分解",
+   "innovations": [
+    "将部件感 3D 生成形式化为递归减法组合，用固定签名分裂替代可变基数全局预测",
+    "设计联合分裂预测器，在原生稀疏支持并集上联合去噪部件与剩余对象，保持边界一致性"
+   ],
+   "benchmarks": [
+    "PartObjaverse"
+   ]
+  }
+ }
 }

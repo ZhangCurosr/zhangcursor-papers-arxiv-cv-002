@@ -4,5 +4,29 @@
  "title": "Reconstructing-Historical-Manuscripts-through-MSI-The-Potent",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-14 14:49:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/926c57fb-8b3c-4e33-8947-45bcba0a1ded.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/926c57fb-8b3c-4e33-8947-45bcba0a1ded.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 03:58:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Historic Manuscript Analysis",
+    "Image Quality Assessment",
+    "Multi-Spectral Imaging",
+    "Potential Contrast",
+    "Cultural Heritage Digitization"
+   ],
+   "field": "文档图像分析与文化遗产数字化",
+   "innovations": [
+    "首次系统评估潜在对比度（NPC）在手稿可读性评估中的适用性",
+    "揭示对比度度量（NPC/CNR）在手稿质量评估中显著优于通用 IQA 度量",
+    "提出随机正交投影生成大规模重建样本的评估实验设计"
+   ],
+   "benchmarks": [
+    "SALAMI Dataset",
+    "Parchment Dataset"
+   ]
+  }
+ }
 }

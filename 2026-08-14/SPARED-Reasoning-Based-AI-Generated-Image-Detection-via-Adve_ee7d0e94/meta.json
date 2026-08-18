@@ -4,5 +4,31 @@
  "title": "SPARED-Reasoning-Based-AI-Generated-Image-Detection-via-Adve",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-14 04:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/abaeb417-e93f-42c7-bc9d-6285637abf93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/abaeb417-e93f-42c7-bc9d-6285637abf93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:00:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated image detection",
+    "adversarial reinforcement learning",
+    "explainable deepfake detection",
+    "MLLM reasoning",
+    "dataset bias mitigation",
+    "paired editing data"
+   ],
+   "field": "AI生成图像检测与可解释性",
+   "innovations": [
+    "以生成式图像编辑器作为对抗对手，从训练数据层面构造性关闭数据集偏差捷径",
+    "PaCo 门控奖励防止攻击者'只欺骗不编辑'的退化策略",
+    "Verdict-only reward 使解释质量作为准确率提升的副产品涌现"
+   ],
+   "benchmarks": [
+    "DeepfakeJudge-Detect",
+    "AnomReason-Deepfake",
+    "Holmes-Set"
+   ]
+  }
+ }
 }
