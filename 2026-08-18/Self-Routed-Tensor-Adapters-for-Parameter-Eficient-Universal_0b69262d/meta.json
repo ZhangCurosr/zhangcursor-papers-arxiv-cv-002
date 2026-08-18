@@ -4,5 +4,10 @@
  "title": "Self-Routed-Tensor-Adapters-for-Parameter-Eficient-Universal",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-18 02:57:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2c236152-c8b0-45a8-ad27-5e500cc7af6a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2c236152-c8b0-45a8-ad27-5e500cc7af6a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:17:14",
+  "chunks": 1
+ }
 }

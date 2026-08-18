@@ -4,5 +4,34 @@
  "title": "Seeing-Before-Answering-Training-Free-Visual-Layer-Profiling",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-18 02:58:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9d631727-7ca6-4e86-bd67-f360bbeb8b68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9d631727-7ca6-4e86-bd67-f360bbeb8b68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:16:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Visual Layer Selection",
+    "Representation Profiling",
+    "Training-Free Analysis",
+    "Matrix Entropy",
+    "Gromov-Wasserstein Distance"
+   ],
+   "field": "视觉语言模型可解释性与效率优化",
+   "innovations": [
+    "提出训练自由的VDE方法，仅用100个无标签样本即可预测LLaVA风格VLM的最优视觉层",
+    "揭示固定晚期层选择的脆弱性，默认层在14个模型-任务对中13个非最优",
+    "证明多模态投影器重塑视觉几何但保留性能趋势，预投影器VDE强于后投影器"
+   ],
+   "benchmarks": [
+    "ScienceQA",
+    "POPE-Adv",
+    "CV-Bench 2D/3D",
+    "MMStar",
+    "HD-EPIC Action",
+    "HD-EPIC Gaze"
+   ]
+  }
+ }
 }

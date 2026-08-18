@@ -4,5 +4,31 @@
  "title": "Unlocking-Motion-in-Expressions-Temporal-Calibration-for-Ref",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-18 02:59:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/687b3f37-b8d1-46ed-af94-b5f58dc67065.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/687b3f37-b8d1-46ed-af94-b5f58dc67065.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:22:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Referring Video Object Segmentation",
+    "Motion Calibration",
+    "Multimodal Temporal Modeling",
+    "Expression-Driven Segmentation"
+   ],
+   "field": "视频分割与多模态理解",
+   "innovations": [
+    "首次将表达运动语义显式建模为低维可解释控制信号指导运动校准",
+    "提出表达条件化门控决策机制区分静态/动态表达的时序路径",
+    "通过文本引导谱聚类构建语义时间阶段提供紧凑候选空间"
+   ],
+   "benchmarks": [
+    "Ref-YouTube-VOS",
+    "Ref-DAVIS17",
+    "MeViS",
+    "A2D-Sentences",
+    "JHMDB-Sentences"
+   ]
+  }
+ }
 }

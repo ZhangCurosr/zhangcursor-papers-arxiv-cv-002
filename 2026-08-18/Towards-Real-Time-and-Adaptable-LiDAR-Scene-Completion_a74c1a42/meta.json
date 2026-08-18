@@ -4,5 +4,29 @@
  "title": "Towards-Real-Time-and-Adaptable-LiDAR-Scene-Completion",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-18 02:58:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/7a24e5b8-9a81-4c48-9b4d-d308df6c208f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/7a24e5b8-9a81-4c48-9b4d-d308df6c208f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:20:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LiDAR 场景补全",
+    "点云补全",
+    "BEV 表示",
+    "可变形注意力",
+    "实时 3D 感知",
+    "单尺度前向推理"
+   ],
+   "field": "自动驾驶 3D 点云感知",
+   "innovations": [
+    "自适应逐点位移初始化模块，以学习结构相关位移替代固定噪声扰动",
+    "多尺度体素+BEV可变形注意力重建，替代FPS/k-NN点邻域算子实现与输入点数无关的推理效率"
+   ],
+   "benchmarks": [
+    "SemanticKITTI",
+    "KITTI-360"
+   ]
+  }
+ }
 }

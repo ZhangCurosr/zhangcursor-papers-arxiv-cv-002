@@ -4,5 +4,36 @@
  "title": "Supervising-the-Path-to-Fine-Scales-GalerkinFlow-for-Scienti",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-18 02:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8ae8d3ca-2f49-43fd-9a7d-cd74b78eadc7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8ae8d3ca-2f49-43fd-9a7d-cd74b78eadc7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:19:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超分辨率",
+    "神经算子",
+    "Galerkin 注意力",
+    "路径监督",
+    "方程无关重建",
+    "科学计算",
+    "确定性流"
+   ],
+   "field": "科学场与图像超分辨率",
+   "innovations": [
+    "将每个粗-细样本对解释为确定性重构路径，在中间状态监督残差向量场",
+    "提出粗锚点导向的 Galerkin 残差场模型，结合路径监督与 t=0 端点重建目标",
+    "引入有限差分梯度一致性损失约束局部空间变化，无需物理先验"
+   ],
+   "benchmarks": [
+    "Navier-Stokes",
+    "Darcy Flow",
+    "DIV2K",
+    "Set5",
+    "Set14",
+    "BSD100",
+    "Urban100"
+   ]
+  }
+ }
 }

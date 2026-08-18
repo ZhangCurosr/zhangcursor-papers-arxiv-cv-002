@@ -4,5 +4,10 @@
  "title": "ReRef-3D-A-Benchmark-for-Spatial-Referring-Expression-Guided",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-18 02:55:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/25567337-9017-4f14-9b0b-51079991ae5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/25567337-9017-4f14-9b0b-51079991ae5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:16:23",
+  "chunks": 1
+ }
 }

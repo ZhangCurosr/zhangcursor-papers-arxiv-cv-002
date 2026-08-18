@@ -4,5 +4,31 @@
  "title": "Unsupervised-Learning-of-Cell-Instances-with-Generative-Rout",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-18 02:53:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0da4595-45c5-4b85-ab6c-204ff127a772.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f0da4595-45c5-4b85-ab6c-204ff127a772.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:23:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督细胞分割",
+    "物元中心学习",
+    "生成模型",
+    "显微图像分析",
+    "实例分割"
+   ],
+   "field": "计算病理学/生物医学图像分析",
+   "innovations": [
+    "提出 Generative Routing Pyramids，首次端到端无监督联合学习细胞实例分割与表型表示",
+    "路由金字塔 DAG 实现 O(N) 复杂度下的像素-种子关联与图像重建",
+    "稀疏存在门+重建压力机制实现自监督物体种子选择"
+   ],
+   "benchmarks": [
+    "Allen hiPSC 核形态数据集",
+    "Fluo-N2DL-HeLa",
+    "PhC-C2DL-PSC",
+    "BBBC013 药物扰动数据集"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Structured-Local-Diferential-Modeling-for-AI-Generated-Image",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-14 04:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f106acbc-35bf-45f5-8e80-3ef5789869cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f106acbc-35bf-45f5-8e80-3ef5789869cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:15:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI生成图像检测",
+    "跨生成器泛化",
+    "局部差分建模",
+    "低信噪比伪造痕迹",
+    "信息瓶颈",
+    "方向环卷积",
+    "频域交叉注意力"
+   ],
+   "field": "AI生成内容检测",
+   "innovations": [
+    "从信息论角度揭示高SNR语义主导导致低SNR伪造痕迹被抑制的偏差机制",
+    "提出FSPS+SDAM+FAE三阶段框架，将局部差分响应编码为独立token并在token空间建模依赖",
+    "引入DRC和FGCA模块，在方向环和频域两个维度增强对弱生成痕迹的敏感性"
+   ],
+   "benchmarks": [
+    "GenImage",
+    "DeepFaceGen",
+    "DiffusionForensics",
+    "COSPY"
+   ]
+  }
+ }
 }

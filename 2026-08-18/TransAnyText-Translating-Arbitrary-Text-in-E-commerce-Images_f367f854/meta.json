@@ -4,5 +4,10 @@
  "title": "TransAnyText-Translating-Arbitrary-Text-in-E-commerce-Images",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-18 02:58:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/92f1bd7f-424d-4246-a715-9cc4a06cc11f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/92f1bd7f-424d-4246-a715-9cc4a06cc11f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:21:05",
+  "chunks": 1
+ }
 }

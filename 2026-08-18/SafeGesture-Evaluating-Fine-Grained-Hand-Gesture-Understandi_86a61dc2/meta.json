@@ -4,5 +4,31 @@
  "title": "SafeGesture-Evaluating-Fine-Grained-Hand-Gesture-Understandi",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-18 02:58:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3d5f44c9-7279-47ba-b3c5-3f1f40788860.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3d5f44c9-7279-47ba-b3c5-3f1f40788860.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:16:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Gesture Understanding",
+    "Safety Benchmark",
+    "Perception-Reasoning Decoupling",
+    "Multimodal Safety",
+    "Scenario-Conditioned Reasoning"
+   ],
+   "field": "多模态安全评估",
+   "innovations": [
+    "提出 SafeGesture 基准测试评估 VLM 情境条件化手势安全推理能力",
+    "揭示感知-推理解耦现象：强感知不保证安全推理",
+    "引入无视觉先验基线与六分类失败谱系定位推理瓶颈"
+   ],
+   "benchmarks": [
+    "SafeGesture",
+    "HaGRID",
+    "HandVQA"
+   ]
+  }
+ }
 }

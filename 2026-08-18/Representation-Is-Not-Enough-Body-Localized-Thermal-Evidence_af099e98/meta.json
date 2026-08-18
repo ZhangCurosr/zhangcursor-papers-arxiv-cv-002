@@ -4,5 +4,10 @@
  "title": "Representation-Is-Not-Enough-Body-Localized-Thermal-Evidence",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-18 02:59:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f9a2efe2-9f59-4a31-abb7-72802f4500bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f9a2efe2-9f59-4a31-abb7-72802f4500bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:17:05",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Unsupervised-Anomaly-Detection-for-Image-Dataset-Quality-Ass",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-18 02:53:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26a40952-3851-4d21-ba8b-89c894c4f347.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26a40952-3851-4d21-ba8b-89c894c4f347.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:22:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "异常检测",
+    "离分布检测",
+    "数据集质量保证",
+    "乳腺MRI",
+    "多中心异质性",
+    "无监督学习"
+   ],
+   "field": "医学影像质量保证",
+   "innovations": [
+    "首个面向医学AI数据集QA的AD/OOD基准测试",
+    "四维放射学异常分类学框架",
+    "PatchCore位置编码扩展与3D反向自编码器适配"
+   ],
+   "benchmarks": [
+    "ODELIA Breast MRI",
+    "DUKE Breast Cancer MRI",
+    "QIN-BREAST CT",
+    "TCGA-KIRP",
+    "TCGA-LIHC",
+    "PFMRIP"
+   ]
+  }
+ }
 }

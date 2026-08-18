@@ -4,5 +4,30 @@
  "title": "TRAPSBench-Vision-Language-Models-Encode-but-Fail-to-Express",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-14 14:48:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8d9b6f93-4260-4b69-914a-cfc1e3b11399.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/8d9b6f93-4260-4b69-914a-cfc1e3b11399.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:14:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言模型",
+    "认知不确定性",
+    "选择性放弃",
+    "激活引导",
+    "物理推理基准",
+    "校准评估",
+    "表征-输出鸿沟"
+   ],
+   "field": "多模态模型可靠性与可解释性",
+   "innovations": [
+    "提出TRAPSBench程序化视频基准与PECS合取度量，首次系统评估VLM在物理不确定性下的认知克制能力",
+    "通过线性探针(AUROC up to 0.91)和激活引导因果证实VLM内部编码可迁移的认知信号但输出抑制该信号",
+    "揭示文本/视觉不对称性(约4×)与CoT推理对校准的双刃效应，区分不同失败模式的几何结构"
+   ],
+   "benchmarks": [
+    "TRAPSBench"
+   ]
+  }
+ }
 }

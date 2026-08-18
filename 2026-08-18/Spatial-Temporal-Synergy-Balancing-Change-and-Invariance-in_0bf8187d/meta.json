@@ -4,5 +4,29 @@
  "title": "Spatial-Temporal-Synergy-Balancing-Change-and-Invariance-in",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-08-18 02:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1faa49ae-38ef-45bd-bed9-eca4565aff7f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1faa49ae-38ef-45bd-bed9-eca4565aff7f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:17:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Motion Editing",
+    "Diffusion Models",
+    "Text-driven Human Motion",
+    "Riemannian Geometry",
+    "Positive-negative Learning"
+   ],
+   "field": "3D Human Motion Generation and Editing",
+   "innovations": [
+    "将变化-不变性解耦到空间姿态与时间节奏双维度协同优化",
+    "提出全监督正负学习机制实现三层显式运动结构约束",
+    "引入基于黎曼弧长的非均匀时间戳模块以保真内在物理节拍"
+   ],
+   "benchmarks": [
+    "MotionFix",
+    "STANCE Adjustment"
+   ]
+  }
+ }
 }

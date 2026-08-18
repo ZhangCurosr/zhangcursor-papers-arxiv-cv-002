@@ -4,5 +4,30 @@
  "title": "StreamOPD-A-Post-Training-Recipe-with-Spatio-Temporal-Cue-Ga",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-18 02:59:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/020a3adb-9bf1-4822-ae8a-4b0aabbadfcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/020a3adb-9bf1-4822-ae8a-4b0aabbadfcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:21:03",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "流式视频理解",
+    "On-Policy Distillation",
+    "后训练",
+    "ST-CueGate",
+    "多模态大模型"
+   ],
+   "field": "流式视频理解",
+   "innovations": [
+    "首次系统验证 OPD 在流式视频理解中的适用性并揭示训练-推理模式匹配的关键作用",
+    "提出 ST-CueGate 教师特权扩展模块，通过时空 cue 对比动态调制蒸馏权重"
+   ],
+   "benchmarks": [
+    "StreamingBench",
+    "OVO-Bench",
+    "Video-MME",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

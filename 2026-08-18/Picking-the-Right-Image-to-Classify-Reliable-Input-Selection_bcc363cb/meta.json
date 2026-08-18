@@ -4,5 +4,35 @@
  "title": "Picking-the-Right-Image-to-Classify-Reliable-Input-Selection",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-18 02:54:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9de6f4ef-2644-4e9e-a841-f5501a63bf37.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/9de6f4ef-2644-4e9e-a841-f5501a63bf37.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:15:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可靠输入选择",
+    "采集偏移",
+    "远程皮肤科",
+    "无预训练选择器",
+    "分布偏移",
+    "冻结骨干网络",
+    "加权F1"
+   ],
+   "field": "医学图像分析",
+   "innovations": [
+    "首次系统定义并基准测试可靠输入选择任务，量化oracle gap约20pp加权F1",
+    "证明四类无预训练数据选择器（嵌入范数、邻域共识、扰动稳定性、置信度）均无法有效缩小oracle gap",
+    "通过混合病例分解定位困难根因为信号不足而非选择空间不足，并提出嵌入可靠性跟踪的训练方向"
+   ],
+   "benchmarks": [
+    "PASSION",
+    "DermaCon-IN",
+    "SCIN",
+    "derm7pt",
+    "HAM10000",
+    "PAD-UFES-20"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Validation-of-Smartphone-Based-Photogrammetric-3D-Body-Scann",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-14 14:49:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/978aac53-ea7b-4483-9d09-1f1ceb4f576f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/978aac53-ea7b-4483-9d09-1f1ceb4f576f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:14:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D body scanning",
+    "photogrammetry",
+    "smartphone application",
+    "anthropometric measurement",
+    "validation study",
+    "Fit3D",
+    "PolyCam",
+    "pregnancy"
+   ],
+   "field": "计算形态学与数字人体测量",
+   "innovations": [
+    "首次系统验证智能手机摄影测量用于全身3D身体扫描的准确性与纵向监测能力",
+    "基于几何极值点的自动化人体测量标志点定义与周长提取流程",
+    "刚性人偶重复扫描实验分离系统误差与生理变异"
+   ],
+   "benchmarks": [
+    "Fit3D ProScanner",
+    "tape measurements on rigid mannequin"
+   ]
+  }
+ }
 }

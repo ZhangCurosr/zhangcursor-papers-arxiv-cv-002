@@ -4,5 +4,31 @@
  "title": "SCOUT-Semantic-Concept-Discovery-for-Open-Vocabulary-Editing",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-18 02:59:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26c81330-8a9a-4909-9e0d-99b11eaa0c6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26c81330-8a9a-4909-9e0d-99b11eaa0c6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:16:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "face recognition",
+    "open-vocabulary editing",
+    "template manipulation",
+    "semantic concept discovery"
+   ],
+   "field": "生物识别可解释性",
+   "innovations": [
+    "结合BatchTopK SAE与CLIP提示驱动的自动开放词汇概念发现",
+    "直接模板空间特征级干预算子绕过图像编辑流水线",
+    "选择性评分与概念一致性双重验证协议"
+   ],
+   "benchmarks": [
+    "Glint360K",
+    "LFW",
+    "CelebA-HQ"
+   ]
+  }
+ }
 }

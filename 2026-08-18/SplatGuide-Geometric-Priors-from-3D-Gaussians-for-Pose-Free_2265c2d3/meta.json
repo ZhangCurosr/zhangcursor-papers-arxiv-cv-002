@@ -4,5 +4,33 @@
  "title": "SplatGuide-Geometric-Priors-from-3D-Gaussians-for-Pose-Free",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-18 02:56:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/54b3be47-229e-4d9b-950e-388e5c28894e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/54b3be47-229e-4d9b-950e-388e5c28894e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:18:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pose-free novel view synthesis",
+    "3D Gaussian Splatting",
+    "multi-view diffusion",
+    "view selection",
+    "geometric conditioning",
+    "feed-forward reconstruction",
+    "cross-attention token injection"
+   ],
+   "field": "多视图生成与无姿态新视图合成",
+   "innovations": [
+    "将单 3DGS 场景同时复用于渲染几何条件、可见性投票视图选择和跨注意力 token 引导三种互补信号",
+    "提出基于 per-Gaussian source-view index 渲染的可见性感知视图选择器，在稀疏预算下带来最大 3.9 dB 提升",
+    "在 RealEstate10K 9 视图下超越 ground-truth-pose SEVA 基线，并实现零样本骨干网替换验证"
+   ],
+   "benchmarks": [
+    "RealEstate10K",
+    "DL3DV",
+    "Tanks-and-Temples",
+    "Mip-NeRF 360"
+   ]
+  }
+ }
 }

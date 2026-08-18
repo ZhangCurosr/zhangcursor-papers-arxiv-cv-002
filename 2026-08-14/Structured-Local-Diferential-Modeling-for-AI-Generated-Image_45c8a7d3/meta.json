@@ -4,5 +4,31 @@
  "title": "Structured-Local-Diferential-Modeling-for-AI-Generated-Image",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-14 14:49:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f106acbc-35bf-45f5-8e80-3ef5789869cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/f106acbc-35bf-45f5-8e80-3ef5789869cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:15:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated image detection",
+    "forgery artifact modeling",
+    "low-level statistics",
+    "cross-generator generalization",
+    "differential representation",
+    "frequency-guided attention"
+   ],
+   "field": "AI生成图像检测",
+   "innovations": [
+    "从信息论视角论证抑制高SNR语义主导、强化低SNR伪造痕迹对跨生成器泛化的重要性",
+    "提出FSPS+SDAM+FAE三模块框架，通过差分token化与频率引导注意力实现细粒度统计异常建模"
+   ],
+   "benchmarks": [
+    "GenImage",
+    "DeepFaceGen",
+    "DiffusionForensics",
+    "COSPY"
+   ]
+  }
+ }
 }

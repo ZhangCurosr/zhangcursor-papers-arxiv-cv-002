@@ -4,5 +4,32 @@
  "title": "The-Right-Prior-for-the-Right-Deformation-Rethinking-Continu",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-18 02:55:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f1f79837-a433-48d7-8cbf-6284457a907f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f1f79837-a433-48d7-8cbf-6284457a907f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:19:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deformable image registration",
+    "implicit neural representation",
+    "B-spline",
+    "continuous parameterization",
+    "validation study",
+    "medical image analysis"
+   ],
+   "field": "医学图像配准",
+   "innovations": [
+    "提出先验-形变匹配原则：配准质量取决于模型诱导的形变先验与目标运动模式的匹配程度",
+    "系统性隔离INR与B-Spline参数的独立贡献，证明B-Spline参数化解释了INR-BSCP大部分性能",
+    "提出对齐-正则化特征(ARC)评估框架和监督拟合诊断，分离表示容量与配准优化能力"
+   ],
+   "benchmarks": [
+    "OASIS脑MR配准",
+    "DIR-LAB 4DCT肺配准",
+    "LUMIR挑战基线",
+    "pTVReg"
+   ]
+  }
+ }
 }

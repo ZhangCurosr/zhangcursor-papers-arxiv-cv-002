@@ -4,5 +4,31 @@
  "title": "TISC-A-Text-Driven-Image-Semantic-Communication-System-for-F",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-18 02:58:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4783e688-809a-4336-a3e2-86c8df494746.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4783e688-809a-4336-a3e2-86c8df494746.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:19:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "语义通信",
+    "文本驱动图像生成",
+    "扩散模型",
+    "初始噪声优化",
+    "结构化语义提取"
+   ],
+   "field": "语义通信与生成式AI交叉",
+   "innovations": [
+    "TSASE树形属性语义提取框架，将I2T分解为全局-背景-物体-属性层级描述",
+    "INO发射端初始噪声优化机制，基于综合相似度选择最优种子提升T2I忠实度"
+   ],
+   "benchmarks": [
+    "COCO",
+    "Visual Genome V1.2",
+    "Flickr30K",
+    "Open Images V7",
+    "ILSVRC2012"
+   ]
+  }
+ }
 }

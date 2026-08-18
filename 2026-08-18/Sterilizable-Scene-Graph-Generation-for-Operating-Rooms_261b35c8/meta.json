@@ -4,5 +4,32 @@
  "title": "Sterilizable-Scene-Graph-Generation-for-Operating-Rooms",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-18 02:58:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4731a44a-3bc4-4830-a603-0d39d2df9f62.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4731a44a-3bc4-4830-a603-0d39d2df9f62.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:18:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Cellular Automaton",
+    "Scene Graph Generation",
+    "Operating Room",
+    "Edge Deployment",
+    "Medical Image Segmentation",
+    "Curriculum Learning"
+   ],
+   "field": "手术场景理解与边缘部署",
+   "innovations": [
+    "首个基于 NCA 的手术场景图生成框架 SG-NCA，参数量仅为 SOTA 基线的 1/55",
+    "类增量课程学习策略解决 NCA 多类分割瓶颈，冻结旧参数仅训练新增维度",
+    "在无风扇边缘设备（手机/Raspberry Pi）上验证实时场景图推理与 caption 生成"
+   ],
+   "benchmarks": [
+    "CholecT50",
+    "CAT-SG",
+    "CholecSeg-8k",
+    "CADIS"
+   ]
+  }
+ }
 }

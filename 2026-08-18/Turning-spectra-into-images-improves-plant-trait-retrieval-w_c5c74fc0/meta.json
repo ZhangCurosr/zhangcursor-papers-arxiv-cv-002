@@ -4,5 +4,32 @@
  "title": "Turning-spectra-into-images-improves-plant-trait-retrieval-w",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-18 02:55:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 06:21:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "高光谱遥感",
+    "植物性状反演",
+    "1D-to-2D变换",
+    "2D-CNN",
+    "掩码自编码器",
+    "可解释AI",
+    "PROSAIL",
+    "GreenHyperSpectra"
+   ],
+   "field": "生物物理参数遥感反演",
+   "innovations": [
+    "直接Reshape重排光谱为2D图像即最优，胜过九种复杂手工编码",
+    "2D MAE线性探测（R²=0.646）超越全部1D基线，证实2D表征的低资源预训练价值",
+    "将IG/Grad-CAM归因展开回波段轴并与PROSAIL理论敏感性交叉验证"
+   ],
+   "benchmarks": [
+    "GreenHyperSpectra（7,897标注光谱，8个性状）",
+    "Cherif et al. (2025) 1D EfficientNet-B0基线（R²=0.587）"
+   ]
+  }
+ }
 }
