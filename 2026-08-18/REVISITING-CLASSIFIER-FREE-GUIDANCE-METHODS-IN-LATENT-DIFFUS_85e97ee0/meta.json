@@ -4,5 +4,31 @@
  "title": "REVISITING-CLASSIFIER-FREE-GUIDANCE-METHODS-IN-LATENT-DIFFUS",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-18 14:30:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c404397d-5ca3-4caa-b376-9ce58517fdb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c404397d-5ca3-4caa-b376-9ce58517fdb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:20:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "classifier-free guidance",
+    "diffusion models",
+    "text-to-image",
+    "inference-time methods",
+    "compositional alignment",
+    "benchmark"
+   ],
+   "field": "扩散模型推理时引导方法",
+   "innovations": [
+    "在统一协议下系统性重估8种CFG变体在现代Transformer模型上的表现",
+    "引入GenEval/DPG-Bench/OneIG-Bench组合对齐基准并添加Bootstrap不确定性量化",
+    "证实标准CFG作为低成本基线依然最具竞争力，替代方法无一致增益"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "DPG-Bench",
+    "OneIG-Bench"
+   ]
+  }
+ }
 }

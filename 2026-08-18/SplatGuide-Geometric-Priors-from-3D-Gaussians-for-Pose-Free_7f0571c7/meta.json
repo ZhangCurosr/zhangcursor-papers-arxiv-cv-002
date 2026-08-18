@@ -4,5 +4,10 @@
  "title": "SplatGuide-Geometric-Priors-from-3D-Gaussians-for-Pose-Free",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-18 14:30:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/54b3be47-229e-4d9b-950e-388e5c28894e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/54b3be47-229e-4d9b-950e-388e5c28894e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:23:06",
+  "chunks": 1
+ }
 }

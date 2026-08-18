@@ -4,5 +4,32 @@
  "title": "Unsupervised-Learning-of-Cell-Instances-with-Generative-Rout",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-18 14:30:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:26:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "细胞分割",
+    "无监督学习",
+    "物体中心学习",
+    "生成模型",
+    "显微镜图像分析",
+    "路由金字塔"
+   ],
+   "field": "生物医学图像分析",
+   "innovations": [
+    "O(N) 单次前向传播的路由金字塔解码器实现无监督实例分割",
+    "像素-种子关联矩阵同时产出实例掩码与对象 embedding，无需后处理聚类",
+    "稀疏存在门加凹惩罚实现自适应实例数量推断与表型表征学习"
+   ],
+   "benchmarks": [
+    "Allen Nuclear Morphology",
+    "Fluo-N2DL-HeLa (Cell Tracking Challenge)",
+    "PhC-C2DL-PSC (Cell Tracking Challenge)",
+    "BBBC013 Drug Perturbation"
+   ]
+  }
+ }
 }

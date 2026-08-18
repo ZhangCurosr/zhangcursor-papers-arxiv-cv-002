@@ -4,5 +4,30 @@
  "title": "Training-Free-Reconstruction-Based-AI-Generated-Image-Detect",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-18 14:30:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/80e0b477-f333-4ebf-9e9b-481d7f96fd2a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/80e0b477-f333-4ebf-9e9b-481d7f96fd2a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:25:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated image detection",
+    "adversarial robustness",
+    "reconstruction-based detector",
+    "training-free method",
+    "latent diffusion model",
+    "autoencoder"
+   ],
+   "field": "多模态安全与对抗鲁棒性",
+   "innovations": [
+    "首次系统分析训练自由重建型检测器的对抗脆弱性",
+    "提出潜空间和像素空间两种无需目标检测器信息的对抗攻击方法",
+    "证明攻击具有跨检测器迁移性且对真实世界退化鲁棒"
+   ],
+   "benchmarks": [
+    "Synthbuster",
+    "RAISE-1k"
+   ]
+  }
+ }
 }

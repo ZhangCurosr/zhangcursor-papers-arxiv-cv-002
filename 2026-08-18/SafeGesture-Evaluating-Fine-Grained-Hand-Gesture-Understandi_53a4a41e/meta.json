@@ -4,5 +4,31 @@
  "title": "SafeGesture-Evaluating-Fine-Grained-Hand-Gesture-Understandi",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3d5f44c9-7279-47ba-b3c5-3f1f40788860.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3d5f44c9-7279-47ba-b3c5-3f1f40788860.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:22:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Hand Gesture Understanding",
+    "Safety Evaluation",
+    "Benchmark",
+    "Perception-Reasoning Decoupling",
+    "Multimodal Safety"
+   ],
+   "field": "多模态安全评估与手势理解",
+   "innovations": [
+    "提出首个情境条件化手势安全推理基准（4,800项），分离感知与安全推理评估",
+    "构建Decoupling Score与六类失败分类法量化感知-推理解耦现象",
+    "通过oracle感知消融证明瓶颈在情境化安全推理而非手势识别"
+   ],
+   "benchmarks": [
+    "SafeGesture",
+    "HaGRID",
+    "HandVQA"
+   ]
+  }
+ }
 }

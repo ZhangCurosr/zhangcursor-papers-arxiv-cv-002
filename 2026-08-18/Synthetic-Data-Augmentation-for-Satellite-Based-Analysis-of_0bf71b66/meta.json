@@ -4,5 +4,31 @@
  "title": "Synthetic-Data-Augmentation-for-Satellite-Based-Analysis-of",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-18 14:30:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b930f39a-fdcf-46d2-b929-bd2add06e89c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b930f39a-fdcf-46d2-b929-bd2add06e89c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:23:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "合成数据增强",
+    "扩散模型",
+    "生成对抗网络",
+    "卫星图像分类",
+    "类别不平衡",
+    "遥感",
+    "Vision Transformer",
+    "战争损毁评估"
+   ],
+   "field": "遥感计算机视觉 / 合成数据增强",
+   "innovations": [
+    "类条件DDPM在卫星图像小样本数据增强中优于GAN",
+    "针对性类别平衡策略显著优于等比例数据扩充",
+    "多维度合成图像质量评估框架（KID/precision/recall/GMM/Mahalanobis）"
+   ],
+   "benchmarks": [
+    "Planet SkySat 卫星图像集（巴赫穆特地区农田损毁数据）"
+   ]
+  }
+ }
 }

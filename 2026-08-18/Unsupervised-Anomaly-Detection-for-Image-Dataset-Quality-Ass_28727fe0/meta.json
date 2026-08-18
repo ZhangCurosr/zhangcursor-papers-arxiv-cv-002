@@ -4,5 +4,34 @@
  "title": "Unsupervised-Anomaly-Detection-for-Image-Dataset-Quality-Ass",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-18 14:30:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26a40952-3851-4d21-ba8b-89c894c4f347.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/26a40952-3851-4d21-ba8b-89c894c4f347.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:26:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Anomaly Detection",
+    "Out-of-Distribution Detection",
+    "Dataset Quality Assurance",
+    "Breast MRI",
+    "Unsupervised Learning",
+    "Multi-Center Heterogeneity"
+   ],
+   "field": "医学影像质量保证与异常检测",
+   "innovations": [
+    "面向多中心乳腺MRI QA的四维异常分类法与受控基准测试",
+    "PatchCore引入医学基础模型与3D位置编码的领域适配",
+    "2D Reversed Autoencoder扩展为3D并融合L1/PL/SSIM多目标损失"
+   ],
+   "benchmarks": [
+    "ODELIA Breast MRI",
+    "DUKE Breast Cancer MRI",
+    "QIN-BREAST CT",
+    "TCGA-KIRP",
+    "TCGA-LIHC",
+    "PFMRIP"
+   ]
+  }
+ }
 }

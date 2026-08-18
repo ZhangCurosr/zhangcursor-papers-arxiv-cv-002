@@ -4,5 +4,33 @@
  "title": "Ultra-Unsupervised-Cross-Task-Optimization-for-Reliable-Rest",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-18 14:30:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d2ecf579-e642-4ec5-9fc9-31641e50bdde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d2ecf579-e642-4ec5-9fc9-31641e50bdde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:26:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督域适应",
+    "语义分割",
+    "图像恢复",
+    "跨任务协作",
+    "因果干预",
+    "Nash博弈",
+    "恶劣天气"
+   ],
+   "field": "无监督域适应语义分割",
+   "innovations": [
+    "提出CTDN模块，通过Nash博弈在无监督条件下协商恢复-分割双任务最优优化方向",
+    "提出CMIL模块，将跨任务信息传播重构为因果效应估计以抑制幻觉传播",
+    "框架可泛化至无监督目标检测协作并带来稳定性能提升"
+   ],
+   "benchmarks": [
+    "ACDC",
+    "Dark Zurich",
+    "Nighttime Driving",
+    "BDD100K Clear→ACDC Object Detection"
+   ]
+  }
+ }
 }

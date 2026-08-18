@@ -4,5 +4,30 @@
  "title": "Nexus-Structured-Synergy-for-Eficient-Text-to-Image-Generati",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/893742ad-7fe2-45ed-884a-1c9e47e3a27a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/893742ad-7fe2-45ed-884a-1c9e47e3a27a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:19:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Image Generation",
+    "Mixture-of-Experts",
+    "Linear Attention",
+    "Low-Bit Quantization",
+    "Rectified Flow",
+    "Efficient Generation"
+   ],
+   "field": "高效文生图与轻量生成模型",
+   "innovations": [
+    "首次系统整合 MoE 稀疏激活、Gated DeltaNet 线性注意力与 per-expert 低比特量化于 Rectified Flow 框架",
+    "提出适配扩散 Transformer 的每专家独立量化方案，保留 FP16 router 与状态矩阵以抑制量化误差累积",
+    "在 2048×2048 超高分辨率下验证线性注意力的可扩展性，SD3-Medium OOM 而 Nexus 仍可生成"
+   ],
+   "benchmarks": [
+    "COCO-30K",
+    "LAION-5K"
+   ]
+  }
+ }
 }

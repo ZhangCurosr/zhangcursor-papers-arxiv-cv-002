@@ -4,5 +4,31 @@
  "title": "TR-GS-High-Fidelity-Sparse-View-CT-Volumetric-Rendering-via",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-08-18 14:31:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/859f8fd6-f6b1-46b4-8fc1-272690ca1a42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/859f8fd6-f6b1-46b4-8fc1-272690ca1a42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:24:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏视图CT",
+    "高斯泼溅",
+    "学生t分布",
+    "射线置信度",
+    "体积渲染",
+    "医学影像重建"
+   ],
+   "field": "稀疏采样层析成像",
+   "innovations": [
+    "用可投影学生t分布基元替代高斯基元提升鲁棒性",
+    "射线置信度模型自适应调节基元自由度",
+    "置信度引导3D小波正则化平衡细节与噪声"
+   ],
+   "benchmarks": [
+    "合成数据集（15例）",
+    "真实世界数据集（3例）",
+    "12/18/25视角稀疏采样协议"
+   ]
+  }
+ }
 }

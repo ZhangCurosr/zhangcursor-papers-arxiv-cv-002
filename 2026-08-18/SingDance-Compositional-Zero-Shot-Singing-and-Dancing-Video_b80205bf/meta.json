@@ -4,5 +4,31 @@
  "title": "SingDance-Compositional-Zero-Shot-Singing-and-Dancing-Video",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-18 14:31:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd6843a0-2fc8-4edd-a3f9-22090a71e0b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd6843a0-2fc8-4edd-a3f9-22090a71e0b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:22:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "compositional zero-shot",
+    "singing-and-dancing video generation",
+    "role-aware audio conditioning",
+    "music-conditioned dance",
+    "speech-driven animation",
+    "hard-compact routing"
+   ],
+   "field": "音乐条件视频生成 / 语音驱动人体动画",
+   "innovations": [
+    "将可控发声建模为显式 vocal role（Source/Listener），以统一接口组织四种生成行为",
+    "仅用非对称说话/聆听与纯舞蹈监督，零样本组合出训练未见过的歌唱舞蹈",
+    "共享语音通路 + hard-compact routing + frame-wise joint audio injection 实现紧凑角色切换"
+   ],
+   "benchmarks": [
+    "SingDance-50",
+    "Dance-100",
+    "EMTD"
+   ]
+  }
+ }
 }

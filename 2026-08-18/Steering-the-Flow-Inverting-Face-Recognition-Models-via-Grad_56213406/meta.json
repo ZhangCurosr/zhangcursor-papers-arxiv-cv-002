@@ -4,5 +4,37 @@
  "title": "Steering-the-Flow-Inverting-Face-Recognition-Models-via-Grad",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-18 14:30:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/01931674-e493-4ebf-b70b-58322764d269.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/01931674-e493-4ebf-b70b-58322764d269.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:23:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Model Inversion Attack",
+    "Flow Matching",
+    "Face Recognition",
+    "Privacy Attack",
+    "Trajectory Steering",
+    "White-box Attack"
+   ],
+   "field": "AI安全与隐私保护",
+   "innovations": [
+    "首次将Flow Matching引入白盒模型反演，将反演重构为ODE速度场引导任务",
+    "设计渐进式梯度调度器PGS实现四阶段动态引导强度调节",
+    "端到端穿过FM先验的目标梯度反向传播机制"
+   ],
+   "benchmarks": [
+    "CelebA-priv (1000 identities)",
+    "CelebA-pub",
+    "FFHQ-pub",
+    "ArcFace",
+    "CosFace",
+    "Face.evoLVe",
+    "IR-152",
+    "MobileFaceNet",
+    "ViT"
+   ]
+  }
+ }
 }

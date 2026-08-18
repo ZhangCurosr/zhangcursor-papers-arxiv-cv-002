@@ -4,5 +4,37 @@
  "title": "PersonaShot-Benchmarking-Person-Centric-Narrative-Continuity",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-18 14:30:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/88d65e7c-4ae5-4810-bf41-8caa2958f836.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/88d65e7c-4ae5-4810-bf41-8caa2958f836.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:20:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多镜头视频生成",
+    "叙事连续性",
+    "人物中心评估",
+    "物理连续性",
+    "情感动态",
+    "电影语法",
+    "自动化评估",
+    "多模态基准"
+   ],
+   "field": "视频生成评估",
+   "innovations": [
+    "首个以人物为中心的多镜头叙事连续性基准，包含16个跨物理/情感/电影维度的细粒度指标",
+    "通过教师引导蒸馏开发人类对齐的专家评估器，采用输入隔离机制防止shortcut依赖",
+    "建立证据驱动的动态激活评估机制与三层面分层评估工作流"
+   ],
+   "benchmarks": [
+    "PersonaShot",
+    "VBench",
+    "HumanVBench",
+    "HVEval",
+    "MSVBench",
+    "MuSS",
+    "ViStoryBench"
+   ]
+  }
+ }
 }

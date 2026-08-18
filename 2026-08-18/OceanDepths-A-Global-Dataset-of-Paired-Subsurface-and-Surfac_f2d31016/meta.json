@@ -4,5 +4,10 @@
  "title": "OceanDepths-A-Global-Dataset-of-Paired-Subsurface-and-Surfac",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-18 14:31:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/7bc2d91e-6541-4e1e-ae9b-103e29ea18b2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/7bc2d91e-6541-4e1e-ae9b-103e29ea18b2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:20:19",
+  "chunks": 1
+ }
 }

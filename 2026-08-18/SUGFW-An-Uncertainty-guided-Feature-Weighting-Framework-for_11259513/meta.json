@@ -4,5 +4,33 @@
  "title": "SUGFW-An-Uncertainty-guided-Feature-Weighting-Framework-for",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-18 14:31:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1db1bef2-ce85-4324-9b6e-099adba60885.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/1db1bef2-ce85-4324-9b6e-099adba60885.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:21:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cold Start Active Learning",
+    "Segment Anything Model",
+    "Medical Image Segmentation",
+    "Uncertainty Estimation",
+    "Sample Selection",
+    "Feature Weighting",
+    "Prompted Fine-tuning"
+   ],
+   "field": "医学图像分割中的主动学习",
+   "innovations": [
+    "提出PFUC+PGDR结合SAM patch级特征与不确定性进行判别性全局特征表示",
+    "设计GSCU策略同时优化特征空间代表性与不确定性空间多样性",
+    "提出UPFT将surrogate uncertainty作为空间prompt实现极低预算下SAM自适应微调"
+   ],
+   "benchmarks": [
+    "Promise12",
+    "UTAH",
+    "MSD Liver",
+    "ISIC 2018"
+   ]
+  }
+ }
 }

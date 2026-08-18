@@ -4,5 +4,32 @@
  "title": "Unlocking-Motion-in-Expressions-Temporal-Calibration-for-Ref",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-18 14:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/687b3f37-b8d1-46ed-af94-b5f58dc67065.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/687b3f37-b8d1-46ed-af94-b5f58dc67065.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:25:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Referring Video Object Segmentation",
+    "Motion Calibration",
+    "Temporal Modeling",
+    "Multimodal Learning",
+    "Video Understanding"
+   ],
+   "field": "视频分割",
+   "innovations": [
+    "提出表达驱动的运动校准框架EMC，显式建模语言中运动语义重要性",
+    "设计MSP模块利用LLM零样本提取结构化运动控制信号（二值开关+连续强度）",
+    "提出门控式双分支MIC机制，自适应调节运动线索在关键帧决策中的贡献"
+   ],
+   "benchmarks": [
+    "Ref-YouTube-VOS",
+    "Ref-DAVIS17",
+    "MeViS",
+    "A2D-Sentences",
+    "JHMDB-Sentences"
+   ]
+  }
+ }
 }

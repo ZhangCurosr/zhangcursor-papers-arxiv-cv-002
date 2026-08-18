@@ -4,5 +4,29 @@
  "title": "TransAnyText-Translating-Arbitrary-Text-in-E-commerce-Images",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-18 14:31:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/92f1bd7f-424d-4246-a715-9cc4a06cc11f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/92f1bd7f-424d-4246-a715-9cc4a06cc11f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:25:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像文本翻译",
+    "结构化视觉生成",
+    "多语言电商",
+    "VLM",
+    "扩散模型",
+    "强化学习"
+   ],
+   "field": "跨模态视觉生成与翻译",
+   "innovations": [
+    "将图像文本翻译重构为HTML补丁生成的结构化视觉代码任务",
+    "提出PWSD特权差距加权自蒸馏优化风格布局token",
+    "构建三阶段SFT-PWSD-GRPO后训练框架与多语言电商基准"
+   ],
+   "benchmarks": [
+    "TransAnyBench"
+   ]
+  }
+ }
 }

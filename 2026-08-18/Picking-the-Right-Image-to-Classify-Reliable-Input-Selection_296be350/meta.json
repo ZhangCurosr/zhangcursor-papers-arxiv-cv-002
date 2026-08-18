@@ -4,5 +4,35 @@
  "title": "Picking-the-Right-Image-to-Classify-Reliable-Input-Selection",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-18 14:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b0a368f4-72a1-48e7-b6a8-f842a64f1d67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/b0a368f4-72a1-48e7-b6a8-f842a64f1d67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:20:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reliable-input selection",
+    "teledermatology",
+    "acquisition shift",
+    "frozen backbone",
+    "selective prediction",
+    "distribution shift",
+    "medical image classification"
+   ],
+   "field": "医疗AI部署与鲁棒性",
+   "innovations": [
+    "首次提出并系统评测可靠输入选择任务：从同一病例多图中选出模型最可能正确分类的图",
+    "量化巨大oracle gap（约20点加权F1）并证明训练数据无关selector仅能恢复约25%",
+    "证明困难源于冻结编码器未暴露可靠性信号，而非单一backbone或方法缺陷"
+   ],
+   "benchmarks": [
+    "PASSION",
+    "DermaCon-IN",
+    "SCIN",
+    "derm7pt",
+    "HAM10000",
+    "PAD-UFES-20"
+   ]
+  }
+ }
 }

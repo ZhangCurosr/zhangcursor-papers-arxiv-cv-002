@@ -4,5 +4,31 @@
  "title": "OccamView-Object-Conditioned-View-Selection-for-Frame-Budget",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-18 14:31:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d983d101-bd66-4e3d-917d-9cdf3fee30e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d983d101-bd66-4e3d-917d-9cdf3fee30e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:19:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动3D高斯泼溅",
+    "帧预算重建",
+    "视图选择",
+    "物体条件感知",
+    "Next-Best-View",
+    "占据栅格",
+    "开放词汇检测"
+   ],
+   "field": "主动三维重建与视图规划",
+   "innovations": [
+    "提出保守物体条件隐藏区域代理（测量深度锚定的局部未知体素，非预测形状补全）",
+    "设计遮挡感知三条件代理覆盖评分（视场+外侧方向+射线可见性）",
+    "引入Geo-Floor两阶段解耦选择机制（几何资格筛选+物体条件重排序）"
+   ],
+   "benchmarks": [
+    "Replica",
+    "Matterport3D (MP3D)"
+   ]
+  }
+ }
 }

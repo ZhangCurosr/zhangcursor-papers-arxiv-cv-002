@@ -4,5 +4,31 @@
  "title": "StreamOPD-A-Post-Training-Recipe-with-Spatio-Temporal-Cue-Ga",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-18 14:31:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/020a3adb-9bf1-4822-ae8a-4b0aabbadfcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/020a3adb-9bf1-4822-ae8a-4b0aabbadfcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:25:14",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "流式视频理解",
+    "on-policy distillation",
+    "cue-gated蒸馏",
+    "后训练",
+    "视觉语言模型",
+    "streaming VLM"
+   ],
+   "field": "流式视频理解与多模态蒸馏",
+   "innovations": [
+    "ST-CueGate: 通过nested cue-removal likelihood ratio构建group-relative response proxy的response-level gate机制",
+    "发现moderate ranking signal (αg=0.5)优于aggressive amplified weight的经验规律",
+    "容量相近的teacher (9B)比更大teacher (27B)更适配小student蒸馏"
+   ],
+   "benchmarks": [
+    "OVO-Bench",
+    "StreamingBench",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

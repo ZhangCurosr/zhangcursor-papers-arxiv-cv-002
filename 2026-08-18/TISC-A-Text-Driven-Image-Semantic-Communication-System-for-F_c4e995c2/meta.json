@@ -4,5 +4,10 @@
  "title": "TISC-A-Text-Driven-Image-Semantic-Communication-System-for-F",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4783e688-809a-4336-a3e2-86c8df494746.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/4783e688-809a-4336-a3e2-86c8df494746.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:24:12",
+  "chunks": 1
+ }
 }

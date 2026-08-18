@@ -4,5 +4,30 @@
  "title": "X-sup-2-sup-Localizer-Cross-grained-Alignment-for-Progressiv",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-18 14:30:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/0f3d0f3e-c536-48b9-ae41-2953c09455fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:26:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨视角地理定位",
+    "渐进式定位",
+    "视频定位",
+    "交叉粒度对齐",
+    "滑动窗口重定位"
+   ],
+   "field": "视觉定位与地理定位",
+   "innovations": [
+    "提出PCVG渐进式跨视角视频地理定位任务与评估基准",
+    "设计非对称交叉粒度对齐目标联合监督全局/局部匹配",
+    "引入无需训练的滑动窗口重定位SWRL策略支持长距离部署"
+   ],
+   "benchmarks": [
+    "GAMA",
+    "GAMA val-day",
+    "GAMA val-long-distance"
+   ]
+  }
+ }
 }

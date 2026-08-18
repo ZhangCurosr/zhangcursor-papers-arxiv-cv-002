@@ -4,5 +4,34 @@
  "title": "US-VLA-An-Ultrasound-Vision-Language-Action-Model-for-Embodi",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/fc849120-3d6f-4910-856a-48cbf9a65e18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/fc849120-3d6f-4910-856a-48cbf9a65e18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:25:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "超声扫描",
+    "医学embodied AI",
+    "视觉-语言-动作",
+    "闭环控制",
+    "USFM"
+   ],
+   "field": "医学机器人/超声影像分析",
+   "innovations": [
+    "首个面向超声扫描的VLA框架，统一临床语义目标与实时超声反馈",
+    "超声感知专家融合模块UAEF，通过跨模态注意力将超声特征选择性注入视觉-语言表示",
+    "构建US-VLA-Data真实世界数据集，覆盖肝肾脏器5个标准切面320条专家轨迹"
+   ],
+   "benchmarks": [
+    "US-VLA-Data",
+    "腹主动脉矢状面扫描",
+    "剑突下横断面扫描",
+    "右肋缘斜切肝顶扫描",
+    "左肾长轴扫描",
+    "左肾门横切面扫描"
+   ]
+  }
+ }
 }

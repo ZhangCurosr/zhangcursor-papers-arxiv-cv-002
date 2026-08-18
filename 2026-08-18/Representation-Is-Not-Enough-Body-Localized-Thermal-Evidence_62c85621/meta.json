@@ -4,5 +4,32 @@
  "title": "Representation-Is-Not-Enough-Body-Localized-Thermal-Evidence",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-18 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f9a2efe2-9f59-4a31-abb7-72802f4500bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f9a2efe2-9f59-4a31-abb7-72802f4500bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:21:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "weakly supervised learning",
+    "multiple instance learning",
+    "thermal imaging",
+    "foundation models",
+    "health equity",
+    "contactless sensing",
+    "OUD"
+   ],
+   "field": "无接触生理信号感知与公平机器学习",
+   "innovations": [
+    "提出FABLE-THERM：冻结多编码器在embedding层以共享算子融合，证明融合深度比编码器选择更关键",
+    "提出representation-vs-heterogeneity队列分解框架，量化公平性干预的实际效果",
+    "首次证明OUD渴求信号可从无接触热成像视频中恢复"
+   ],
+   "benchmarks": [
+    "Dataset I (71 sessions, 67 participants)",
+    "StressNet",
+    "Craving sub-corpus (4,863 windows)"
+   ]
+  }
+ }
 }

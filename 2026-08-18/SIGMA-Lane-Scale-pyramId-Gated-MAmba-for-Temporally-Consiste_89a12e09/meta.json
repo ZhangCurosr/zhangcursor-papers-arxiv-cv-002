@@ -4,5 +4,30 @@
  "title": "SIGMA-Lane-Scale-pyramId-Gated-MAmba-for-Temporally-Consiste",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-18 14:31:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2961ae69-1578-404c-8187-329e06d62b8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2961ae69-1578-404c-8187-329e06d62b8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:21:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Lane Detection",
+    "State Space Model",
+    "Temporal Consistency",
+    "Occlusion Handling",
+    "Mamba",
+    "Streaming Inference"
+   ],
+   "field": "自动驾驶感知-视频车道检测",
+   "innovations": [
+    "将遮挡污染形式化为SSM状态污染并提出双门控机制",
+    "坐标一致仿射对齐保障门控信号空间匹配",
+    "几何感知起始Token解决流式推理冷启动敏感问题"
+   ],
+   "benchmarks": [
+    "VIL-100",
+    "OpenLane-V"
+   ]
+  }
+ }
 }

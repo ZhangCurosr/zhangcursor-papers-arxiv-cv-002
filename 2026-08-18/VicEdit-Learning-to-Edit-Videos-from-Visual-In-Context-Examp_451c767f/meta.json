@@ -4,5 +4,31 @@
  "title": "VicEdit-Learning-to-Edit-Videos-from-Visual-In-Context-Examp",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-18 14:30:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dd6529e5-220e-470d-a7dc-e1a4195c7753.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dd6529e5-220e-470d-a7dc-e1a4195c7753.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:26:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频编辑",
+    "视觉上下文学习",
+    "多模态生成",
+    "Diffusion Transformer",
+    "in-context editing",
+    "VicEdit"
+   ],
+   "field": "视频编辑与生成",
+   "innovations": [
+    "提出Visual In-context Editing统一范式，支持单图/图像对/视频对三种异构参考模态",
+    "设计MASD模态自适应语义蒸馏机制，通过可学习模态嵌入调制查询实现异构参考的自适应提取",
+    "设计DCI双上下文注入机制，用视觉上下文校准指令查询，解决文本-视觉语义对齐歧义"
+   ],
+   "benchmarks": [
+    "VicEdit-Bench",
+    "OpenVE-Ext",
+    "VBench"
+   ]
+  }
+ }
 }
