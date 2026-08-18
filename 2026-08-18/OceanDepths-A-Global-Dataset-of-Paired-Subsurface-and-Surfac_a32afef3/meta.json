@@ -4,5 +4,30 @@
  "title": "OceanDepths-A-Global-Dataset-of-Paired-Subsurface-and-Surfac",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-18 02:58:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6bc5ab0c-74f0-4da1-8af8-33fff59b8329.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/6bc5ab0c-74f0-4da1-8af8-33fff59b8329.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:48:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "海洋次表层重建",
+    "卫星-原位数据融合",
+    "AI-ready数据集",
+    "极端稀疏观测",
+    "热盐结构推断",
+    "地球系统AI"
+   ],
+   "field": "海洋遥感与机器学习交叉",
+   "innovations": [
+    "首个全球0.1°周分辨率配对海面-次表层观测数据集（9.5M剖面）",
+    "观测-再分析对偶设计支持多阶段学习与偏差量化",
+    "深度自适应插值准则与AI-ready patch系统标准化"
+   ],
+   "benchmarks": [
+    "Subsurface ocean state reconstruction (EN4 held-out profiles)",
+    "GLORYS12 dense field evaluation"
+   ]
+  }
+ }
 }

@@ -4,5 +4,41 @@
  "title": "PixRestore-Unified-Image-Restoration-via-Pixel-Difusion-Tran",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-18 02:53:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c43506b8-ed4a-4dcb-8891-c8f30e94ccab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c43506b8-ed4a-4dcb-8891-c8f30e94ccab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:48:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unified Image Restoration",
+    "Pixel Diffusion",
+    "Diffusion Transformer",
+    "DINO",
+    "Single-step Generation",
+    "VAE-free",
+    "Degradation-aware"
+   ],
+   "field": "统一图像恢复",
+   "innovations": [
+    "VAE-free 像素空间 DiT 用于统一图像恢复，避免潜在压缩丢细节",
+    "自适应分层 DINO 视觉指导：基于 LQ-HQ 相似度动态加权多层特征",
+    "DINO 对抗单步微调：以冻结视觉特征判别器补偿单步推理细节损失"
+   ],
+   "benchmarks": [
+    "GoPro",
+    "UHD-blur",
+    "RESIDE-6K",
+    "DIV2K",
+    "PolyU",
+    "RainDS-real",
+    "UAV-Rain1k",
+    "WeatherBench",
+    "UHD-LL",
+    "LOLdataset",
+    "RealSR",
+    "ScreenSR"
+   ]
+  }
+ }
 }

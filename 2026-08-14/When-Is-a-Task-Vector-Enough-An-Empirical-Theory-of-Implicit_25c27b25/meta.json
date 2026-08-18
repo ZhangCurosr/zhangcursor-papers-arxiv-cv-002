@@ -4,5 +4,32 @@
  "title": "When-Is-a-Task-Vector-Enough-An-Empirical-Theory-of-Implicit",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-14 04:09:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3dfca112-b4a2-4715-8df1-60019bd33c43.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3dfca112-b4a2-4715-8df1-60019bd33c43.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:47:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Implicit M-ICL",
+    "Task Vector",
+    "In-Context Learning",
+    "Activation Intervention",
+    "Multimodal VLM",
+    "Selection-Realization Hypothesis"
+   ],
+   "field": "多模态上下文学习与表示工程",
+   "innovations": [
+    "提出选择-实现假设将隐式M-ICL干预统一分解为查询选择与模型实现两个正交维度",
+    "构建可控多模态任务族解耦选择复杂度与任务结构并验证H1-H4四个可检验假设",
+    "设计基于诊断特征的零样本理论引导选择器在自然任务上以0.58相对成本逼近最强方法"
+   ],
+   "benchmarks": [
+    "VQAv2",
+    "GQA",
+    "OK-VQA",
+    "CVQA"
+   ]
+  }
+ }
 }

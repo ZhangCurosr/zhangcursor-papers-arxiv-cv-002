@@ -4,5 +4,30 @@
  "title": "Structure-aware-Riemannian-Growth-Fields-for-4D-Plant-Modeli",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-14 14:49:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6e802cce-5bea-4f0a-b873-f87aeb9ecebf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/6e802cce-5bea-4f0a-b873-f87aeb9ecebf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:42:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D plant modeling",
+    "Riemannian geometry",
+    "L-system",
+    "morphogenesis",
+    "sparse temporal reconstruction",
+    "plant phenotyping"
+   ],
+   "field": "植物计算建模与表型分析",
+   "innovations": [
+    "提出分层黎曼流形上的连续生长速度场，联合建模拓扑演化与几何变形",
+    "从稀疏观测数据推断时序L-system规则，取代手工指定符号规则",
+    "基于sigmoid调制的测地线生长轨迹，实现能量最优且生物学合理的发育动力学"
+   ],
+   "benchmarks": [
+    "Pheno4D tomato dataset",
+    "Self-collected bean and broccoli 10-day dataset"
+   ]
+  }
+ }
 }

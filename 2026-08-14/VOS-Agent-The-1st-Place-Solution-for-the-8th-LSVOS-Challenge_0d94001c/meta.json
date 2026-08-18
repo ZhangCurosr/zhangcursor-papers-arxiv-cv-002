@@ -4,5 +4,31 @@
  "title": "VOS-Agent-The-1st-Place-Solution-for-the-8th-LSVOS-Challenge",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-14 14:49:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/7178c576-4007-4254-8890-6eaefd01eec0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/7178c576-4007-4254-8890-6eaefd01eec0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:46:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Object Segmentation",
+    "Multi-Agent Framework",
+    "MOSEv2",
+    "SAM3",
+    "Semi-supervised VOS",
+    "LSVOS Challenge",
+    "Training-free"
+   ],
+   "field": "视频目标分割",
+   "innovations": [
+    "基于目标尺度与语义特征的多智能体路由机制",
+    "Visual Tracking Agent与SAM3的置信度感知协同修正",
+    "MLLM-based Semantic Agent用于语义主导目标的身份保持"
+   ],
+   "benchmarks": [
+    "MOSEv2",
+    "LSVOS 8th Challenge"
+   ]
+  }
+ }
 }

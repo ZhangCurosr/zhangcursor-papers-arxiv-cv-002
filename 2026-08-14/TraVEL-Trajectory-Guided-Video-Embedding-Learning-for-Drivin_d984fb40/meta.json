@@ -4,5 +4,32 @@
  "title": "TraVEL-Trajectory-Guided-Video-Embedding-Learning-for-Drivin",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-14 14:48:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/c75045f8-bc18-400c-9a93-5e23ccb16a0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/c75045f8-bc18-400c-9a93-5e23ccb16a0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:44:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "driving-video retrieval",
+    "multimodal embedding",
+    "trajectory-guided fine-tuning",
+    "GRPO",
+    "nuReasoning",
+    "motion-centric retrieval",
+    "video-text embedding"
+   ],
+   "field": "自动驾驶数据检索与多模态表示学习",
+   "innovations": [
+    "用 ego 轨迹相似度作为 GRPO 奖励重塑视频嵌入空间，使嵌入对纵向/横向运动敏感",
+    "双路径（t2v + v2v）分组策略解耦跨模态对齐与视频子空间运动结构学习",
+    "仅用单向量余弦检索完成运动中心查询，推理时不引入任何额外感知模块"
+   ],
+   "benchmarks": [
+    "nuReasoning driving-video retrieval benchmark",
+    "instance-level retrieval (R@K, MdR, MnR)",
+    "motion-centric retrieval (mAP for longitudinal and lateral motion)"
+   ]
+  }
+ }
 }

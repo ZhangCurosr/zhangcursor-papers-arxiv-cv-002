@@ -4,5 +4,31 @@
  "title": "UniTrafic-Agent-Unified-Trafic-Video-Reasoning-for-AI-City-C",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-14 04:11:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/226a541d-af6b-466b-8aa9-d827f9b42dcb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/226a541d-af6b-466b-8aa9-d827f9b42dcb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:47:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "traffic video understanding",
+    "multimodal large language models",
+    "agentic reasoning",
+    "out-of-domain generalization",
+    "AI City Challenge",
+    "video reasoning"
+   ],
+   "field": "交通视频多模态理解与代理推理",
+   "innovations": [
+    "时间戳感知观察与clip级联合推理提升跨输出一致性",
+    "统一observe-reason-act-verify框架支持TAR/FETV/PSI-VQA三任务",
+    "任务特定Action Adapter与验证恢复机制增强输出合规性"
+   ],
+   "benchmarks": [
+    "TAR",
+    "FETV",
+    "PSI-VQA"
+   ]
+  }
+ }
 }

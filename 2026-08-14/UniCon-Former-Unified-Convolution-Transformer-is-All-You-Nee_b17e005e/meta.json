@@ -4,5 +4,28 @@
  "title": "UniCon-Former-Unified-Convolution-Transformer-is-All-You-Nee",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-14 14:48:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b552ef0a-7ea3-437a-89cc-1d518d9ce17e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b552ef0a-7ea3-437a-89cc-1d518d9ce17e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:45:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hand Gesture Recognition",
+    "Convolution Transformer",
+    "Multi-modal Learning",
+    "Video Recognition",
+    "Pyramid Architecture"
+   ],
+   "field": "动态手势识别",
+   "innovations": [
+    "提出 UniCon-Former，在每个 Transformer 阶段前插入深度可分离卷积块（C-Block）形成金字塔结构以学习多尺度特征",
+    "将 CNN 局部特征提取与 Transformer 全局建模统一于单一框架，在手势识别领域实现 SOTA 且参数量更低"
+   ],
+   "benchmarks": [
+    "NVGesture",
+    "Briareo"
+   ]
+  }
+ }
 }

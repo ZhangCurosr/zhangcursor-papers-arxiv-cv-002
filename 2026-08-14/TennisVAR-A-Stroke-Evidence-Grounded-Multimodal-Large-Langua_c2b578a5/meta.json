@@ -4,5 +4,29 @@
  "title": "TennisVAR-A-Stroke-Evidence-Grounded-Multimodal-Large-Langua",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-14 04:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a5772ddd-3811-4a5f-a377-d7d056280871.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a5772ddd-3811-4a5f-a377-d7d056280871.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:43:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "网球视频理解",
+    "多模态大语言模型",
+    "战术推理",
+    "证据grounding",
+    "运动视频分析",
+    "时序事件理解"
+   ],
+   "field": "体育视频理解与战术推理",
+   "innovations": [
+    "提出stroke-evidence-grounded tactical reasoning新任务，联合预测战术答案、层次标签、支撑击球序列与关键动作",
+    "构建TRACE基准（11,189 rally/41,485击球事件/25,429战术单元），统一细粒度击球属性与证据grounded问答",
+    "提出TennisVAR模型，采用event-relation-evidence-tactic推理范式，显著超越最强监督基线19.94/33.03/6.08点"
+   ],
+   "benchmarks": [
+    "TRACE"
+   ]
+  }
+ }
 }

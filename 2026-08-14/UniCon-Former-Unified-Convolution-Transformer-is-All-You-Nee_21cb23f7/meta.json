@@ -4,5 +4,30 @@
  "title": "UniCon-Former-Unified-Convolution-Transformer-is-All-You-Nee",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-14 04:09:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b552ef0a-7ea3-437a-89cc-1d518d9ce17e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/b552ef0a-7ea3-437a-89cc-1d518d9ce17e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:44:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手势识别",
+    "Transformer",
+    "多模态学习",
+    "金字塔结构",
+    "深度可分离卷积",
+    "动态手势"
+   ],
+   "field": "动态手势识别",
+   "innovations": [
+    "提出UniCon-Former统一架构，通过C-Block金字塔下采样融合CNN局部特征与Transformer全局建模能力",
+    "以深度可分离卷积替代固定维度投影，显著降低参数量（19.58M）与MACs（60.25G）",
+    "多模态Late Fusion策略在NVGesture与Briareo数据集上均取得SOTA性能"
+   ],
+   "benchmarks": [
+    "NVGesture",
+    "Briareo"
+   ]
+  }
+ }
 }

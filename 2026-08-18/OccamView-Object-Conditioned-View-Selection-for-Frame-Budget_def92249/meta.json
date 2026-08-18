@@ -4,5 +4,29 @@
  "title": "OccamView-Object-Conditioned-View-Selection-for-Frame-Budget",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-18 02:59:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d983d101-bd66-4e3d-917d-9cdf3fee30e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d983d101-bd66-4e3d-917d-9cdf3fee30e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:47:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Active 3D Gaussian Reconstruction",
+    "Next-Best-View Planning",
+    "Object-Conditioned View Selection",
+    "Frame-Budgeted Reconstruction",
+    "Occupancy Grid"
+   ],
+   "field": "主动3D重建与视图规划",
+   "innovations": [
+    "提出OcammView模块，利用在线物体记忆和局部未知体素代理引导视角选择",
+    "设计遮挡感知的代理覆盖度评分以评估候选视图对物体隐藏区域的潜在观察价值",
+    "引入Geo-Floor机制在几何竞争候选子集内融合物体条件评分，平衡探索与物体补全"
+   ],
+   "benchmarks": [
+    "Replica",
+    "Matterport3D (MP3D)"
+   ]
+  }
+ }
 }

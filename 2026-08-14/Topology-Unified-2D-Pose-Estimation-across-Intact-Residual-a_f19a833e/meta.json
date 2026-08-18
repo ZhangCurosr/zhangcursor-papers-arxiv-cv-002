@@ -4,5 +4,32 @@
  "title": "Topology-Unified-2D-Pose-Estimation-across-Intact-Residual-a",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-14 04:13:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d07d532d-ea10-42fd-a6b0-db55739432aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d07d532d-ea10-42fd-a6b0-db55739432aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:43:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人体姿态估计",
+    "义肢感知",
+    "统一拓扑标注",
+    "长尾数据增强",
+    "结构感知损失"
+   ],
+   "field": "姿态估计与辅助技术感知",
+   "innovations": [
+    "Omni-Pose 统一协议：在单拓扑内同时表示完整肢体、残肢与假体并引入 Bio/Pros/Abs 语义",
+    "Real-to-Synthetic 数据扩展管线：基于 MLLM 指令编辑从真实图像合成稀有假体姿态",
+    "ProLoss 结构感知损失：通过 Bio-Contrastive Boundary Loss 建模肢内语义互斥抑制解剖学幻觉"
+   ],
+   "benchmarks": [
+    "ProPose",
+    "LDPose",
+    "ProGait",
+    "COCO",
+    "MPII"
+   ]
+  }
+ }
 }

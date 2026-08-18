@@ -4,5 +4,30 @@
  "title": "TRAPSBench-Vision-Language-Models-Encode-but-Fail-to-Express",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-14 04:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/700aa200-489b-4fca-bcfe-001388ed7b07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/700aa200-489b-4fca-bcfe-001388ed7b07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:42:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "epistemic uncertainty",
+    "abstention",
+    "benchmark",
+    "activation steering",
+    "probing",
+    "physical reasoning"
+   ],
+   "field": "多模态认知校准与可解释性",
+   "innovations": [
+    "提出TRAPSBench与PECS联合度量首个系统评估VLM在物理视频上的选择性放弃能力",
+    "通过线性探针(Cf→Cf限制)与单层激活导向因果证明VLM内部编码可迁移的'可答/不可答'信号但输出层压制",
+    "发现文本不可答性检测比视觉信息缺口快约4×且CoT推理对校准呈非单调影响"
+   ],
+   "benchmarks": [
+    "TRAPSBench"
+   ]
+  }
+ }
 }

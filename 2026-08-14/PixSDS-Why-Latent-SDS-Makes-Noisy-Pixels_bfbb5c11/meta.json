@@ -4,5 +4,33 @@
  "title": "PixSDS-Why-Latent-SDS-Makes-Noisy-Pixels",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-14 14:49:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862af7bc-d721-464f-a84c-0e95bdba92ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/862af7bc-d721-464f-a84c-0e95bdba92ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:40:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "score distillation sampling",
+    "latent diffusion",
+    "VAE pixel drift",
+    "artifact reduction",
+    "text-to-3D generation",
+    "gradient repair"
+   ],
+   "field": "扩散模型优化与生成质量",
+   "innovations": [
+    "识别VAE诱导像素漂移为latent SDS故障模式",
+    "提出PixSDS轻量级VAE一致梯度修复方法",
+    "提供控制实验与理论证明噪声放大机制"
+   ],
+   "benchmarks": [
+    "MS-COCO 2014",
+    "FID",
+    "CLIP Score",
+    "BRISQUE",
+    "CLIP-IQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Towards-Sparsely-Annotated-Open-World-Object-Detection",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-08-14 04:10:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e1ef0fc3-2d7c-47df-9c92-8aad42fbf5e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/e1ef0fc3-2d7c-47df-9c92-8aad42fbf5e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:44:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Sparsely Annotated Open-World Object Detection",
+    "Open-World Detection",
+    "Sparse Annotation",
+    "Pseudo-labeling",
+    "Cross-view Disagreement",
+    "Incremental Learning"
+   ],
+   "field": "开放世界目标检测",
+   "innovations": [
+    "首次定义SA-OWOD任务联合建模稀疏标注与开放世界检测",
+    "KTRM模块通过伪标签恢复与设施位置损失分离已知/未知特征",
+    "DDTG模块利用跨视图语义不一致性识别可靠未知候选"
+   ],
+   "benchmarks": [
+    "OWOD Dataset (VOC+COCO)",
+    "Pascal VOC test split",
+    "MS COCO validation split"
+   ]
+  }
+ }
 }

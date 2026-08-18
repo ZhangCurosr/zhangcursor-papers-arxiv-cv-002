@@ -4,5 +4,33 @@
  "title": "Splat-based-Metal-Artifact-Reduction-in-Cone-Beam-CT-via-Pol",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-14 04:13:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3400f666-95bf-4eb1-ba9e-6a70a1d15e19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3400f666-95bf-4eb1-ba9e-6a70a1d15e19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:40:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cone-beam CT",
+    "Metal artifact reduction",
+    "Gaussian Splatting",
+    "Polychromatic modeling",
+    "Beam hardening correction",
+    "X-ray imaging"
+   ],
+   "field": "医学图像重建与伪影抑制",
+   "innovations": [
+    "首个基于Gaussian Splatting的CBCT多色束硬化抑制方法",
+    "自校准系统响应建模消除先验光谱依赖",
+    "Compton-光电双组分物理衰减模型联合优化"
+   ],
+   "benchmarks": [
+    "LIDC",
+    "X-plant",
+    "ZCB100",
+    "Synthetic CBCT phantoms",
+    "Real CBCT metal phantoms"
+   ]
+  }
+ }
 }

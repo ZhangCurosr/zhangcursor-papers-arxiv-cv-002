@@ -4,5 +4,34 @@
  "title": "TennisVAR-A-Stroke-Evidence-Grounded-Multimodal-Large-Langua",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-14 14:49:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a5772ddd-3811-4a5f-a377-d7d056280871.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/a5772ddd-3811-4a5f-a377-d7d056280871.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:43:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tennis Video Understanding",
+    "Multimodal Large Language Model",
+    "Evidence-Grounded Reasoning",
+    "Sports Tactical Analysis",
+    "Video Question Answering",
+    "Graph Reasoning",
+    "TRACE Benchmark"
+   ],
+   "field": "体育视频理解",
+   "innovations": [
+    "提出击球证据接地战术推理新任务，联合预测答案、分层战术标签、有序证据击球与关键动作",
+    "构建TRACE基准（11,189回合、41,485击球、25,429战术单元），首次将逐帧接触击球作为证据预测目标",
+    "设计TennisVAR模型，通过事件解析模块与战术图引导时序推理器实现可追溯的证据接地推理"
+   ],
+   "benchmarks": [
+    "TRACE",
+    "F³Set",
+    "SoccerNet-v2",
+    "Video-MME",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "V-RAE-Rethinking-Video-Latent-Spaces-for-Generation",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-14 14:48:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/87a1b19b-b484-48fb-ac06-db5cd6001ff7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/87a1b19b-b484-48fb-ac06-db5cd6001ff7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:45:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "表示学习",
+    "自动编码器",
+    "潜空间",
+    "视觉基础模型",
+    "时序压缩"
+   ],
+   "field": "视频生成与表示学习",
+   "innovations": [
+    "提出 V-RAE 将冻结视觉基础模型特征作为视频生成潜空间",
+    "引入 tFVD 指标揭示重建保真度与生成性能弱相关",
+    "证实时序注意力池化可在压缩冗余的同时保留语义结构"
+   ],
+   "benchmarks": [
+    "UCF101",
+    "Kinetics-600",
+    "Cityscapes",
+    "Something-Something V2",
+    "Kinetics-400"
+   ]
+  }
+ }
 }

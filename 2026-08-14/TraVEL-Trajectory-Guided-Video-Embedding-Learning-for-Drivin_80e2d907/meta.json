@@ -4,5 +4,29 @@
  "title": "TraVEL-Trajectory-Guided-Video-Embedding-Learning-for-Drivin",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-14 04:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/547285dd-b9f4-404e-a306-09c33e74abd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/547285dd-b9f4-404e-a306-09c33e74abd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:44:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "driving-video retrieval",
+    "multimodal embedding",
+    "trajectory-guided learning",
+    "GRPO",
+    "nuReasoning",
+    "video-text retrieval"
+   ],
+   "field": "自动驾驶视频理解与检索",
+   "innovations": [
+    "提出TraVEL框架，将ego轨迹相似度作为GRPO奖励重塑视频嵌入空间",
+    "双通道运动表示（横向位移+速度）结合对数变换与DTW对齐，提升运动中心事件区分度",
+    "轨迹特权监督不改变推理时单向量检索效率，实现物理约束与高效搜索的统一"
+   ],
+   "benchmarks": [
+    "nuReasoning driving-video retrieval benchmark"
+   ]
+  }
+ }
 }

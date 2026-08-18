@@ -4,5 +4,10 @@
  "title": "Splat-based-Metal-Artifact-Reduction-in-Cone-Beam-CT-via-Pol",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-14 14:49:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3400f666-95bf-4eb1-ba9e-6a70a1d15e19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/3400f666-95bf-4eb1-ba9e-6a70a1d15e19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:41:56",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Paths-Prompt-aware-Spatio-temporal-Transformer-with-Hierarch",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-14 04:12:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/5bec94e8-bb0b-47d1-bc85-7720b2a4db2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/5bec94e8-bb0b-47d1-bc85-7720b2a4db2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:40:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RGB-Event ReID",
+    "Video Person Re-Identification",
+    "Spatio-temporal Transformer",
+    "Prompt Learning",
+    "Multi-modal Fusion",
+    "Hierarchical Fusion",
+    "Event Camera"
+   ],
+   "field": "多模态行人重识别",
+   "innovations": [
+    "提出 Prompt-aware Spatio-temporal Transformer (PST) 在单一 Transformer 内联合建模空间与时间",
+    "设计 Memory-Augmented Backbone (MAB) 维护跨批次稳定的模态特定身份原型",
+    "引入 Hierarchical Multi-modal Fusion (HMF) 在全局图聚合与本地 token 匹配两个层级融合 RGB-Event"
+   ],
+   "benchmarks": [
+    "EvReID",
+    "MARS",
+    "iLIDS-VID"
+   ]
+  }
+ }
 }

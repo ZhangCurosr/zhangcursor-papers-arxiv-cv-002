@@ -4,5 +4,34 @@
  "title": "Validation-of-Smartphone-Based-Photogrammetric-3D-Body-Scann",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-14 04:13:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/978aac53-ea7b-4483-9d09-1f1ceb4f576f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/978aac53-ea7b-4483-9d09-1f1ceb4f576f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:46:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D body scanning",
+    "photogrammetry",
+    "smartphone-based scanning",
+    "anthropometric measurement",
+    "validation study",
+    "longitudinal body shape monitoring",
+    "clinical applications"
+   ],
+   "field": "3D视觉与健康信息学",
+   "innovations": [
+    "首次系统验证智能手机摄影测量用于全身3D扫描的准确性与纵向监测能力",
+    "设计了基于几何极值的自动化周长测量流水线，减少人工标记偏差",
+    "通过人类受试者纵向数据与刚性模型重复实验相结合，全面评估设备性能"
+   ],
+   "benchmarks": [
+    "Fit3D ProScanner",
+    "Manual tape measurements on mannequin",
+    "Intraclass Correlation Coefficient (ICC)",
+    "Bland-Altman analysis",
+    "Linear Mixed-effects Models (LMM)"
+   ]
+  }
+ }
 }

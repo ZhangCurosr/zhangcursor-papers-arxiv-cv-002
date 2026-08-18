@@ -4,5 +4,31 @@
  "title": "REVISITING-CLASSIFIER-FREE-GUIDANCE-METHODS-IN-LATENT-DIFFUS",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-18 02:56:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c404397d-5ca3-4caa-b376-9ce58517fdb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c404397d-5ca3-4caa-b376-9ce58517fdb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:49:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "classifier-free guidance",
+    "diffusion models",
+    "text-to-image",
+    "inference-time methods",
+    "compositional alignment",
+    "benchmark"
+   ],
+   "field": "生成式扩散模型推理控制",
+   "innovations": [
+    "统一协议下8种CFG替代方法在现代transformer上的系统再评估",
+    "引入bootstrap不确定度边界判断方法增益显著性",
+    "揭示image-quality增益向compositional-alignment指标迁移的失效现象"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "DPG-Bench",
+    "OneIG-Bench"
+   ]
+  }
+ }
 }

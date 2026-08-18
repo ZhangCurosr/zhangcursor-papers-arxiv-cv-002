@@ -4,5 +4,31 @@
  "title": "Topology-Unified-2D-Pose-Estimation-across-Intact-Residual-a",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-08-14 14:49:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d07d532d-ea10-42fd-a6b0-db55739432aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/d07d532d-ea10-42fd-a6b0-db55739432aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:43:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Pose Estimation",
+    "Prosthesis-aware Pose Estimation",
+    "Omni-Pose Protocol",
+    "ProLoss",
+    "Real-to-Synthetic Data Expansion",
+    "Long-tail Keypoint Classification"
+   ],
+   "field": "包容性人体姿态估计",
+   "innovations": [
+    "Omni-Pose统一标注协议：在COCO拓扑上扩展6个远端关键点并引入Bio/Pros/Abs三元语义属性，首次在单框架下覆盖完整/残肢/假肢",
+    "ProLoss结构感知损失：通过逆平方根SCW与Bio-Contrastive Boundary Loss联合约束，抑制解剖矛盾的假肢关节幻生",
+    "Real-to-Synthetic数据扩充流水线：基于Gemini指令驱动图像编辑+两阶段训练策略，将假肢肘/腕长尾比例分别提升31×和8.6×"
+   ],
+   "benchmarks": [
+    "ProPose (36.4K images, 63K instances)",
+    "ProGait (cross-dataset generalization)",
+    "LDPose (source baseline)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TabSOM-A-tabular-to-image-encoding-method-based-on-self-orga",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-14 04:08:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/7eca1498-7004-4c70-ba23-352cc3d1c2bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/7eca1498-7004-4c70-ba23-352cc3d1c2bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:41:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular-to-image",
+    "self-organizing map",
+    "spatial encoding",
+    "feature interaction",
+    "interpretability",
+    "AUROC benchmark"
+   ],
+   "field": "表格数据表征学习与可视化",
+   "innovations": [
+    "基于SOM分量平面的无碰撞特征锚点分配方法",
+    "多尺度节点通道与关系边通道联合渲染成对特征交互",
+    "与下游模型无关的类别分离重要度与原型依赖曲线"
+   ],
+   "benchmarks": [
+    "Pima Indians Diabetes",
+    "Oxford Parkinson's Disease",
+    "Wisconsin Diagnostic Breast Cancer",
+    "QSAR Biodegradation"
+   ]
+  }
+ }
 }

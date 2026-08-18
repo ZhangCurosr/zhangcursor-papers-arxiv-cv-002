@@ -4,5 +4,29 @@
  "title": "UniTexture-Cross-Task-Universal-Adversarial-Textures-for-Vis",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-14 04:09:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1875ebeb-98c4-45e0-86c7-7305daf88129.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/1875ebeb-98c4-45e0-86c7-7305daf88129.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:45:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA安全",
+    "对抗攻击",
+    "3D纹理攻击",
+    "跨任务通用性",
+    "机器人安全"
+   ],
+   "field": "机器人视觉-语言-动作模型安全评估",
+   "innovations": [
+    "跨任务通用3D纹理攻击：单一纹理在任务分布上联合优化实现跨任务攻击",
+    "目标动作空间优化：在VLA原生动作空间定义目标损失实现定向控制",
+    "可微渲染器校准冻结机制：隔离渲染伪影确保攻击效果来自纹理而非渲染误差"
+   ],
+   "benchmarks": [
+    "LIBERO-Spatial",
+    "LIBERO-Goal"
+   ]
+  }
+ }
 }
