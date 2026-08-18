@@ -4,5 +4,29 @@
  "title": "Turning-spectra-into-images-improves-plant-trait-retrieval-w",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-18 14:30:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:37:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "高光谱遥感",
+    "植物性状反演",
+    "2D-CNN",
+    "自监督预训练",
+    "可解释AI",
+    "光谱图像处理"
+   ],
+   "field": "高光谱植被生物物理参数反演",
+   "innovations": [
+    "系统比较9种1D-to-2D光谱转换方法并发现最简Reshape最优",
+    "2D MAE预训练线性探测超越所有1D基线",
+    "建立光谱归因图与PROSAIL理论灵敏度的物理对照框架"
+   ],
+   "benchmarks": [
+    "GreenHyperSpectra"
+   ]
+  }
+ }
 }

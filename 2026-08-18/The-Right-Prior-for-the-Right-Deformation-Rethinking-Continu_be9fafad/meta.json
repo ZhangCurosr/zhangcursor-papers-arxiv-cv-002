@@ -4,5 +4,30 @@
  "title": "The-Right-Prior-for-the-Right-Deformation-Rethinking-Continu",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-18 14:31:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f1f79837-a433-48d7-8cbf-6284457a907f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f1f79837-a433-48d7-8cbf-6284457a907f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:37:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deformable Image Registration",
+    "Implicit Neural Representation",
+    "B-Spline",
+    "Alignment-Regularity Trade-off",
+    "Prior-Deformation Matching",
+    "Medical Image Analysis"
+   ],
+   "field": "连续可变形医学图像配准",
+   "innovations": [
+    "提出先验-形变匹配原则，揭示配准精度取决于模型先验与目标运动模式的匹配度而非参数化复杂度",
+    "构建INR-Dense/INR-BSCP/D-BSCP/MR-D-BSCP四项统一对照实验，隔离INR与B-Spline控制点的独立贡献",
+    "引入目标场拟合诊断，分离表征能力与优化能力，揭示大运动任务中局部极小问题的本质"
+   ],
+   "benchmarks": [
+    "OASIS Brain MR Inter-subject Registration",
+    "DIR-LAB 4DCT Intra-subject Lung Exhale-to-Inhale Registration"
+   ]
+  }
+ }
 }

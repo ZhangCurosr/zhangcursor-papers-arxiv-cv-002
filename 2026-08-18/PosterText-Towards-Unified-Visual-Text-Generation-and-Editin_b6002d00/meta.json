@@ -4,5 +4,29 @@
  "title": "PosterText-Towards-Unified-Visual-Text-Generation-and-Editin",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-18 14:31:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/320615da-4685-4089-941f-924e899ddd27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/320615da-4685-4089-941f-924e899ddd27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:37:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "电商海报生成",
+    "文字渲染",
+    "图像编辑",
+    "统一框架",
+    "强化学习",
+    "蒸馏"
+   ],
+   "field": "视觉生成与编辑",
+   "innovations": [
+    "提出Text Patch统一生成与编辑任务 formulation，支持四种操作",
+    "四阶段课程训练：文字渲染预训练→指令跟随→RL对齐→SGSD蒸馏",
+    "构建大规模带文字块标注的电商海报数据集与评测基准"
+   ],
+   "benchmarks": [
+    "PosterText-Bench"
+   ]
+  }
+ }
 }

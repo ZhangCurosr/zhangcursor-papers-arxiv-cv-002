@@ -4,5 +4,29 @@
  "title": "REMOTE-SENSING-CITY-LAYOUT-EXTRACTION-WITH-MLLM",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-18 14:30:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/220eaa6b-fce6-4453-b029-cf57a45263e0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/220eaa6b-fce6-4453-b029-cf57a45263e0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:37:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "remote sensing",
+    "multimodal large language models",
+    "city layout",
+    "code generation",
+    "semantic projection",
+    "3D city modeling"
+   ],
+   "field": "遥感与城市计算",
+   "innovations": [
+    "以可执行城市布局程序为预测目标，同时产出正交2D投影与3D视图",
+    "先验引导的分解MLLM解析流程：道路-拓扑-建筑三路有序调用",
+    "受限布局API+确定性归一化与执行修复机制保障结构化稳定性"
+   ],
+   "benchmarks": [
+    "CityLayout-100"
+   ]
+  }
+ }
 }
