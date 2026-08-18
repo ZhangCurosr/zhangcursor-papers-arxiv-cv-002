@@ -4,5 +4,31 @@
  "title": "SCOPE-Router-Cost-Aware-Open-Set-VLM-Routing-for-Execution-O",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-13 14:55:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1f9687b-fa32-4842-82b8-4a099362149d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1f9687b-fa32-4842-82b8-4a099362149d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:22:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM路由",
+    "开放集路由",
+    "成本感知",
+    "模型选择",
+    "执行任务",
+    "多模态路由"
+   ],
+   "field": "多模态模型路由与调度",
+   "innovations": [
+    "首个面向执行任务的VLM路由基准VLM-ExecRouterBench，覆盖代码/Agent/搜索三大域",
+    "混合校准策略（随机/诊断/多样性）构建查询感知模型行为画像，实现无需重训的开放集路由",
+    "CRM+RCCR成本感知训练目标，逐对独立BCE消除多正稀释并正则化路由偏好相似查询"
+   ],
+   "benchmarks": [
+    "VLM-ExecRouterBench",
+    "VL-RouterBench",
+    "MMR-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "TGRHuman-Text-Guided-Realistic-3D-Human-Generation-via-Difus",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7678cfe1-cfc7-44e5-b9bf-45f128fe55c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7678cfe1-cfc7-44e5-b9bf-45f128fe55c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:23:29",
+  "chunks": 1
+ }
 }

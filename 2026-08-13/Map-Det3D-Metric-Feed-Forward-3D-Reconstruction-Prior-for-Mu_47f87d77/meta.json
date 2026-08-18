@@ -4,5 +4,30 @@
  "title": "Map-Det3D-Metric-Feed-Forward-3D-Reconstruction-Prior-for-Mu",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:55:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a89ab93-3d0d-40e0-9ad9-aab39a6ee7c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5a89ab93-3d0d-40e0-9ad9-aab39a6ee7c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:20:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Object Detection",
+    "Multi-view Reconstruction",
+    "Feed-Forward 3D",
+    "Monocular Detection",
+    "Metric Scale",
+    "Transformer"
+   ],
+   "field": "多视角3D目标检测",
+   "innovations": [
+    "将FF3R重建模型复用于检测Transformer编码器，直接预测度量尺度3D框",
+    "提出up-to-scale 3D边界框头，解耦尺度因子避免2D-to-3D提升误差",
+    "在线滑动窗口多视角聚合，支持流式RGB输入的单目3D检测"
+   ],
+   "benchmarks": [
+    "CA-1M",
+    "ScanNetV2"
+   ]
+  }
+ }
 }

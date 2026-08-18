@@ -4,5 +4,33 @@
  "title": "Two-Stage-Deformable-Convolutional-Inverse-Design-of-Nanopho",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 14:56:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/590af880-4b09-4993-bae4-55a50432a8bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/590af880-4b09-4993-bae4-55a50432a8bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:25:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "纳米光子逆设计",
+    "可变形卷积",
+    "光谱到几何映射",
+    "LSGAN",
+    "MIM吸收体",
+    "前向代理验证",
+    "自适应空间采样"
+   ],
+   "field": "计算光子学/纳米光子逆设计",
+   "innovations": [
+    "将可变形卷积引入纳米光子光谱-几何逆设计解码器并系统对比五种空间算子",
+    "监督预训练+LSGAN两阶段精炼策略避免单阶段GAN不稳定",
+    "可变形偏移多尺度分析揭示粗/中层自适应采样主导拓扑建立而非仅边缘细化"
+   ],
+   "benchmarks": [
+    "Yeung MIM Absorber Dataset (80-point absorption spectrum ↔ 64×64 resonator mask)",
+    "PSNR/SSIM/MSE",
+    "Dice/IoU/Boundary F-score/HD95/ASD",
+    "Forward-surrogate RMSE and R²"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "XYZFlow-Scaling-Multidimensional-Shortcut-Flows-for-Efficien",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4edf7b7f-c324-4623-a78e-da4c9214e209.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4edf7b7f-c324-4623-a78e-da4c9214e209.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:27:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "few-step diffusion",
+    "autoregressive generation",
+    "distillation",
+    "image generation",
+    "spatiotemporal conditioning"
+   ],
+   "field": "高效生成模型",
+   "innovations": [
+    "提出多维缩放范式，通过时空正交条件约束增强概率流唯一性",
+    "Next Shortcut Prediction：传递前序补丁完整去噪轨迹作为后续补丁的条件先验，实现渐进步数缩减",
+    "将自回归建模重新诠释为隐式流拉直机制，从架构层面提升生成效率"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256"
+   ]
+  }
+ }
 }

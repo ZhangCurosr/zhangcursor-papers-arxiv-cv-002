@@ -4,5 +4,10 @@
  "title": "ProBAG-Prototype-Guided-Boundary-Aware-Graph-Difusion-for-We",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 14:55:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efca390a-a09c-4cca-8de0-387fc3c0d333.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/efca390a-a09c-4cca-8de0-387fc3c0d333.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:21:20",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,36 @@
  "title": "SCOUT-Unlocking-Enhanced-Spatial-Reasoning-via-Structured-Ch",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-13 14:55:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1aac8ebc-7f15-4f25-aa79-5ec186442c3e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1aac8ebc-7f15-4f25-aa79-5ec186442c3e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:22:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Spatial Reasoning",
+    "Reinforcement Learning",
+    "Chain-of-Thought",
+    "Process Reward",
+    "Credit Assignment"
+   ],
+   "field": "视觉语言模型空间推理",
+   "innovations": [
+    "深度感知的结构化思维链模板",
+    "多目标过程奖励与分段优势估计",
+    "盲文本一致性验证机制"
+   ],
+   "benchmarks": [
+    "EmbSpatial",
+    "CV-Bench",
+    "BLINK",
+    "RoboSpatial",
+    "SpatialBench",
+    "3DSRBench",
+    "ViewSpatial",
+    "VSI-Bench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "RA-ClipScore-Making-Generative-Model-Evaluation-More-Interpr",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-13 14:55:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9b70e5c-71dc-42ed-9773-a49504a81c63.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9b70e5c-71dc-42ed-9773-a49504a81c63.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:21:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "生成模型评估",
+    "CLIPScore",
+    "可解释性指标",
+    "空间偏差检测",
+    "属性分析"
+   ],
+   "field": "生成模型评估与可解释性",
+   "innovations": [
+    "双提示机制解耦属性竞争",
+    "单次前向传播保留局部patch空间信息",
+    "首次扩展CLIP类评估至空间分布对齐分析"
+   ],
+   "benchmarks": [
+    "CelebA",
+    "FFHQ",
+    "ImageNet",
+    "COCO"
+   ]
+  }
+ }
 }

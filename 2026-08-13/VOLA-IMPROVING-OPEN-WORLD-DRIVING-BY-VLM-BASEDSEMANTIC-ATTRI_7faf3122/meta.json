@@ -4,5 +4,33 @@
  "title": "VOLA-IMPROVING-OPEN-WORLD-DRIVING-BY-VLM-BASEDSEMANTIC-ATTRI",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-13 14:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e36deeb4-9d14-4ca1-aabd-a197bc7f1da3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e36deeb4-9d14-4ca1-aabd-a197bc7f1da3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:26:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "开放世界驾驶",
+    "密集属性预测",
+    "VLM图像token",
+    "可通行性",
+    "脆弱性",
+    "边界感知解码器",
+    "零样本泛化"
+   ],
+   "field": "自动驾驶感知",
+   "innovations": [
+    "将VLM图像token隐藏状态直接作为密集语义源预测驾驶属性",
+    "无需文本生成或特殊token即可生成全分辨率属性地图",
+    "在语义novelty设置下显著提升异常物体检测性能"
+   ],
+   "benchmarks": [
+    "CARLA",
+    "Cityscapes",
+    "StreetHazards",
+    "SMIYC AnomalyTrack"
+   ]
+  }
+ }
 }

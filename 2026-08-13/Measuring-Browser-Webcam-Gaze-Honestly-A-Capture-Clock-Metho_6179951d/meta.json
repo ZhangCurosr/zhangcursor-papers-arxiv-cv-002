@@ -4,5 +4,32 @@
  "title": "Measuring-Browser-Webcam-Gaze-Honestly-A-Capture-Clock-Metho",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5aeadc8-c398-4fbe-b16a-cc4f78d1dccd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d5aeadc8-c398-4fbe-b16a-cc4f78d1dccd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:21:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Browser WebGaze",
+    "Latency Measurement",
+    "Weakly-Supervised Segmentation",
+    "rVFC API",
+    "Reproducibility",
+    "Webcam Eye Tracking",
+    "Kernel Ridge Regression"
+   ],
+   "field": "浏览器眼动追踪与交互延迟评估",
+   "innovations": [
+    "基于rVFC API的逐帧捕获时钟方法论，修复浏览器眼动延迟≈0ms的测量缺陷",
+    "开源TypeScript参考实现与双引擎可互换基准测试套件",
+    "揭示消费级webcam在临床弱监督分割任务中无法替代专家红外眼动仪的上限"
+   ],
+   "benchmarks": [
+    "Kvasir-SEG",
+    "WebGazer baseline",
+    "FaceMesh+KRR pipeline"
+   ]
+  }
+ }
 }

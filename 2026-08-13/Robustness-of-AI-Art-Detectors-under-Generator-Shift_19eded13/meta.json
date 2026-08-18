@@ -4,5 +4,10 @@
  "title": "Robustness-of-AI-Art-Detectors-under-Generator-Shift",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 14:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c465402-7af3-4e48-899d-a9c1b36d1416.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c465402-7af3-4e48-899d-a9c1b36d1416.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:22:16",
+  "chunks": 1
+ }
 }

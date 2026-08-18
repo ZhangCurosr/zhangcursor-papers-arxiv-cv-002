@@ -4,5 +4,30 @@
  "title": "Through-Van-Gogh-s-Eyes-Global-Style-Transfer-with-Difusion",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 05:40:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9cedded8-db1a-4cc2-92ef-5256ddb2323b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9cedded8-db1a-4cc2-92ef-5256ddb2323b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:24:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Global Style Transfer",
+    "Diffusion Models",
+    "Artistic Image Synthesis",
+    "Style Guidance",
+    "Content Preservation",
+    "Many-to-One"
+   ],
+   "field": "艺术图像生成与风格迁移",
+   "innovations": [
+    "提出Global Style Transfer新范式，从多部作品学习艺术家全局风格分布",
+    "设计h-space中的Global Style Guidance，通过固定提示消除文本诱导偏差",
+    "提出无需训练的Content Alignment Guidance，平衡风格变形与内容结构保留"
+   ],
+   "benchmarks": [
+    "WikiArt",
+    "VanGogh2Photo"
+   ]
+  }
+ }
 }

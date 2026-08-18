@@ -4,5 +4,32 @@
  "title": "StateFlow-Building-Evolving-and-Accessing-3D-World-States-fo",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-08-13 14:56:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9149ea9-daae-4ee2-b752-dfa1f8a716d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9149ea9-daae-4ee2-b752-dfa1f8a716d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:23:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "预可视化",
+    "3D世界生成",
+    "状态中心框架",
+    "相机规划",
+    "视频生成",
+    "多视图初始化"
+   ],
+   "field": "3D场景生成与预可视化",
+   "innovations": [
+    "提出以持久3D世界状态为核心的生成式预可视化新范式",
+    "先验引导的冲突感知双视图初始化实现免训练3D世界构建",
+    "渲染反馈反射的相机规划实现几何保真的可编辑相机轨迹"
+   ],
+   "benchmarks": [
+    "VBench",
+    "CLIP-I/T",
+    "HPS V2",
+    "Q-Align"
+   ]
+  }
+ }
 }

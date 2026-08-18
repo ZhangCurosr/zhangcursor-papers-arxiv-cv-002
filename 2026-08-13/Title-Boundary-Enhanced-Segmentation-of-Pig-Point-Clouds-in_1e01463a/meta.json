@@ -4,5 +4,30 @@
  "title": "Title-Boundary-Enhanced-Segmentation-of-Pig-Point-Clouds-in",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 14:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/993cf7f8-4df6-4cbf-ada7-4dac6efdc692.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/993cf7f8-4df6-4cbf-ada7-4dac6efdc692.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:24:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "point cloud segmentation",
+    "boundary-aware learning",
+    "Octree Transformer",
+    "precision livestock farming",
+    "soft-distance boundary pseudo-label",
+    "bidirectional cross-attention"
+   ],
+   "field": "3D point cloud segmentation",
+   "innovations": [
+    "软距离边界伪标签将离散边界监督转化为连续边界约束，缓解类别过渡区训练不稳定性",
+    "双向交叉边界语义模块实现语义特征与边界特征的双向显式交互和点级自适应门控"
+   ],
+   "benchmarks": [
+    "B-IoU (Boundary Intersection over Union)",
+    "mIoU",
+    "Accuracy"
+   ]
+  }
+ }
 }

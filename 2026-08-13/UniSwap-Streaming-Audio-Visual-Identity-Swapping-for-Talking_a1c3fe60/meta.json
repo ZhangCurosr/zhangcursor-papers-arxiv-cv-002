@@ -4,5 +4,30 @@
  "title": "UniSwap-Streaming-Audio-Visual-Identity-Swapping-for-Talking",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf6645a9-3294-44de-8585-343554f6a076.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf6645a9-3294-44de-8585-343554f6a076.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:26:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "音视频联合生成",
+    "身份替换",
+    "流式扩散模型",
+    "Distribution Matching Distillation",
+    "自回归视频生成",
+    "语音转换"
+   ],
+   "field": "音视频联合生成与身份编辑",
+   "innovations": [
+    "首个流式联合音视频身份替换框架，在单一扩散Transformer中同步完成外观与声纹转移",
+    "提出swap-and-reconstruct自监督数据合成管线，将普通Talking视频转为对齐训练对",
+    "Feature-RoPE Decomposition通过缓存特征与旋转坐标分离实现稳定长程流式生成"
+   ],
+   "benchmarks": [
+    "AVSpeech短视频基准(100 clips)",
+    "1分钟长视频基准(20 clips)"
+   ]
+  }
+ }
 }

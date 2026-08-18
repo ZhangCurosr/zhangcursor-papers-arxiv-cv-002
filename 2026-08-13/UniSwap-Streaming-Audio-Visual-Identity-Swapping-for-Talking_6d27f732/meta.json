@@ -4,5 +4,35 @@
  "title": "UniSwap-Streaming-Audio-Visual-Identity-Swapping-for-Talking",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:11:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf6645a9-3294-44de-8585-343554f6a076.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf6645a9-3294-44de-8585-343554f6a076.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:26:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "audio-visual identity swapping",
+    "streaming diffusion",
+    "voice conversion",
+    "video character replacement",
+    "distribution matching distillation",
+    "in-context learning"
+   ],
+   "field": "多模态生成与编辑",
+   "innovations": [
+    "首个流式联合音视频身份替换框架，在单扩散Transformer中同步转移外观与声纹",
+    "swap-and-reconstruct自监督数据合成管线，无需跨身份配对数据",
+    "三阶段渐进式流式适配（In-context→Causal→3-step DMD）与Feature-RoPE有界位置机制"
+   ],
+   "benchmarks": [
+    "AVSpeech",
+    "SyncNet Sync-C/Sync-D",
+    "DINO-S",
+    "Q-Align ASE/IQA",
+    "DNSMOS SIG/BAK/OVRL",
+    "SECS",
+    "SSIM"
+   ]
+  }
+ }
 }

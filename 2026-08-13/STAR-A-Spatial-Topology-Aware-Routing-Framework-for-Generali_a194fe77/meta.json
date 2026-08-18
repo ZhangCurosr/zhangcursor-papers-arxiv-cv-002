@@ -4,5 +4,34 @@
  "title": "STAR-A-Spatial-Topology-Aware-Routing-Framework-for-Generali",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 14:55:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7eec3a62-91e2-4fca-833f-e4a7564e0da7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7eec3a62-91e2-4fca-833f-e4a7564e0da7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:22:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D场景理解",
+    "Mixture of Experts",
+    "跨域泛化",
+    "拓扑感知路由",
+    "点云分割",
+    "自监督预训练"
+   ],
+   "field": "3D点云理解与跨域适配",
+   "innovations": [
+    "提出拓扑感知路由DSR，将3D空间上下文注入专家选择以响应密度和完整性变化",
+    "设计熵控动态分配EDA，根据路由不确定性自适应调整激活专家数量",
+    "构建双分支解耦架构，冻结跨域统一表示分支与动态域感知分支协同优化"
+   ],
+   "benchmarks": [
+    "ScanNet",
+    "S3DIS",
+    "nuScenes",
+    "Waymo",
+    "SpatialLM",
+    "Matterport3D"
+   ]
+  }
+ }
 }

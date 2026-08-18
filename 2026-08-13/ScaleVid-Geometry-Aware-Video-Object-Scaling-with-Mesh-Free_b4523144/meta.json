@@ -4,5 +4,32 @@
  "title": "ScaleVid-Geometry-Aware-Video-Object-Scaling-with-Mesh-Free",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:55:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/145ad504-fcdf-415d-b90e-bfc2d60b5431.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/145ad504-fcdf-415d-b90e-bfc2d60b5431.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:23:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video object scaling",
+    "geometry-aware editing",
+    "diffusion model",
+    "mesh-free inference",
+    "pseudo-source reconstruction",
+    "anisotropic scaling"
+   ],
+   "field": "视频编辑与几何感知生成",
+   "innovations": [
+    "伪源重建：将几何变换与视频合成解耦，用真实视频作目标、几何扰动伪源作条件，无需推理时 3D 重建",
+    "渐进式 2D-to-3D 训练：Stage I 平面变换预训练合成能力，Stage II 3D 形变引导微调实现几何感知缩放",
+    "双向训练损失：前向+逆向缩放 velocity-level 约束，提升变形一致性和几何对齐精度"
+   ],
+   "benchmarks": [
+    "Geometry Benchmark（48 mesh 渲染视频组）",
+    "Real-Background Benchmark（48 组真实背景合成视频）",
+    "Pexels Real-World Benchmark（50 视频）",
+    "DAVIS Real-World Benchmark（91 高速运动视频）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "M-Net-Integrating-Spectral-Features-and-Physical-Field-Opera",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:55:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c7575d2-ca7a-47ff-a692-cf70bf70e80f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4c7575d2-ca7a-47ff-a692-cf70bf70e80f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:19:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical image segmentation",
+    "mathematical inductive bias",
+    "condition number",
+    "physical field operators",
+    "attention mechanism",
+    "U-Net"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "提出中心化局部像素矩阵条件数作为连续可微纹理病态度量",
+    "引入散度和离散旋度-like 算子作为物理场归纳偏置",
+    "设计 Math-Attention Gate 机制在跳跃连接处自适应融合数学与 CNN 特征"
+   ],
+   "benchmarks": [
+    "LiTS",
+    "KiTS23",
+    "BraTS24"
+   ]
+  }
+ }
 }

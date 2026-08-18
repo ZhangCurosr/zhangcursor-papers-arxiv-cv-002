@@ -4,5 +4,10 @@
  "title": "Warping-Earth-Observations-for-better-ice-labeling-in-the-Ma",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:57:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbc18275-b973-4271-8a7c-a655ddf93c15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fbc18275-b973-4271-8a7c-a655ddf93c15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:27:36",
+  "chunks": 1
+ }
 }

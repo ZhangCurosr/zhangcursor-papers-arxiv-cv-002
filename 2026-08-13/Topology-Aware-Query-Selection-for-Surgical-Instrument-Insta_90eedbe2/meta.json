@@ -4,5 +4,32 @@
  "title": "Topology-Aware-Query-Selection-for-Surgical-Instrument-Insta",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-13 14:55:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4557f326-3dfa-42b6-a800-c989958fe1d8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4557f326-3dfa-42b6-a800-c989958fe1d8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:25:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "surgical instrument segmentation",
+    "instance segmentation",
+    "query selection",
+    "relational reasoning",
+    "structured prediction",
+    "cardinality prediction",
+    "Mask2Former"
+   ],
+   "field": "医学图像实例分割",
+   "innovations": [
+    "将手术掩码-查询选择形式化为关系性变基数结构化预测问题",
+    "基于完全图的关系推理与精确子集选择相结合的拓扑感知查询选择框架",
+    "提出包含性能、保真度、安全性的非补偿性评估框架"
+   ],
+   "benchmarks": [
+    "CholecInstanceSeg",
+    "ROBUST-MIPS",
+    "Endoscapes"
+   ]
+  }
+ }
 }

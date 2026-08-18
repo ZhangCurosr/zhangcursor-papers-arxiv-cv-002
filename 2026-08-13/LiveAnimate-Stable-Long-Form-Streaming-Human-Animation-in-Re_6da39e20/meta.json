@@ -4,5 +4,34 @@
  "title": "LiveAnimate-Stable-Long-Form-Streaming-Human-Animation-in-Re",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e92eeb5b-7e81-421b-a19f-496b2053c368.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e92eeb5b-7e81-421b-a19f-496b2053c368.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:19:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人体动画",
+    "实时流式生成",
+    "长程一致性",
+    "Diffusion Transformer",
+    "自回归蒸馏",
+    "KV cache 管理"
+   ],
+   "field": "视频生成与动画",
+   "innovations": [
+    "两阶段训练管线将14B双向DiT转为3步采样的块因果生成器",
+    "PR-Sink有界缓存机制结合姿态检索实现长程身份/外观稳定",
+    "Block-wise Self-Forcing Distillation在单节点8×80GB GPU上完成14B模型蒸馏"
+   ],
+   "benchmarks": [
+    "自建三分钟基准（24对参考图像+驱动视频）",
+    "ASE",
+    "IQA",
+    "DINO-S",
+    "FID",
+    "V-MAE"
+   ]
+  }
+ }
 }

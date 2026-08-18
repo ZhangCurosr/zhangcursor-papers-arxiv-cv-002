@@ -4,5 +4,32 @@
  "title": "Two-Stage-Deformable-Convolutional-Inverse-Design-of-Nanopho",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 05:40:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/590af880-4b09-4993-bae4-55a50432a8bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/590af880-4b09-4993-bae4-55a50432a8bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:25:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "nanophotonic inverse design",
+    "deformable convolution",
+    "LSGAN",
+    "metamaterial absorber",
+    "spectrum-to-geometry",
+    "adaptive spatial sampling"
+   ],
+   "field": "纳米光子学逆向设计",
+   "innovations": [
+    "提出两阶段可变形卷积解码器实现从80维吸收谱到64×64 MIM谐振器掩模的确定性重建",
+    "在同一解码器与控制训练协议下对Plain/Deform/Involution/Dynamic/ODConv进行受控消融并揭示采样偏移的尺度依赖行为",
+    "用前向代理谱-几何-谱往返验证弥补纯图像域指标对物理一致性判断的不足"
+   ],
+   "benchmarks": [
+    "Yeung et al. MIM dataset (10,000 paired spectra-geometries)",
+    "PSNR/SSIM/MSE",
+    "Dice/IoU/Boundary F-score/HD95/ASD",
+    "Forward-surrogate RMSE/R^2/peak wavelength error"
+   ]
+  }
+ }
 }

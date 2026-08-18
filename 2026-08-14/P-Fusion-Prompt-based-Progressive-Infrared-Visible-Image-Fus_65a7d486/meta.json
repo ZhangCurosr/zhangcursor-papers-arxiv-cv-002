@@ -4,5 +4,33 @@
  "title": "P-Fusion-Prompt-based-Progressive-Infrared-Visible-Image-Fus",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-14 14:48:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/719e0460-cd19-4d54-aabf-131feb0c2174.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-14/719e0460-cd19-4d54-aabf-131feb0c2174.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:28:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "红外-可见光图像融合",
+    "提示学习",
+    "知识蒸馏",
+    "多模态感知",
+    "MoE特征解耦",
+    "无监督融合"
+   ],
+   "field": "多模态图像融合",
+   "innovations": [
+    "提出Teach-to-Fuse范式，将静态先验转化为动态可学习提示引导融合过程",
+    "设计GDER双专家重校准模块，通过门控机制自适应解耦模态冲突特征",
+    "双教师蒸馏内生先验（热显著性+空间质量），无需外部大模型依赖"
+   ],
+   "benchmarks": [
+    "MSRS",
+    "M3FD",
+    "FMB",
+    "RoadScene",
+    "DroneVehicle"
+   ]
+  }
+ }
 }

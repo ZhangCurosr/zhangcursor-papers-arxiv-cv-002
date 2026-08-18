@@ -4,5 +4,28 @@
  "title": "TD-VAD-Breaking-Visual-Dependence-in-Video-Anomaly-Detection",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 14:56:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd6b354e-4f9c-47cb-a898-a9c156861427.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fd6b354e-4f9c-47cb-a898-a9c156861427.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:23:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频异常检测",
+    "文本驱动学习",
+    "vision-free VAD",
+    "CLIP跨模态对齐",
+    "LLM合成数据"
+   ],
+   "field": "视频异常检测",
+   "innovations": [
+    "提出首个仅用LLM生成文本训练的vision-free VAD框架",
+    "设计EC-Attn双尺度因果注意力模块建模时序演化"
+   ],
+   "benchmarks": [
+    "XD-Violence",
+    "UCF-Crime"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Transferable-Above-Ground-Biomass-AGB-Estimation-Model-from",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-13 14:55:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e2fa6c4-8c87-4927-b07d-3b4566f0fbe7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e2fa6c4-8c87-4927-b07d-3b4566f0fbe7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:25:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "above-ground biomass",
+    "GEDI",
+    "Sentinel-1",
+    "Sentinel-2",
+    "ALOS-2",
+    "field calibration",
+    "convolutional neural network",
+    "multi-sensor fusion"
+   ],
+   "field": "遥感生物量估测",
+   "innovations": [
+    "全局-本地分离的可迁移CNN架构，单次训练配合轻量级野外校准实现跨区域高精度AGB制图",
+    "双季节配对训练策略，强迫模型学习持久木质结构信号而非季节性表观变化",
+    "Random Forest集成微调与三阶多项式偏差校正结合的轻量级校准工作流，仅需50+样地即可消除系统性区域偏差"
+   ],
+   "benchmarks": [
+    "GEDI L4A AGBD",
+    "ESA CCI Biomass",
+    "Perekezi Forest Reserve field plots (Malawi)",
+    "Ntchisi and Dzalanyama field plots"
+   ]
+  }
+ }
 }

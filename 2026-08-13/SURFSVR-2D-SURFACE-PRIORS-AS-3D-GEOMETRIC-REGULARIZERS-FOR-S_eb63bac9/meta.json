@@ -4,5 +4,31 @@
  "title": "SURFSVR-2D-SURFACE-PRIORS-AS-3D-GEOMETRIC-REGULARIZERS-FOR-S",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 14:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7046f6a0-a917-4756-b0f0-60b4faf5963f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7046f6a0-a917-4756-b0f0-60b4faf5963f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:22:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse voxel reconstruction",
+    "surface regularization",
+    "2D surface priors",
+    "multi-view geometry",
+    "octree subdivision",
+    "geometric priors"
+   ],
+   "field": "多视图三维重建",
+   "innovations": [
+    "将2D相干表面区域作为显式3D几何正则器，替代像素级监督",
+    "自适应平面/二次逆深度模型选择与跨视图深度融合构建可靠表面先验",
+    "表面类别控制的体素细分/剪枝与晚期共识伪影抑制机制"
+   ],
+   "benchmarks": [
+    "DTU",
+    "Tanks and Temples",
+    "Mip-NeRF 360"
+   ]
+  }
+ }
 }

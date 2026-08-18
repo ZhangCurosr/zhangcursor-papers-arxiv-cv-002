@@ -4,5 +4,10 @@
  "title": "MBA-Multimodal-Benchmark-and-Agents-for-Real-World-Business",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-08-13 14:55:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ca57983-0680-45cf-98a9-996ecdb43705.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6ca57983-0680-45cf-98a9-996ecdb43705.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:20:14",
+  "chunks": 1
+ }
 }

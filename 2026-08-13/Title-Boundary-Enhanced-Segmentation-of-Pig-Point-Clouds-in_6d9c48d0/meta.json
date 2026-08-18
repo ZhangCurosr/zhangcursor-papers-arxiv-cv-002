@@ -4,5 +4,32 @@
  "title": "Title-Boundary-Enhanced-Segmentation-of-Pig-Point-Clouds-in",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 05:40:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/993cf7f8-4df6-4cbf-ada7-4dac6efdc692.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/993cf7f8-4df6-4cbf-ada7-4dac6efdc692.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 02:24:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "point cloud segmentation",
+    "boundary-aware learning",
+    "Octree Transformer",
+    "soft-distance boundary pseudo-label",
+    "bidirectional cross-boundary semantic module",
+    "precision livestock farming",
+    "B-IoU"
+   ],
+   "field": "点云语义分割（农业/生物感知方向）",
+   "innovations": [
+    "提出基于Octree Transformer的边界感知分割框架，联合捕获局部几何与全局语义",
+    "设计软距离边界伪标签（SDBPL），将离散边界监督转化为连续距离衰减概率",
+    "设计双向交叉边界语义模块（BCBA），实现语义与边界特征的双向交互与门控自适应调节"
+   ],
+   "benchmarks": [
+    "Acc (Accuracy)",
+    "mIoU (mean Intersection over Union)",
+    "B-IoU (Boundary Intersection over Union)"
+   ]
+  }
+ }
 }
