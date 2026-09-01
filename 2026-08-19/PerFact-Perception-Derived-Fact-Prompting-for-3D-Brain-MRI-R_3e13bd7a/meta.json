@@ -4,5 +4,34 @@
  "title": "PerFact-Perception-Derived-Fact-Prompting-for-3D-Brain-MRI-R",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-08-19 02:55:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/eeb26315-12ba-4351-b101-0a6ac311e9a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/eeb26315-12ba-4351-b101-0a6ac311e9a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:08:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "脑MRI报告生成",
+    "视觉语言模型",
+    "感知衍生事实",
+    "医学影像",
+    "检索增强生成",
+    "多模态大模型",
+    "放射科报告"
+   ],
+   "field": "医学影像视觉语言模型",
+   "innovations": [
+    "将上游3D感知结果序列化为结构化事实句作为prompt级grounding，解耦感知与生成",
+    "在控制变量下系统证明注入信息类型（而非模型规模）是3D脑MRI报告质量的主导因素",
+    "发现检索在结构化事实存在时冗余，且oracle-gap主要由事实粒度决定而非生成器能力"
+   ],
+   "benchmarks": [
+    "BraTS胶质瘤",
+    "ASNR-MICCAI脑膜瘤",
+    "ISLES 2022卒中",
+    "WMH白质高信号",
+    "RadGenome-Brain MRI"
+   ]
+  }
+ }
 }

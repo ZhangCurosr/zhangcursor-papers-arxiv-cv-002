@@ -4,5 +4,34 @@
  "title": "TEAMS-Text-prompted-spatiotEmporal-dual-heAd-Mamba-Snake",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-19 02:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/e19606df-61b2-43d9-abbe-78dda796569c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/e19606df-61b2-43d9-abbe-78dda796569c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:10:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deep snake",
+    "Mamba",
+    "state space model",
+    "medical image segmentation",
+    "vision-language",
+    "instance segmentation",
+    "contour evolution"
+   ],
+   "field": "医学图像实例分割",
+   "innovations": [
+    "提出时空蛇进化策略SSES，联合建模轮廓点双向空间依赖与历史演化时序动态",
+    "设计轮廓形态感知Mamba CMAM，利用局部几何先验调制结构化状态空间注意力掩码",
+    "构建文本提示协作双头蛇TCDHS，融合任务级/器官级文本引导并通过一致性反馈纠正检测错误"
+   ],
+   "benchmarks": [
+    "MR_AVBCE-Extended",
+    "VerSe",
+    "BTCV",
+    "RAOS",
+    "PanNuke"
+   ]
+  }
+ }
 }

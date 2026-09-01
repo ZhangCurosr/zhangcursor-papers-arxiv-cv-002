@@ -4,5 +4,36 @@
  "title": "Simple-Safe-and-Overlooked-Reclaiming-Sustainable-Domain-Gen",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-20 02:55:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/cf2880ce-c9c5-4122-9908-ae7008c96f17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/cf2880ce-c9c5-4122-9908-ae7008c96f17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:14:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Domain Generalization",
+    "Data Augmentation",
+    "Color Transfer",
+    "Medical Image Analysis",
+    "Sustainable AI",
+    "Interpretable AI"
+   ],
+   "field": "医学图像域泛化",
+   "innovations": [
+    "提出Colorist：基于RGB全局均值-标准差匹配的轻量级训练时数据增强策略，训练-free且完全可解释",
+    "证明原生RGB空间的统计颜色匹配与去相关颜色空间（CIELAB/YCbCr）统计等价，同时将复杂度降至O(N)",
+    "在多模态医学图像域泛化任务上实现平均平衡准确率0.58，较基线提升+13%，全面超越13种深度生成风格迁移方法"
+   ],
+   "benchmarks": [
+    "MedMNIST+",
+    "Camelyon17-WILDS",
+    "Epithelium-Stroma",
+    "Fitzpatrick17k",
+    "DDI",
+    "Peripheral Blood (MLL23/Acevedo20/Matek19)",
+    "Bone Marrow (BMC/Matek19/MLL23)",
+    "Retina (APTOS/DeepDR/IDRiD/MESSIDOR-2)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TINA-Probing-Residual-Visual-Knowledge-in-Unlearned-Diffusio",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-19 02:56:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9fef337f-db31-4d86-8d9f-c6496ef05878.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9fef337f-db31-4d86-8d9f-c6496ef05878.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:11:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "概念擦除",
+    "扩散模型",
+    "机器遗忘",
+    "对抗攻击",
+    "逆过程",
+    "扩散一致性"
+   ],
+   "field": "生成模型安全与鲁棒性",
+   "innovations": [
+    "首次揭示文本中心擦除范式未消除底层视觉知识的根本缺陷",
+    "提出优化型零文本逆过程配合扩散一致性轨迹正则化",
+    "通过边际能量约束抑制虚假轨迹，实现可靠视觉探针"
+   ],
+   "benchmarks": [
+    "裸露概念擦除(I2P)",
+    "艺术风格擦除(Van Gogh)",
+    "物体擦除(Imagenette)",
+    "名人身份擦除(GCD)"
+   ]
+  }
+ }
 }

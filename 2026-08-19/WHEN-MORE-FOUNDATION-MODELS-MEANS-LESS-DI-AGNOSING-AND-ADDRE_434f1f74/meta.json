@@ -4,5 +4,35 @@
  "title": "WHEN-MORE-FOUNDATION-MODELS-MEANS-LESS-DI-AGNOSING-AND-ADDRE",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-19 02:58:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/08dd0e1b-0002-4e53-8f9a-e16f7ac51292.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/08dd0e1b-0002-4e53-8f9a-e16f7ac51292.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:12:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-view learning",
+    "foundation models",
+    "kernel alignment",
+    "feature selection",
+    "encoder fusion",
+    "transfer learning"
+   ],
+   "field": "多视图表示学习与模型选择",
+   "innovations": [
+    "提出视图集组合问题，刻画冻结基础模型融合中的序依赖峰值-下降现象",
+    "KAGES无训练核对齐贪心选择器，具有自适应相关性-冗余性权衡和条件近似保证",
+    "在图像分类、图像检索和冻结LLM融合三个跨模态设定下验证方法通用性"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "Oxford Pets",
+    "DTD",
+    "Country211",
+    "GTSRB",
+    "MMLU-500",
+    "ARC-Challenge-500"
+   ]
+  }
+ }
 }

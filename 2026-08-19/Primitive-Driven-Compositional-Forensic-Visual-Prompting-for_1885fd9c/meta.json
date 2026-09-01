@@ -4,5 +4,36 @@
  "title": "Primitive-Driven-Compositional-Forensic-Visual-Prompting-for",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-19 02:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/4c512950-1cbf-4904-a91b-8bfc281c0cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/4c512950-1cbf-4904-a91b-8bfc281c0cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:09:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Face Anti-Spoofing",
+    "Open-World",
+    "Visual Prompting",
+    "Primitive Composition",
+    "Domain Generalization",
+    "Vision Foundation Model"
+   ],
+   "field": "开放世界活体检测",
+   "innovations": [
+    "纯视觉空间中可复用微法医基元的补丁感知精炼与动态路由组合机制",
+    "摒弃文本编码器，在冻结ViT上学习输入自适应的组合法医视觉提示",
+    "将异构攻击建模为共享证据单元的输入依赖加权组合而非固定类别模板"
+   ],
+   "benchmarks": [
+    "CASIA-MFSD",
+    "Replay-Attack",
+    "MSU-MFSD",
+    "OULU-NPU",
+    "HQ-WMCA",
+    "SiW-Mv2",
+    "CASIA-SURF",
+    "CASIA-SURF CeFA"
+   ]
+  }
+ }
 }

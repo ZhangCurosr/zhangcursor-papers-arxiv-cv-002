@@ -4,5 +4,31 @@
  "title": "TF-CADE-Foreground-Concentrated-Text-Video-Alignment-for-Zer",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-19 14:31:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/36c2899b-f9ce-4cce-ac5b-e049466bcd4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/36c2899b-f9ce-4cce-ac5b-e049466bcd4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:12:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Zero-Shot Temporal Action Detection",
+    "Text-Video Alignment",
+    "Vision-Language Models",
+    "Foreground Extraction",
+    "Cross-Modal Attention",
+    "Open-Vocabulary Video Understanding"
+   ],
+   "field": "零样本时序动作检测",
+   "innovations": [
+    "ACA模块通过高斯平滑确定性图实现文本与前景区域的显式对齐",
+    "CCR策略以视频级相似度先验修正片段级分类置信度",
+    "首次系统揭示并解决foreground-free ZSTAD的文本无关预测缺陷"
+   ],
+   "benchmarks": [
+    "THUMOS14",
+    "ActivityNet v1.3",
+    "HACS-Segment"
+   ]
+  }
+ }
 }

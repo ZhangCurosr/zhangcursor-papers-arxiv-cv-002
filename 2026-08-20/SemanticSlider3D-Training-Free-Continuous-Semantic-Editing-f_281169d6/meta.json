@@ -4,5 +4,31 @@
  "title": "SemanticSlider3D-Training-Free-Continuous-Semantic-Editing-f",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-20 03:00:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/6087e5cf-37b7-4b02-8894-7074a0de7a6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/6087e5cf-37b7-4b02-8894-7074a0de7a6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:14:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Semantic Editing",
+    "Continuous Control",
+    "Training-Free",
+    "Slider Interface",
+    "Flow Matching",
+    "3D Generation",
+    "HCI"
+   ],
+   "field": "3D内容生成与交互",
+   "innovations": [
+    "首次在3D潜空间直接实现training-free连续语义滑块编辑",
+    "提出自适应边界搜索+感知距离映射解决3D滑块感知不均匀问题",
+    "证明direct latent steering优于2D-to-3D投影管线"
+   ],
+   "benchmarks": [
+    "50个自定义3D对象-属性对",
+    "Concept Sliders + SAM 3D基线"
+   ]
+  }
+ }
 }

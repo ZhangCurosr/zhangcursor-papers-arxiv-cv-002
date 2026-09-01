@@ -4,5 +4,34 @@
  "title": "Plug-and-Play-Trafic-Element-Awareness-for-End-to-End-Autono",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-19 02:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/11f00e83-df0d-4c9d-87e5-f9d51910b6bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/11f00e83-df0d-4c9d-87e5-f9d51910b6bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:09:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端自动驾驶",
+    "交通元素感知",
+    "即插即用模块",
+    "拓扑推理",
+    "语言条件",
+    "NAVSIM",
+    "开放循环评估",
+    "闭环评估"
+   ],
+   "field": "端到端自动驾驶感知与规划",
+   "innovations": [
+    "首次系统性量化交通元素(TE)对端到端自动驾驶性能的影响，并提供即插即用集成方案",
+    "提出轻量级的3D TE监督与语言引导的ego-centric拓扑条件机制，跨多种规划器范式验证有效性",
+    "在NAVSIM-v2等挑战性基准上，结合大规模数据引擎取得新SOTA，显著提升规则合规性与安全性"
+   ],
+   "benchmarks": [
+    "nuScenes",
+    "NAVSIM-v1",
+    "NAVSIM-v2",
+    "Bench2Drive"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SpurCon-Weighted-Supervised-Contrastive-Learning-for-Mitigat",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-19 02:58:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/11e93d1e-e4a6-463d-a83f-ce1d7da8e1f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/11e93d1e-e4a6-463d-a83f-ce1d7da8e1f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:09:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spurious correlation",
+    "contrastive learning",
+    "medical imaging",
+    "robustness",
+    "few-shot learning",
+    "worst-group accuracy"
+   ],
+   "field": "医学图像分析",
+   "innovations": [
+    "加权监督对比损失WtSupCon按元数据-虚假标签组合分配差异化权重",
+    "Few-shot原型匹配方法Pick-and-Predict高效预测虚假标签",
+    "仅训练轻量投影头结合预训练编码器实现高效虚假缓解"
+   ],
+   "benchmarks": [
+    "Waterbirds",
+    "CheXpert-Pneumothorax",
+    "ISIC 2020"
+   ]
+  }
+ }
 }

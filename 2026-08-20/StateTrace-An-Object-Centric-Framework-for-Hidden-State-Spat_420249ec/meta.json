@@ -4,5 +4,31 @@
  "title": "StateTrace-An-Object-Centric-Framework-for-Hidden-State-Spat",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-20 02:59:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/3af99366-cd37-414e-b934-0c4d009fd5f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/3af99366-cd37-414e-b934-0c4d009fd5f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:14:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Understanding",
+    "VLM",
+    "Hidden-State Reasoning",
+    "Spatiotemporal Reasoning",
+    "Object-Centric",
+    "Long Video QA"
+   ],
+   "field": "视频理解与时空推理",
+   "innovations": [
+    "提出StateTrace对象中心框架，构建可复用时空状态记忆实现隐藏状态显式推理",
+    "构建HSR-Bench诊断基准，专门评测遮挡/不可见场景下的状态持久性推理能力"
+   ],
+   "benchmarks": [
+    "HSR-Bench",
+    "MLVU",
+    "VideoMME",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

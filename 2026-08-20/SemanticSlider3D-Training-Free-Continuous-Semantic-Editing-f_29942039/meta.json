@@ -4,5 +4,30 @@
  "title": "SemanticSlider3D-Training-Free-Continuous-Semantic-Editing-f",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-20 14:33:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/6087e5cf-37b7-4b02-8894-7074a0de7a6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/6087e5cf-37b7-4b02-8894-7074a0de7a6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:14:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Semantic Editing",
+    "Continuous Control",
+    "Training-Free",
+    "Flow Matching",
+    "Slider Interface",
+    "3D Generation"
+   ],
+   "field": "3D 生成与编辑",
+   "innovations": [
+    "在 3D 潜在空间直接计算训练无关的编辑方向，避免 2D-3D 级联保真度损失",
+    "引入匈牙利算法对齐 3D 变体视角后计算感知距离，实现准确的滑块位置映射",
+    "自适应边界搜索结合 VLM 质量检查，自动生成个性化连续属性范围"
+   ],
+   "benchmarks": [
+    "Concept Sliders + SAM 3D (baseline)",
+    "50 object-attribute pairs on Objaverse/3D-FUTURE"
+   ]
+  }
+ }
 }

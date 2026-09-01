@@ -4,5 +4,31 @@
  "title": "SPARC-Slice-to-volume-Pipeline-for-Automated-Reconstruction",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-20 02:58:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/71aefb7e-654c-455f-92e0-6bfdeec6fcad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/71aefb7e-654c-455f-92e0-6bfdeec6fcad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:12:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fetal cardiac MRI",
+    "slice-to-volume reconstruction",
+    "Doppler gating",
+    "deep learning",
+    "domain adaptation",
+    "motion correction"
+   ],
+   "field": "医学影像重建与分析",
+   "innovations": [
+    "首个针对Doppler-gated fCMR的端到端自动化SVR流水线",
+    "切片级时空前向模型实现十倍加速重建",
+    "结合迁移学习与Transformer的解剖自动重定向策略"
+   ],
+   "benchmarks": [
+    "121例临床队列端到端评估",
+    "leave-stack-out泛化测试",
+    "inter-rater一致性对比"
+   ]
+  }
+ }
 }

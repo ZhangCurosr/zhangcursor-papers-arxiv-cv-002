@@ -4,5 +4,34 @@
  "title": "NGS-MARKER-ROBUST-NATIVE-WATERMARKING-FOR-3D-GAUSSIAN-SPLATT",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-19 02:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cb04f48e-86c4-479c-8226-5adee2ff617f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cb04f48e-86c4-479c-8226-5adee2ff617f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:09:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Native Watermarking",
+    "Partial Infringement",
+    "Copyright Protection",
+    "PointTransformer",
+    "Gradient-based Optimization",
+    "Multimodal Watermarking"
+   ],
+   "field": "3D内容版权保护与水印",
+   "innovations": [
+    "首个3DGS原生局部水印框架，直接在高斯原语上嵌入水印实现任意区域可解码",
+    "梯度驱动的渐进式嵌入策略，避免一次性注入导致的边界不一致与累积畸变",
+    "支持位流与图像多模态水印，且与间接水印方法无缝协同的混合保护机制"
+   ],
+   "benchmarks": [
+    "Blender Dataset",
+    "LLFF Dataset",
+    "Mip-NeRF 360",
+    "D-NeRF Dynamic Scenes",
+    "Tanks and Temples Complex Scenes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SPK-Eliciting-Structured-Prior-Knowledge-for-Interpretable-O",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-20 14:33:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/87e581b7-1170-4fdd-abe9-48526579ce9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/87e581b7-1170-4fdd-abe9-48526579ce9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:13:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OoD 检测",
+    "分布外幻觉",
+    "结构化先验知识",
+    "语义先验",
+    "可解释 AI",
+    "目标检测可靠性"
+   ],
+   "field": "目标检测分布外识别",
+   "innovations": [
+    "提出 SPK 框架，从预训练检测器中显式提炼语义/几何/上下文先验并组织为五维可解释表征",
+    "设计自动化部件级语义标注管线，结合 GPT-5/OWLv2/SAM2 生成细粒度诊断监督",
+    "在不修改检测器参数的条件下，SPK+iForest 超越需微调的 SOTA 方法 Proximal-OoD"
+   ],
+   "benchmarks": [
+    "PASCAL-VOC",
+    "BDD-100K",
+    "MS-COCO",
+    "OpenImages"
+   ]
+  }
+ }
 }

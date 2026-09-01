@@ -4,5 +4,32 @@
  "title": "Where-a-New-Concept-Must-Enter-Entry-Point-Gates-Cross-Task",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-19 02:58:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/303646e9-c1f7-4ae8-8127-ff7198a39ae8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/303646e9-c1f7-4ae8-8127-ff7198a39ae8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:11:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unified Multimodal Models",
+    "Cross-Task Transfer",
+    "Entry-Point Window",
+    "Semantic Anchoring",
+    "Concept Injection",
+    "Representation Alignment"
+   ],
+   "field": "多模态统一模型架构与训练",
+   "innovations": [
+    "无污染跨任务测量协议分离架构通道与数据混淆",
+    "发现入口点深度与语义格式共同决定跨任务可用性",
+    "零生成梯度中栈对齐注入仅需0.1% GenEval损失"
+   ],
+   "benchmarks": [
+    "Objaverse",
+    "GenEval",
+    "DINOv2 Identity Retrieval",
+    "CLIP Text-Image Agreement"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Where-a-New-Concept-Must-Enter-Entry-Point-Gates-Cross-Task",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-08-19 14:30:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/303646e9-c1f7-4ae8-8127-ff7198a39ae8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/303646e9-c1f7-4ae8-8127-ff7198a39ae8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:12:17",
+  "chunks": 1
+ }
 }

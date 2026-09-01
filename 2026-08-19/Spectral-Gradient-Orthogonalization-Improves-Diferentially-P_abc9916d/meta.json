@@ -4,5 +4,33 @@
  "title": "Spectral-Gradient-Orthogonalization-Improves-Diferentially-P",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-19 14:31:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/94069ce3-ccc9-4e9c-a1e8-2dd5602f0b27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/94069ce3-ccc9-4e9c-a1e8-2dd5602f0b27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "spectral orthogonalization",
+    "gradient processing",
+    "large-batch training",
+    "polar decomposition",
+    "phase transition",
+    "DP-SGD"
+   ],
+   "field": "差分隐私与优化",
+   "innovations": [
+    "基于 Wedin 定理推导谱恢复阈值，揭示 SNR 驱动的相变行为",
+    "引入 Newton-Schulz 极分解作为零隐私成本的后处理步骤 DP-Muon",
+    "证明谱正交化与时间滤波互补，组合达到当前最优 CIFAR-10 隐私精度"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "SVHN",
+    "ImageNet-1k"
+   ]
+  }
+ }
 }

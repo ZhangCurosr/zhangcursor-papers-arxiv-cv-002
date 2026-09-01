@@ -4,5 +4,33 @@
  "title": "SPK-Eliciting-Structured-Prior-Knowledge-for-Interpretable-O",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-20 02:56:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/87e581b7-1170-4fdd-abe9-48526579ce9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/87e581b7-1170-4fdd-abe9-48526579ce9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 06:13:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Out-of-Distribution Detection",
+    "Object Detection",
+    "Structured Prior Knowledge",
+    "Interpretable AI",
+    "Hallucination Mitigation",
+    "Concept-based Learning"
+   ],
+   "field": "目标检测可靠性与离分布检测",
+   "innovations": [
+    "主动提取预训练检测器隐式先验构建五维结构化表示",
+    "三损失联合优化实现部件级语义概念解码"
+   ],
+   "benchmarks": [
+    "PASCAL-VOC",
+    "BDD-100K",
+    "Objects365",
+    "DTD",
+    "MS-COCO",
+    "OpenImages"
+   ]
+  }
+ }
 }
