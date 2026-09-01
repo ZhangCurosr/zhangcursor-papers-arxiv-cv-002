@@ -4,5 +4,33 @@
  "title": "Pointing-VLA-Typed-Spatial-Grounding-Interfaces-for-Vision-L",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-25 14:42:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3ef35f1-5fbf-41f3-b5fb-af77541e534d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a3ef35f1-5fbf-41f3-b5fb-af77541e534d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "Spatial Grounding",
+    "Embodied AI",
+    "Robotic Manipulation",
+    "Interface Design",
+    "Multimodal Learning"
+   ],
+   "field": "具身智能与机器人操作",
+   "innovations": [
+    "将具身接地形式化为类型化接口预测，替代不稳定的文本坐标生成",
+    "设计 Pointing/OFG/VTG 专用隐状态读出头，直接输出机器人可执行的几何目标",
+    "提出 OFG-PICK/Pointing-PLACE 显式部署合同，实现阶段对齐的稳定执行"
+   ],
+   "benchmarks": [
+    "Bridge",
+    "WidowX",
+    "VABench",
+    "Part-Affordance-2K",
+    "NORA-1.5"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Rubrics-as-Visual-Repair-Context-for-Self-Evolving-UI-to-Cod",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-26 14:41:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a456e3dd-c98f-4098-bd9f-c9af8f53c9a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a456e3dd-c98f-4098-bd9f-c9af8f53c9a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:55:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "UI-to-code",
+    "vision-language models",
+    "self-evolution",
+    "rubric-guided optimization",
+    "visual repair coupling",
+    "test-time improvement"
+   ],
+   "field": "多模态代码生成",
+   "innovations": [
+    "提出视觉修复耦合概念解释UI-to-code自进化不稳定",
+    "设计RubSE框架通过EVOLVE-SELECT-HISTORY循环实现结构化修复上下文",
+    "验证强rubric生成器可向弱代码改进器迁移修复引导"
+   ],
+   "benchmarks": [
+    "UI2Code-Real",
+    "Design2Code",
+    "Design2Code-HARD"
+   ]
+  }
+ }
 }

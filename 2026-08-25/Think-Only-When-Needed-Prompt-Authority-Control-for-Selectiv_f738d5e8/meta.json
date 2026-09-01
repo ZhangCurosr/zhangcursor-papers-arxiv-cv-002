@@ -4,5 +4,30 @@
  "title": "Think-Only-When-Needed-Prompt-Authority-Control-for-Selectiv",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-25 02:59:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/278611b5-2f84-4069-8bf8-8867d298d98a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/278611b5-2f84-4069-8bf8-8867d298d98a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt authority",
+    "VLA",
+    "frozen policy",
+    "prompt-form collapse",
+    "selective intervention",
+    "retrieval-augmented robotics"
+   ],
+   "field": "vision-language-action models",
+   "innovations": [
+    "Separate candidate generation from prompt authorization via a deterministic compatibility-reranked capsule and Top-2 fail-closed cascade",
+    "Identify and mitigate prompt-form collapse in frozen VLAs through exact Base-prompt restoration",
+    "Demonstrate zero-parameter incremental gains on LIBERO-Plus (+3.61) and physical PiPER (+26.00) without retraining"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "PiPER physical manipulation"
+   ]
+  }
+ }
 }

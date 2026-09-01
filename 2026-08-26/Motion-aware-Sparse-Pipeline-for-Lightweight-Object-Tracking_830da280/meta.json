@@ -4,5 +4,10 @@
  "title": "Motion-aware-Sparse-Pipeline-for-Lightweight-Object-Tracking",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-26 03:02:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ad28b60-c032-4497-bbe2-526cebbc4b15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ad28b60-c032-4497-bbe2-526cebbc4b15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:47",
+  "chunks": 1
+ }
 }

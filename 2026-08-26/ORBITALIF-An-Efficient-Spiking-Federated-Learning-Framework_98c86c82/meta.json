@@ -4,5 +4,10 @@
  "title": "ORBITALIF-An-Efficient-Spiking-Federated-Learning-Framework",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-26 03:02:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ab7c6e3-619d-4bf6-baec-2dcc6a7c2870.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3ab7c6e3-619d-4bf6-baec-2dcc6a7c2870.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:53:22",
+  "chunks": 1
+ }
 }

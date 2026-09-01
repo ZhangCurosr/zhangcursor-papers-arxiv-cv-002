@@ -4,5 +4,30 @@
  "title": "Phase-Aligned-Finite-Fourier-Periodic-Deformation-for-4D-Med",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-26 03:07:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ecc6d3a-7b54-4e4c-81be-ce5c72b3fc4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ecc6d3a-7b54-4e4c-81be-ce5c72b3fc4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:53:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D医学图像插值",
+    "连续形变建模",
+    "有限傅里叶参数化",
+    "相位对齐时间重参数化",
+    "周期性运动建模",
+    "医学图像合成"
+   ],
+   "field": "4D医学图像插值与连续形变建模",
+   "innovations": [
+    "将有限傅里叶基直接用于相位条件速度场参数化，将周期性先验内嵌于变形表示空间",
+    "提出相位对齐时间重parameterization机制，按形变复杂度自适应重采样查询时间",
+    "双向端点形变积分合成结合谱正则与循环一致性约束，实现解剖学一致的连续插值"
+   ],
+   "benchmarks": [
+    "ACDC",
+    "4D-Lung"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "ReGround-Surg-Reliability-Guided-Anchor-Grounding-for-Referr",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-26 03:02:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cbbe6ad6-af8f-4f13-873f-a5f1ccc092d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cbbe6ad6-af8f-4f13-873f-a5f1ccc092d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:54:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Referring Surgical Video Segmentation",
+    "SAM2",
+    "Cross-Modal Grounding",
+    "Reliability Gating",
+    "Surgical Video Understanding",
+    "Vision-Language Fusion",
+    "Anchor Grounding"
+   ],
+   "field": "手术视频跨模态分割",
+   "innovations": [
+    "提出共享文本条件可靠性图的轻量级锚点定位框架，同时调制T→V和V→T双向注意力",
+    "设计GSA与RW-V2T双模块在可靠性图引导下分别增强视觉区域和聚合视觉tokens",
+    "通过零/恒等初始化实现0.5M即插即用增强，冻结SAM2主干且不影响预训练表示"
+   ],
+   "benchmarks": [
+    "Ref-EndoVis17",
+    "Ref-EndoVis18 (tool)",
+    "Ref-EndoVis18 (tissue)"
+   ]
+  }
+ }
 }

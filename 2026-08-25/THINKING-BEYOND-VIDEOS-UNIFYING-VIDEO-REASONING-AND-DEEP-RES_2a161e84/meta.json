@@ -4,5 +4,30 @@
  "title": "THINKING-BEYOND-VIDEOS-UNIFYING-VIDEO-REASONING-AND-DEEP-RES",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-25 14:42:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1e6fb148-f838-4b22-a62d-abf3d9c16e3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1e6fb148-f838-4b22-a62d-abf3d9c16e3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Deep Research",
+    "Thinking-with-Videos",
+    "Multimodal Agent",
+    "Reinforcement Learning",
+    "Video Reasoning",
+    "Tool-Augmented MLLM"
+   ],
+   "field": "多模态视频理解与Agent",
+   "innovations": [
+    "提出VideoRover统一框架，实现视频观察与外部检索的双向迭代协调",
+    "构建自动化数据合成管线，生成26K SFT轨迹与3K RL困难实例",
+    "设计GSPO强化学习策略，通过轨迹级优势估计学习长 horizon 工具组合决策"
+   ],
+   "benchmarks": [
+    "VideoDR",
+    "VideoRover-Bench"
+   ]
+  }
+ }
 }

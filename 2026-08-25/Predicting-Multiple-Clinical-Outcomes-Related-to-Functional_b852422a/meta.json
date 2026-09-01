@@ -4,5 +4,33 @@
  "title": "Predicting-Multiple-Clinical-Outcomes-Related-to-Functional",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-25 02:59:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b202074b-a286-4a12-b8ae-d4e72b564caf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b202074b-a286-4a12-b8ae-d4e72b564caf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-output regression",
+    "table deep learning",
+    "aging and rehabilitation",
+    "social isolation",
+    "functional recovery",
+    "wearable sensors",
+    "clinical prediction",
+    "MAISON dataset"
+   ],
+   "field": "老龄化与健康人工智能",
+   "innovations": [
+    "首次将多模态传感器数据与五项临床结局的预测构建为多输出回归问题，显式建模功能恢复与社会隔离的联合预测",
+    "系统比较传统机器学习与表格深度学习在单输出与多输出设置下的性能，证明DL模型在多输出场景下的优越性",
+    "通过SHAP特征重要性分析揭示行为时间模式特征比活动量特征更具预测价值"
+   ],
+   "benchmarks": [
+    "MAISON-LLF dataset",
+    "Leave-one-person-out cross-validation",
+    "Leave-one-week-out cross-validation"
+   ]
+  }
+ }
 }

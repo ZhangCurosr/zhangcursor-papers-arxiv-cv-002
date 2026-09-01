@@ -4,5 +4,33 @@
  "title": "RefineRank-Joint-Box-Refinement-and-Ranking-for-Surgical-Spa",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-26 14:42:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/6ac6ccec-4234-4af4-bed9-6b60fcb760a9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/6ac6ccec-4234-4af4-bed9-6b60fcb760a9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:54:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spatio-temporal Grounding",
+    "Surgical Video",
+    "Vision-Language Model",
+    "Box Refinement",
+    "Open-set Detection",
+    "MedVidBench",
+    "RefineRank"
+   ],
+   "field": "手术视频时空定位",
+   "innovations": [
+    "以候选框为桥接的冻结双骨干轻量管线，RefineNet仅125万参数联合预测有界修正与质量分数",
+    "原始与修正框联合池配合无参数贪心多样性过滤与argmax解码",
+    "将候选Oracle解耦用于分离定位潜力与排序能力的系统评估"
+   ],
+   "benchmarks": [
+    "MedVidBench Official Rankings (Verified)",
+    "CholecTrack20",
+    "CoPESD",
+    "EgoSurgery"
+   ]
+  }
+ }
 }

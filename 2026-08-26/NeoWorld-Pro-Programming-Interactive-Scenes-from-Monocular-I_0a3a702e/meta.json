@@ -4,5 +4,31 @@
  "title": "NeoWorld-Pro-Programming-Interactive-Scenes-from-Monocular-I",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-26 03:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/aa256443-9df6-472d-a780-0969d579f2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/aa256443-9df6-472d-a780-0969d579f2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "monocular scene reconstruction",
+    "embodied AI",
+    "physics-in-the-loop",
+    "procedural programming",
+    "articulated object",
+    "MLLM",
+    "URDF generation"
+   ],
+   "field": "Sim-to-Real Transfer",
+   "innovations": [
+    "将单目场景重建重新定义为MLLM驱动的编程合成，替代密集几何生成",
+    "提出对象级与场景级两级物理闭环优化框架，确保仿真就绪性",
+    "构建包含铰接物体与交互任务的专用仿真基准，量化评估场景物理一致性"
+   ],
+   "benchmarks": [
+    "自制90类别30场景USD仿真基准",
+    "单物体URDF重建基准"
+   ]
+  }
+ }
 }

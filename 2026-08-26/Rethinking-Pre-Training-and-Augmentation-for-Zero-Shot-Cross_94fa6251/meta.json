@@ -4,5 +4,28 @@
  "title": "Rethinking-Pre-Training-and-Augmentation-for-Zero-Shot-Cross",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-26 03:06:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bf455798-cc72-4786-a265-859fd90d2ba3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/bf455798-cc72-4786-a265-859fd90d2ba3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:55:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨城目标检测",
+    "零样本域泛化",
+    "灰度世界增强",
+    "类别无关蒸馏",
+    "隐私保护学习"
+   ],
+   "field": "跨域目标检测",
+   "innovations": [
+    "类别无关对象性蒸馏：将异构标签坍塌为二进制前景标识以解耦几何与语义学习",
+    "Grayworld增强：全程灰度一致性变换强制模型学习形状先验而非易变色彩捷径"
+   ],
+   "benchmarks": [
+    "AIC2026-Track 6",
+    "Hafnia Dataset"
+   ]
+  }
+ }
 }

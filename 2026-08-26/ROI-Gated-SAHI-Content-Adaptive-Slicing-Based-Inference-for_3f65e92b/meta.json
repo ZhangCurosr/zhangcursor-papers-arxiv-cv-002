@@ -4,5 +4,31 @@
  "title": "ROI-Gated-SAHI-Content-Adaptive-Slicing-Based-Inference-for",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-26 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/422c3561-4fc9-468c-ad71-a4d133ca0944.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/422c3561-4fc9-468c-ad71-a4d133ca0944.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:54:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "object detection",
+    "SAHI",
+    "ROI-gating",
+    "inference efficiency",
+    "small object detection",
+    "edge computing",
+    "YOLO"
+   ],
+   "field": "高效目标检测与边缘推理",
+   "innovations": [
+    "提出推理阶段可插拔的ROI-Gated SAHI框架，仅在前景区域进行切片细化",
+    "引入基于ROI覆盖率的自适应路由回退策略以提升密集场景稳健性",
+    "在两阶段fast-slow架构下实现稀疏场景最高6.90×加速与平均1.02×加速"
+   ],
+   "benchmarks": [
+    "COCO128 full split",
+    "3-image sparse/moderate/dense case study"
+   ]
+  }
+ }
 }

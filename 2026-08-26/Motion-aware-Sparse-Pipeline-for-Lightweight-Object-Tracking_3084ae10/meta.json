@@ -4,5 +4,35 @@
  "title": "Motion-aware-Sparse-Pipeline-for-Lightweight-Object-Tracking",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-26 14:42:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ad28b60-c032-4497-bbe2-526cebbc4b15.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/5ad28b60-c032-4497-bbe2-526cebbc4b15.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Lightweight Object Tracking",
+    "Token Sparsification",
+    "Motion Prior",
+    "Vision Transformer",
+    "Edge Deployment",
+    "Sparse Prediction Head"
+   ],
+   "field": "轻量级视觉目标追踪",
+   "innovations": [
+    "在编码器第一层注入运动先验实现早期稳定 token 剪枝",
+    "设计 score-first regress-once 原生稀疏预测头消除密集 reshape 瓶颈",
+    "在边缘设备上实现速度-精度的帕累托最优，MaST-tiny 达 152 FPS 且精度创轻量 SOTA"
+   ],
+   "benchmarks": [
+    "LaSOT",
+    "TrackingNet",
+    "GOT-10k",
+    "LaSOT_ext",
+    "UAV123",
+    "NFS",
+    "VastTrack"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "ReGround-Surg-Reliability-Guided-Anchor-Grounding-for-Referr",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-26 14:42:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cbbe6ad6-af8f-4f13-873f-a5f1ccc092d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/cbbe6ad6-af8f-4f13-873f-a5f1ccc092d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:54:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Referring Surgical Video Segmentation",
+    "SAM2",
+    "Reliability Gating",
+    "Cross-Modal Grounding",
+    "Anchor Selection",
+    "Surgical Instrument Segmentation"
+   ],
+   "field": "医学视频理解与跨模态定位",
+   "innovations": [
+    "首次系统性量化两阶段指称分割中初始锚点定位的瓶颈并证明跟踪无法补偿其误差",
+    "提出共享文本条件可靠性图的双模块（GSA+RW-V2T）协同可靠性感知机制",
+    "零/恒等初始化适配器的最小扰动设计保障预训练表示稳定"
+   ],
+   "benchmarks": [
+    "Ref-EndoVis17",
+    "Ref-EndoVis18"
+   ]
+  }
+ }
 }

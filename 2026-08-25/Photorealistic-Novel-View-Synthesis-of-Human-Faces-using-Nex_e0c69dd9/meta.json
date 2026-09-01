@@ -4,5 +4,29 @@
  "title": "Photorealistic-Novel-View-Synthesis-of-Human-Faces-using-Nex",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-25 14:42:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fbaa7d3-304a-43aa-9453-df92373f14ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2fbaa7d3-304a-43aa-9453-df92373f14ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:50:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "新视角合成",
+    "自回归Transformer",
+    "人脸重建",
+    "3D高斯",
+    "低数据收敛"
+   ],
+   "field": "3D人脸重建与渲染",
+   "innovations": [
+    "三阶段训练策略实现低数据高分辨率收敛",
+    "next-scale自回归架构的多视角同时生成",
+    "无需2D预训练的高效人脸新视角合成"
+   ],
+   "benchmarks": [
+    "PSGS",
+    "Ava-256"
+   ]
+  }
+ }
 }

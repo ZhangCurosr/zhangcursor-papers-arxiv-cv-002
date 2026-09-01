@@ -4,5 +4,10 @@
  "title": "Predicting-Multiple-Clinical-Outcomes-Related-to-Functional",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-25 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b202074b-a286-4a12-b8ae-d4e72b564caf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/b202074b-a286-4a12-b8ae-d4e72b564caf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:15",
+  "chunks": 1
+ }
 }

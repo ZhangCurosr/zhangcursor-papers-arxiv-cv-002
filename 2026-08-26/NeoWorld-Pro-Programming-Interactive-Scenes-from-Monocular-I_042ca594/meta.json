@@ -4,5 +4,30 @@
  "title": "NeoWorld-Pro-Programming-Interactive-Scenes-from-Monocular-I",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-26 14:42:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/aa256443-9df6-472d-a780-0969d579f2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/aa256443-9df6-472d-a780-0969d579f2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "monocular reconstruction",
+    "articulated asset",
+    "MLLM",
+    "physics-in-the-loop",
+    "URDF",
+    "procedural programming"
+   ],
+   "field": "具身智能仿真资产生成",
+   "innovations": [
+    "将单目场景重建重构为 MLLM 驱动的程序化建模",
+    "两级物理在环闭环精炼机制",
+    "CEM 无导数优化联合物理与语义奖励"
+   ],
+   "benchmarks": [
+    "90-class articulated object benchmark",
+    "30-USD scene benchmark"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Think-Only-When-Needed-Prompt-Authority-Control-for-Selectiv",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-25 14:42:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2012d388-4fe7-4a7c-bdfc-60aa77a1aaab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "prompt authority",
+    "frozen policy",
+    "retrieval augmentation",
+    "prompt-form collapse",
+    "selective slow-path",
+    "fail-closed cascade"
+   ],
+   "field": "Vision-Language-Action 机器人控制接口与鲁棒性",
+   "innovations": [
+    "将候选检索与 prompt 授权解耦，提出冻结 VLA 的可审计 prompt-authority 接口",
+    "揭示 prompt-form collapse 并验证 exact Base restoration 的必要性",
+    "以固定兼容规则与 Top-2 fail-closed 门控在不重训练策略下提升仿真与实物成功率"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "PiPER/π0.5 物理任务"
+   ]
+  }
+ }
 }

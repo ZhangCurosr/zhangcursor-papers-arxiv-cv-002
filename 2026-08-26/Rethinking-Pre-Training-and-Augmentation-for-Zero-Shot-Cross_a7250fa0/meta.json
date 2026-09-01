@@ -4,5 +4,10 @@
  "title": "Rethinking-Pre-Training-and-Augmentation-for-Zero-Shot-Cross",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-26 14:41:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/921ab0b3-406c-4489-bc17-5361b66728a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/921ab0b3-406c-4489-bc17-5361b66728a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:55:54",
+  "chunks": 1
+ }
 }

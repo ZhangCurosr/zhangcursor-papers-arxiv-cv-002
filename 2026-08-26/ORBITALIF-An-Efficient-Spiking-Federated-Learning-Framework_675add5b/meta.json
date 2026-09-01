@@ -4,5 +4,28 @@
  "title": "ORBITALIF-An-Efficient-Spiking-Federated-Learning-Framework",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-26 14:41:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ab419757-b42d-4d88-b634-7b2eccf8ef42.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ab419757-b42d-4d88-b634-7b2eccf8ef42.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:52:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spiking Neural Network",
+    "Federated Learning",
+    "Cloud Removal",
+    "LEO Satellite",
+    "Neuromorphic Computing"
+   ],
+   "field": "星载智能遥感",
+   "innovations": [
+    "首个星载SNN联邦云去除框架ORBITALIF",
+    "AGFM自适应门控融合替代刚性跳接",
+    "SHAM联合时间-频域注意力增强SNN表征"
+   ],
+   "benchmarks": [
+    "CUHK-CR"
+   ]
+  }
+ }
 }

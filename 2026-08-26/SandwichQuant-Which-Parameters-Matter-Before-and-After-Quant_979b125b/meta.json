@@ -4,5 +4,33 @@
  "title": "SandwichQuant-Which-Parameters-Matter-Before-and-After-Quant",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-26 14:41:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c249586f-be89-4caf-95db-337604677fcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c249586f-be89-4caf-95db-337604677fcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:56:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "normalization affine",
+    "parameter subspace",
+    "large language model compression",
+    "low-bit quantization",
+    "quantization correction"
+   ],
+   "field": "模型量化与压缩",
+   "innovations": [
+    "提出参数子空间视角的系统化量化校正分析框架，在匹配预算下证明归一化仿射子空间校正杠杆率最高",
+    "提出 SandwichQuant 两阶段仿射校正方法（PTQ 前预处理 + PTQ 后残差校正），零额外推理开销",
+    "建立任务感知误差几何与结构化源干预的诊断工具，区分可校正响应失配与不可逆信息损失"
+   ],
+   "benchmarks": [
+    "WikiText-2 perplexity",
+    "C4 perplexity",
+    "PIQA/ARC-Easy/ARC-Challenge/HellaSwag/WinoGrande/BoolQ zero-shot accuracy",
+    "ImageNet-1K top-1 accuracy",
+    "Cityscapes mIoU"
+   ]
+  }
+ }
 }

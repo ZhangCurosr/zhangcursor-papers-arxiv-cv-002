@@ -4,5 +4,10 @@
  "title": "Representation-Learning-in-Difusion-and-Flow-based-Model-An",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-26 03:06:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a1988b2b-c634-477a-a413-e26c373d88aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a1988b2b-c634-477a-a413-e26c373d88aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:55:57",
+  "chunks": 4
+ }
 }

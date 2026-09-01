@@ -4,5 +4,32 @@
  "title": "MIVIFI-Bridging-Perspective-and-Fisheye-Domains-for-Training",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-25 14:43:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0e45ccd9-3b6c-45f5-b85d-de38f8f0897f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0e45ccd9-3b6c-45f5-b85d-de38f8f0897f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:50:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "鱼眼图像生成",
+    "多视角生成",
+    "扩散模型",
+    "跨域学习",
+    "语义占据网格",
+    "等距柱状投影",
+    "自动驾驶数据集"
+   ],
+   "field": "自动驾驶感知数据生成",
+   "innovations": [
+    "首次提出基于3D语义占据网格的可控多视角鱼眼图像生成任务",
+    "提出SyntheOcc-FE适配鱼眼镜头几何特征",
+    "提出MIVIFI通过ERP实现鱼眼与透视域跨域联合训练与场景编辑"
+   ],
+   "benchmarks": [
+    "KITTI-360",
+    "nuScenes",
+    "COCO mAP检测协议"
+   ]
+  }
+ }
 }

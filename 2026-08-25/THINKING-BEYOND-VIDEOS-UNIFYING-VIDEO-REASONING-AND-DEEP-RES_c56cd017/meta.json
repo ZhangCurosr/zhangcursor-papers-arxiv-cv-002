@@ -4,5 +4,30 @@
  "title": "THINKING-BEYOND-VIDEOS-UNIFYING-VIDEO-REASONING-AND-DEEP-RES",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-25 02:59:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79cfbbc0-66ac-4f4c-9d68-a1b218a4e4b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/79cfbbc0-66ac-4f4c-9d68-a1b218a4e4b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:51:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频推理",
+    "深度研究",
+    "多模态Agent",
+    "强化学习",
+    "时序定位",
+    "检索增强生成"
+   ],
+   "field": "多模态大模型与视频理解",
+   "innovations": [
+    "提出VideoRover统一框架实现视频主动感知与开放世界检索的双向迭代协调",
+    "构建自动化数据合成管道生成26K SFT轨迹与3K难例RL实例",
+    "引入GSPO强化学习在长视野轨迹上优化视频-检索协同策略"
+   ],
+   "benchmarks": [
+    "VideoDR",
+    "VideoRover-Bench"
+   ]
+  }
+ }
 }
