@@ -4,5 +4,34 @@
  "title": "VGI-BENCH-Probing-Visual-Intelligence-in-Video-Generation-Mo",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-21 14:33:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5361739-72ad-47ec-ba39-c9314cccbf24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5361739-72ad-47ec-ba39-c9314cccbf24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:36:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "视觉推理",
+    "评测基准",
+    "过程敏感评估",
+    "VLM-as-Judge",
+    "去噪轨迹分析",
+    "合成微调迁移"
+   ],
+   "field": "视频生成模型评估与推理",
+   "innovations": [
+    "提出双层分类体系（4域×7技能标签）的过程敏感视频推理基准VGI-BENCH",
+    "设计Comp×Rub乘法聚合的双指标评测体系，强制全局目标与局部过程双重约束",
+    "实证分析去噪轨迹发现视频模型几乎无self-correction能力，后期步骤主要锁定并细化早期假设"
+   ],
+   "benchmarks": [
+    "VGI-BENCH",
+    "VBVR-Bench",
+    "TiVi-Bench",
+    "V-ReasonBench",
+    "WorldSimBench"
+   ]
+  }
+ }
 }

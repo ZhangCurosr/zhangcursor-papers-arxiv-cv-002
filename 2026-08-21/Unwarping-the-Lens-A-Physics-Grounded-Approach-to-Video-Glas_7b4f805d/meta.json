@@ -4,5 +4,32 @@
  "title": "Unwarping-the-Lens-A-Physics-Grounded-Approach-to-Video-Glas",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-21 14:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8d9eb2a9-b7ed-4e27-9c3e-a30512b90d7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8d9eb2a9-b7ed-4e27-9c3e-a30512b90d7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:35:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "眼镜去除",
+    "视频编辑",
+    "物理光学增强",
+    "JFSnet",
+    "平移等变性",
+    "FID",
+    " CelebV-Text",
+    " FFHQ"
+   ],
+   "field": "面部属性编辑与视频复原",
+   "innovations": [
+    "生成先验到确定性恢复网络的物理引导迁移框架",
+    "基于 Snell 定律与 HDR 反射的物理数据增强",
+    "ViT-CNN 联合特征-空间网络与平移等变性时序稳定"
+   ],
+   "benchmarks": [
+    "FFHQ（12,163 清晰眼镜子集）",
+    "CelebV-Text（60 视频感知评估）"
+   ]
+  }
+ }
 }

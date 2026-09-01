@@ -4,5 +4,31 @@
  "title": "STEP-Score-Based-Temporal-Energy-for-Human-Pose-Video-Anomal",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-21 03:02:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a011ed9f-5977-4c7f-89c3-401e840acb32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a011ed9f-5977-4c7f-89c3-401e840acb32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:33:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Anomaly Detection",
+    "Skeleton-based VAD",
+    "Energy-Based Models",
+    "Denoising Score Matching",
+    "PCA",
+    "Human Pose"
+   ],
+   "field": "视频异常检测",
+   "innovations": [
+    "PC-space密度估计避免DSM原始坐标结构崩溃",
+    "序列级置信度加权软抑制姿态估计不确定性",
+    "σ-调制残差MLP多尺度能量建模"
+   ],
+   "benchmarks": [
+    "UBnormal",
+    "ShanghaiTech",
+    "MSAD"
+   ]
+  }
+ }
 }

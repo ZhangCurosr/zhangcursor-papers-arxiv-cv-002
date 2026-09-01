@@ -4,5 +4,32 @@
  "title": "Vision-Language-Models-for-Analog-Gauge-Reading-An-Empirical",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-19 14:31:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c2e2468d-cbdc-4b3e-8cc6-cfb0850c9e0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c2e2468d-cbdc-4b3e-8cc6-cfb0850c9e0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:31:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "analog gauge reading",
+    "vision-language model",
+    "QLoRA",
+    "parameter-efficient fine-tuning",
+    "industrial automation",
+    "model reliability",
+    "cross-domain transfer"
+   ],
+   "field": "工业视觉与VLM应用",
+   "innovations": [
+    "系统比较零样本/ICL/QLoRA微调三种策略在模拟仪表读取任务上的表现",
+    "干净的范围元数据消融设计揭示其对极端失败的消除作用",
+    "多维度可靠性评估框架结合校准分析与高置信度错误检测"
+   ],
+   "benchmarks": [
+    "Synthetic Dataset (Kaggle)",
+    "Pressure Gauge Dataset (Kaggle)",
+    "Siemens Energy Proprietary Dataset"
+   ]
+  }
+ }
 }

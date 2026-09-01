@@ -4,5 +4,33 @@
  "title": "S-GS-Structured-Sparse-Gaussian-Streaming-for-Efficient-Free",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-21 14:32:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/66268a48-5156-4e7a-8ce6-e796a65a6647.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/66268a48-5156-4e7a-8ce6-e796a65a6647.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian Splatting",
+    "Free-Viewpoint Video",
+    "Edge IoT",
+    "Structured Sparsity",
+    "Streaming Reconstruction",
+    "Octree",
+    "Differentiable Discretization"
+   ],
+   "field": "边缘计算三维视觉",
+   "innovations": [
+    "提出结构化稀疏残差更新框架，利用场景八叉树层次引导选择性Gaussian残差更新",
+    "设计多级离散门控（ML-STE）缓解门控塌陷，平衡稀疏性与视觉保真度",
+    "在Jetson边缘设备上实现60+ FPS流式重建与最低能耗，并通过物理遥操作测试台验证实用性"
+   ],
+   "benchmarks": [
+    "N3DV",
+    "Meet Room",
+    "ENeRF Outdoor",
+    "Physical Telepresence Testbed"
+   ]
+  }
+ }
 }

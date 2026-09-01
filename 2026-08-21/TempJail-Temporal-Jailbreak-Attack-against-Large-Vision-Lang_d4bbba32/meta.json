@@ -4,5 +4,10 @@
  "title": "TempJail-Temporal-Jailbreak-Attack-against-Large-Vision-Lang",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-21 03:04:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/44775574-556c-40e2-82be-d8358e1e4726.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/44775574-556c-40e2-82be-d8358e1e4726.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:34:11",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Towards-Clinically-Faithful-Medical-Image-Captioning-via-Enh",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-21 14:32:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4508681a-b2ec-4a3d-b3d8-cb22a84374da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/4508681a-b2ec-4a3d-b3d8-cb22a84374da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:35:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical image captioning",
+    "clinical alignment",
+    "vision-language model",
+    "self-critical sequence training",
+    "UMLS concept prediction",
+    "BiomedCLIP",
+    "SigLIP2",
+    "reinforcement learning"
+   ],
+   "field": "医学视觉-语言生成",
+   "innovations": [
+    "两轴正交对齐：推理时单嵌入重排序与训练时无参考MedPAIR-SCST分离评估",
+    "无KL正则化的成对排序强化学习目标，降低显存与工程复杂度",
+    "双编码器极简拼接在数据受限医学场景下优于复杂注意力融合"
+   ],
+   "benchmarks": [
+    "ROCOv2 (ImageCLEFmedical 2025)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TempJail-Temporal-Jailbreak-Attack-against-Large-Vision-Lang",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-21 14:33:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dbdd4739-08ad-4f91-9a14-d47da379dee3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/dbdd4739-08ad-4f91-9a14-d47da379dee3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:33:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频越狱",
+    "大视觉语言模型",
+    "时序攻击",
+    "字幕调度",
+    "CMA-ES",
+    "黑盒攻击",
+    "多模态安全"
+   ],
+   "field": "多模态大模型安全评估",
+   "innovations": [
+    "首次系统研究字幕时序调度对 LVLM 越狱效果的影响",
+    "提出三阶段黑盒框架：对话式字幕构建+语义背景生成+CMA-ES 时序优化",
+    "量化时间调度独立贡献，证明其对 ASR 提升的核心作用"
+   ],
+   "benchmarks": [
+    "HADES",
+    "VLJailbreakBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "VA-JUDGER-REWARD-MODELING-FROM-HUMAN-PREFERENCE-FEEDBACK-FOR",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-20 02:59:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/e93c444d-ba18-48d4-8e99-abed44c305f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/e93c444d-ba18-48d4-8e99-abed44c305f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:31:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward modeling",
+    "human preference",
+    "joint video-audio generation",
+    "chain-of-thought",
+    "reinforcement learning",
+    "omni-reward model",
+    "curriculum learning"
+   ],
+   "field": "多模态生成与对齐",
+   "innovations": [
+    "提出首个面向联合视频-音频生成的人类偏好奖励模型VA-Judger",
+    "构建VAPref-10K大规模人类偏好数据集并提出难度感知的三阶段课程学习训练策略",
+    "设计维度级验证的GRPO强化学习方法以实现细粒度跨模态推理对齐"
+   ],
+   "benchmarks": [
+    "VA-Judger-Bench",
+    "JavisBench"
+   ]
+  }
+ }
 }

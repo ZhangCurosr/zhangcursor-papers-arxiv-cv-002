@@ -4,5 +4,31 @@
  "title": "TextRefine-Improving-Textual-Fidelity-Spatial-Placement-and",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-21 14:33:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fabb3095-b49a-4f08-9e8e-2082cfe89717.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fabb3095-b49a-4f08-9e8e-2082cfe89717.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:34:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉文字渲染",
+    "图像编辑",
+    "强化学习",
+    "扩散模型",
+    "产品海报",
+    "字形渲染"
+   ],
+   "field": "视觉文字渲染与图像编辑",
+   "innovations": [
+    "文本跨度级奖励联合优化语义保真度、覆盖度与空间碰撞惩罚，并引入门控SSIM保护源图内容",
+    "CTC后验字形级奖励提供连续分级监督，有效区分笔画缺失、结构变形与形似字混淆"
+   ],
+   "benchmarks": [
+    "OpenTextEdit-Insertion",
+    "OpenTextEdit-Replacement",
+    "RedBench-EN",
+    "RedBench-CN"
+   ]
+  }
+ }
 }

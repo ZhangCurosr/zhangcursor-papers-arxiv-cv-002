@@ -4,5 +4,34 @@
  "title": "Swift-Image-Exploring-the-Performance-Frontier-of-Compact-Un",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-21 03:01:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0214aa5d-07f0-4f02-9a41-a6dadd52a83e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0214aa5d-07f0-4f02-9a41-a6dadd52a83e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:33:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "紧凑图像生成",
+    "统一生成-编辑模型",
+    "扩散 Transformer",
+    "并行专家 RL",
+    "少步蒸馏",
+    "Prompt Enhancer"
+   ],
+   "field": "图像生成与编辑",
+   "innovations": [
+    "并行专家 RL + 多教师 OPD 缓解紧凑模型跨任务梯度干扰",
+    "推理-渲染解耦的 Prompt Enhancer 通过生成器接地奖励实现条件分布对齐",
+    "结构剪枝+分布匹配蒸馏实现 6B→3B 无损压缩与 50→8 步加速"
+   ],
+   "benchmarks": [
+    "GEdit-Bench",
+    "ImgEdit-Bench",
+    "REDEdit-Bench",
+    "CPI-Benchmark",
+    "Qwen-Image-Bench",
+    "Pi-ExpertVerse-T2I"
+   ]
+  }
+ }
 }

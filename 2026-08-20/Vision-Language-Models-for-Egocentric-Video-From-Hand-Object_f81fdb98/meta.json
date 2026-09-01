@@ -4,5 +4,36 @@
  "title": "Vision-Language-Models-for-Egocentric-Video-From-Hand-Object",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-20 02:59:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/da134021-79ef-4141-88e8-9dc97f323553.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/da134021-79ef-4141-88e8-9dc97f323553.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:31:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "第一人称视频理解",
+    "视觉-语言模型",
+    "手-物交互",
+    "场景图推理",
+    "具身智能",
+    "时序推理",
+    "Ego4D",
+    "动词-名词不对称"
+   ],
+   "field": "第一人称视觉与具身AI",
+   "innovations": [
+    "以图结构为核心组织原则的首个第一人称VLM综述",
+    "诊断性揭示EgoVLM动词-名词理解不对称的系统性缺陷",
+    "提出交互感知监督生成、时序顺序奖励、图引导帧采样等可迁移方法"
+   ],
+   "benchmarks": [
+    "EgoHOIBench",
+    "EgoSchema",
+    "EgoTempo",
+    "EPIC-KITCHENS-100 MIR",
+    "EGTEA",
+    "Ego-Exo4D Keystep Recognition"
+   ]
+  }
+ }
 }

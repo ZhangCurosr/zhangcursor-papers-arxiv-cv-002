@@ -4,5 +4,33 @@
  "title": "Structured-Afinity-for-Unsupervised-Visual-Class-Incremental",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-21 03:00:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7f1de49a-e65b-401d-88de-c1beb0b855a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/7f1de49a-e65b-401d-88de-c1beb0b855a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:34:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "artificial immune networks",
+    "class-incremental learning",
+    "structured affinity",
+    "ZNCC",
+    "visual memory",
+    "binding profile",
+    "deep AIN"
+   ],
+   "field": "持续学习/类增量学习",
+   "innovations": [
+    "提出移位模板与ZNCC结构化免疫亲和算子使B细胞成为空间模板",
+    "定义Feature-Map Deep AIN通过响应图谱组合实现无标签梯度-free深度免疫记忆",
+    "证明无回放条件下免疫绑定-profile空间可被外部探针恢复类结构"
+   ],
+   "benchmarks": [
+    "Sklearn Digits",
+    "MNIST",
+    "Fashion-MNIST",
+    "KMNIST"
+   ]
+  }
+ }
 }

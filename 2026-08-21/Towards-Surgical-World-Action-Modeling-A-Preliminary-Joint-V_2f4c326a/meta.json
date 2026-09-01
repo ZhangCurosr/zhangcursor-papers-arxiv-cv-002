@@ -4,5 +4,29 @@
  "title": "Towards-Surgical-World-Action-Modeling-A-Preliminary-Joint-V",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-21 03:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6c07adf5-bd35-41ae-901f-848bd4fa928f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/6c07adf5-bd35-41ae-901f-848bd4fa928f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:34:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "surgical world model",
+    "joint visual-trajectory prediction",
+    "chunked autoregressive rollout",
+    "surgical motion planning",
+    "residual prediction",
+    "SurgWMBench"
+   ],
+   "field": "手术机器人感知与规划",
+   "innovations": [
+    "提出联合视觉潜表征与器械2D轨迹预测的初步世界动作模型",
+    "设计分块自回归策略（3步块×5次）并结合scheduled sampling提升长程预测稳定性",
+    "在SurgWMBench上验证残差驱动双头架构，显著改善视觉质量与轨迹精度"
+   ],
+   "benchmarks": [
+    "SurgWMBench"
+   ]
+  }
+ }
 }

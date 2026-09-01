@@ -4,5 +4,30 @@
  "title": "RoMAN-Flow-Taming-Autoregressive-Normalizing-Flows-for-Oflin",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-21 14:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f840f3b3-a345-4076-adc3-63df78e8c851.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f840f3b3-a345-4076-adc3-63df78e8c851.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Offline Reinforcement Learning",
+    "Autoregressive Normalizing Flow",
+    "Robotic Manipulation",
+    "Policy Distillation",
+    "Likelihood-based RL"
+   ],
+   "field": "机器人离线强化学习",
+   "innovations": [
+    "NF-IQL: 采样无关的优势加权似然优化用于 AR-NF 策略后训练",
+    "One-step distillation: 中间状态对齐蒸馏将自回归策略压缩为单步生成器"
+   ],
+   "benchmarks": [
+    "MetaWorld-MT50",
+    "LIBERO",
+    "RoboMimic MH",
+    "Real Robot (Franka-XHand)"
+   ]
+  }
+ }
 }

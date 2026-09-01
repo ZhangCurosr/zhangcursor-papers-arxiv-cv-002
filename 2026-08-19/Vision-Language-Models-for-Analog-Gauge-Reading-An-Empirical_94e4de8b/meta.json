@@ -4,5 +4,32 @@
  "title": "Vision-Language-Models-for-Analog-Gauge-Reading-An-Empirical",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-19 02:55:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c2e2468d-cbdc-4b3e-8cc6-cfb0850c9e0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c2e2468d-cbdc-4b3e-8cc6-cfb0850c9e0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:31:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Analog gauge reading",
+    "Vision-language model",
+    "QLoRA",
+    "Parameter-efficient fine-tuning",
+    "Industrial automation",
+    "Reliability assessment",
+    "Cross-domain transfer"
+   ],
+   "field": "工业视觉与多模态学习",
+   "innovations": [
+    "系统对比零样本/ICL/QLoRA三种学习策略在同一VLM基座上的直接仪表读取性能",
+    "通过独立with-range/without-range模型实现干净的元数据消融并揭示范围信息主要抑制极端失败",
+    "结合LODO迁移评估与确定性扰动鲁棒性分析，识别模糊为主要失效模式并刻画高置信度错误风险"
+   ],
+   "benchmarks": [
+    "Synthetic Data for Precision Gauge Reading",
+    "Pressure Gauge Reader Data (video-derived)",
+    "Siemens Energy proprietary industrial dataset"
+   ]
+  }
+ }
 }

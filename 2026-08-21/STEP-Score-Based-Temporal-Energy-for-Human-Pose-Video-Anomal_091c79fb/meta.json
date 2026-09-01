@@ -4,5 +4,31 @@
  "title": "STEP-Score-Based-Temporal-Energy-for-Human-Pose-Video-Anomal",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-21 14:33:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a011ed9f-5977-4c7f-89c3-401e840acb32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a011ed9f-5977-4c7f-89c3-401e840acb32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Anomaly Detection",
+    "Energy-Based Models",
+    "Denoising Score Matching",
+    "Skeleton-based Detection",
+    "PCA",
+    "Pose Estimation"
+   ],
+   "field": "骨架视频异常检测",
+   "innovations": [
+    "将姿态序列投影到白化PC空间再进行DSM训练，解决原始坐标噪声导致的运动学结构崩溃",
+    "引入序列级软置信度加权替代硬阈值过滤，在保留全量训练数据的同时抑制跟踪噪声",
+    "设计σ调制残差MLP架构，将噪声尺度作为全局条件信号密集注入各隐藏层"
+   ],
+   "benchmarks": [
+    "UBnormal",
+    "ShanghaiTech",
+    "MSAD-HR"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Structured-Afinity-for-Unsupervised-Visual-Class-Incremental",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-21 14:32:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/583aa3cd-2ff4-4d2f-8008-578cedc8bd0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/583aa3cd-2ff4-4d2f-8008-578cedc8bd0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:33:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人工免疫网络",
+    "类增量学习",
+    "结构化亲和力",
+    "无重放学习",
+    "视觉记忆",
+    "在线表征学习"
+   ],
+   "field": "类增量学习与持续学习",
+   "innovations": [
+    "提出结构化视觉亲和力（ZNCC）使AIN适用于视觉在线学习",
+    "定义特征图堆叠为免疫网络深度的计算方法",
+    "证明无重放、无梯度更新的Deep AIN可形成类增量视觉记忆"
+   ],
+   "benchmarks": [
+    "sklearn digits",
+    "MNIST",
+    "Fashion-MNIST",
+    "KMNIST"
+   ]
+  }
+ }
 }

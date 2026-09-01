@@ -4,5 +4,10 @@
  "title": "RoMAN-Flow-Taming-Autoregressive-Normalizing-Flows-for-Oflin",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-21 03:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f840f3b3-a345-4076-adc3-63df78e8c851.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f840f3b3-a345-4076-adc3-63df78e8c851.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:23",
+  "chunks": 1
+ }
 }

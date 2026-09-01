@@ -4,5 +4,31 @@
  "title": "Robust-Cross-Modal-Foundation-Model-Perception-for-Underwate",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-21 03:04:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0b9e3e1c-c3fb-4fc2-8717-ec49bdaacf94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0b9e3e1c-c3fb-4fc2-8717-ec49bdaacf94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "underwater robotics",
+    "multimodal perception",
+    "visual-sonar fusion",
+    "foundation models",
+    "degradation-aware fusion",
+    "robustness benchmark"
+   ],
+   "field": "水下多模态鲁棒感知",
+   "innovations": [
+    "提出在五级可控视觉退化基准上训练退化感知门控融合，使模型学会随视觉可靠性下降自动增加声呐贡献",
+    "冻结 DINOv2 与 ResNet-18 编码器，仅训练轻权重投影/门控/分类器，隔离表征鲁棒性与融合适应性的贡献",
+    "退化类型消融显示声学互补主要弥补结构信息丢失（浊度、模糊），颜色衰减退化几乎无额外增益"
+   ],
+   "benchmarks": [
+    "UMOD",
+    "YOLO11n 检测基准",
+    "DINOv2 冻结表征基准"
+   ]
+  }
+ }
 }

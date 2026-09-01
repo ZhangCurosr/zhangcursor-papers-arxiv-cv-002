@@ -4,5 +4,33 @@
  "title": "Robust-Cross-Modal-Foundation-Model-Perception-for-Underwate",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-21 14:32:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0b9e3e1c-c3fb-4fc2-8717-ec49bdaacf94.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/0b9e3e1c-c3fb-4fc2-8717-ec49bdaacf94.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:32:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "水下机器人感知",
+    "跨模态融合",
+    "视觉-声呐融合",
+    "基础模型",
+    "退化感知",
+    "鲁棒感知",
+    "UMOD"
+   ],
+   "field": "水下多模态感知与鲁棒学习",
+   "innovations": [
+    "退化感知门控融合：冻结基础模型+声学上下文，融合层暴露于全退化范围训练以实现模态依赖自适应重分配",
+    "构建五档可控光学退化基准 D0-D4 并系统评估跨模态鲁棒性",
+    "揭示退化类型特异性：声呐辅助在浑浊和模糊下收益最大，颜色衰减下无额外增益"
+   ],
+   "benchmarks": [
+    "UMOD",
+    "Degradation-aware balanced accuracy",
+    "Mean Relative Robustness (MRR)",
+    "YOLO11n mAP"
+   ]
+  }
+ }
 }

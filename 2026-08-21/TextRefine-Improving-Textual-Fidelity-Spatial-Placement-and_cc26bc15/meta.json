@@ -4,5 +4,32 @@
  "title": "TextRefine-Improving-Textual-Fidelity-Spatial-Placement-and",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-21 03:04:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fabb3095-b49a-4f08-9e8e-2082cfe89717.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/fabb3095-b49a-4f08-9e8e-2082cfe89717.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:34:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual text rendering",
+    "product poster editing",
+    "reinforcement learning",
+    "CTC posterior reward",
+    "text insertion",
+    "text replacement"
+   ],
+   "field": "视觉文本渲染与图像编辑",
+   "innovations": [
+    "基于 CTC 后验的字形级连续奖励用于细粒度结构优化",
+    "任务隔离的跨度级与字形级奖励联合后训练框架",
+    "面向产品海报的 100K 级结构化文本编辑数据集 OpenTextEdit"
+   ],
+   "benchmarks": [
+    "OpenTextEdit insertion benchmark",
+    "OpenTextEdit localized replacement benchmark",
+    "RedBench-EN",
+    "RedBench-CN"
+   ]
+  }
+ }
 }
