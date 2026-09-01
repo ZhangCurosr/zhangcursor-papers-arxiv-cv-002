@@ -4,5 +4,32 @@
  "title": "Primitive-Representation-Learning-for-Unsupervised-Dynamic-C",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-19 02:55:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c35b2282-5bb6-445a-b462-8849671fb521.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c35b2282-5bb6-445a-b462-8849671fb521.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:46:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DCE-MRI",
+    "Gabor Primitives",
+    "Unsupervised Reconstruction",
+    "Primitive Representation",
+    "Time-intensity Curve",
+    "Sparse Sampling"
+   ],
+   "field": "动态对比增强MRI重建",
+   "innovations": [
+    "首个面向DCE-MRI的Gabor原语无监督重建框架",
+    "三层级（基础解剖/动态对比/运动几何）解耦时间基建模",
+    "分阶段解冻训练策略防止层级间信号竞争"
+   ],
+   "benchmarks": [
+    "GRASP",
+    "L+S",
+    "Hash-INR",
+    "Gaussian Primitive"
+   ]
+  }
+ }
 }

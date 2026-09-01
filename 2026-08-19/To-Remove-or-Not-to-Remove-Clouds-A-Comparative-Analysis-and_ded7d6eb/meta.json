@@ -4,5 +4,36 @@
  "title": "To-Remove-or-Not-to-Remove-Clouds-A-Comparative-Analysis-and",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-19 14:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/106cc862-3dd5-4458-9c8f-6a65ae677d32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/106cc862-3dd5-4458-9c8f-6a65ae677d32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:47:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SAR",
+    "NDWI",
+    "Water-Body Segmentation",
+    "Deep Learning",
+    "Remote Sensing",
+    "Multi-view Learning",
+    "Transfer Learning",
+    "Flood Mapping"
+   ],
+   "field": "遥感水体分割",
+   "innovations": [
+    "首次系统比较原始SAR与合成NDWI的水体分割性能，证明翻译过程的噪声过滤价值",
+    "提出融合原始SAR与合成NDWI的双流框架，实现双向错误校正",
+    "验证预训练Transformer在跨模态遥感回归中的高效性，并提供架构容量scaling准则"
+   ],
+   "benchmarks": [
+    "Cloud2Street洪水数据集",
+    "IoU",
+    "F1-Score",
+    "R²",
+    "SSIM",
+    "wMAPE"
+   ]
+  }
+ }
 }

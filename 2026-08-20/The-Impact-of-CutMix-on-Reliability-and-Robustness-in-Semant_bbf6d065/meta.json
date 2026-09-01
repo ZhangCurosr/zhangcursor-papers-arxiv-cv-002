@@ -4,5 +4,30 @@
  "title": "The-Impact-of-CutMix-on-Reliability-and-Robustness-in-Semant",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-08-20 14:33:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ffc0dbb7-d7f3-44a2-b0fc-5a72114b3b1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ffc0dbb7-d7f3-44a2-b0fc-5a72114b3b1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:48:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CutMix",
+    "Reliability",
+    "Robustness",
+    "Semantic Segmentation",
+    "Calibration",
+    "Uncertainty Estimation"
+   ],
+   "field": "语义分割可靠性评估",
+   "innovations": [
+    "首次孤立分析CutMix对语义分割可靠性的影响",
+    "提出整合mIoU/ECE/条件不确定性的RSS综合评估框架",
+    "揭示CutMix主要增强不确定性表达而非预测精度"
+   ],
+   "benchmarks": [
+    "Cityscapes",
+    "Foggy Cityscapes"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "mathrm-D-y-G-2-T-mathrm-Modeling-Object-Dynamics-with-3D-Gau",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-20 14:33:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/f2fcc538-757f-4c1b-8697-e3a8f8bce093.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/f2fcc538-757f-4c1b-8697-e3a8f8bce093.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:51:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Object Dynamics Modeling",
+    "3D Gaussian Splatting",
+    "Temporal Disentangling",
+    "Particle Graph Transformer",
+    "Trajectory Prediction",
+    "Dynamic Reconstruction"
+   ],
+   "field": "动态3D场景重建与动力学推理",
+   "innovations": [
+    "空间语义补全：聚合原始粒子局部细节并显式编码Key Point相对偏移",
+    "时序解耦网络TDN：以中间帧为参考估计跨帧偏移阻断语义坍缩",
+    "Particle Graph Transformer：全局注意+边嵌入捕获多尺度长程交互"
+   ],
+   "benchmarks": [
+    "Spring-Gaus Synthetic",
+    "Spring-Gaus Real-world",
+    "Unity3D-Heterogeneous"
+   ]
+  }
+ }
 }

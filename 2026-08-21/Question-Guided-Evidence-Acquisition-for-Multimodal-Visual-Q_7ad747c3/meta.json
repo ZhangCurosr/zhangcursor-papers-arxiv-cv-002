@@ -4,5 +4,30 @@
  "title": "Question-Guided-Evidence-Acquisition-for-Multimodal-Visual-Q",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-21 14:33:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9db382c8-b341-4c4f-a4d5-cdb9cdc9a3ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9db382c8-b341-4c4f-a4d5-cdb9cdc9a3ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:52:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal VQA",
+    "Document Understanding",
+    "Test-Time Compute",
+    "Agentic Perception",
+    "Slow Thinking",
+    "Evidence Acquisition"
+   ],
+   "field": "多模态文档理解与视觉问答",
+   "innovations": [
+    "将测试时计算从语言推理转向问题条件驱动的主动感知循环",
+    "通过置信度校准门控实现自适应终止，避免过度推理",
+    "精简单循环架构优于复杂多智能体编排的实证证明"
+   ],
+   "benchmarks": [
+    "DocVQA2026",
+    "M109NC (Manga109 Character Naming)"
+   ]
+  }
+ }
 }

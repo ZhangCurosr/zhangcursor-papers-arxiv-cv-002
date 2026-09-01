@@ -4,5 +4,31 @@
  "title": "Zero-Shot-SAM2-Segmentation-and-Vision-Transformer-Based-Rec",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-20 02:57:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/69465269-3b4d-4dca-a997-6892455fda7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/69465269-3b4d-4dca-a997-6892455fda7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:49:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "楔形文字识别",
+    "零样本分割",
+    "Vision Transformer",
+    "SAM2",
+    "古文字数字化",
+    "类别不平衡",
+    "图像增强",
+    "文化遗产 AI"
+   ],
+   "field": "古代文字图像识别",
+   "innovations": [
+    "基于 SAM2-Large 零样本分割的楔形文字符号提取管线，无需符号级掩码标注",
+    "亮度自适应形态学预处理 + SAM2 掩码背景抑制联合提升 ViT-B/16 分类性能",
+    "逆频率类别加权 + 仿射增广有效缓解 132 类严重长尾分布"
+   ],
+   "benchmarks": [
+    "Persepolis Fortification Archive (PFA) 132-class top-1 accuracy"
+   ]
+  }
+ }
 }

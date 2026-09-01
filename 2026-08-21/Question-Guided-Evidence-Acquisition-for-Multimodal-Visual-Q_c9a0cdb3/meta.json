@@ -4,5 +4,10 @@
  "title": "Question-Guided-Evidence-Acquisition-for-Multimodal-Visual-Q",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-21 03:05:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9db382c8-b341-4c4f-a4d5-cdb9cdc9a3ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9db382c8-b341-4c4f-a4d5-cdb9cdc9a3ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:52:41",
+  "chunks": 1
+ }
 }

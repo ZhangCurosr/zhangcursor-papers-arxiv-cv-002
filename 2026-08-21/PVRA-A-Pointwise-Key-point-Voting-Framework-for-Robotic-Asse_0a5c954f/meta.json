@@ -4,5 +4,31 @@
  "title": "PVRA-A-Pointwise-Key-point-Voting-Framework-for-Robotic-Asse",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-21 14:33:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a47546eb-2f7e-4fb5-b9ab-0eec3cde1e1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a47546eb-2f7e-4fb5-b9ab-0eec3cde1e1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:50:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Robotic Assembly",
+    "RGB-D Perception",
+    "6-DoF Pose Estimation",
+    "Progressive Assembly",
+    "Keypoint Voting",
+    "Assembly Awareness",
+    "Point Cloud"
+   ],
+   "field": "机器人装配感知",
+   "innovations": [
+    "提出 PVRA 框架，通过关键点投票学习装配依赖关系",
+    "定义步骤级分割和定位准确率指标评估渐进装配",
+    "在部分点云条件下实现鲁棒的装配感知位姿估计"
+   ],
+   "benchmarks": [
+    "Nema17 gear-reducer dataset",
+    "BOP benchmark format"
+   ]
+  }
+ }
 }

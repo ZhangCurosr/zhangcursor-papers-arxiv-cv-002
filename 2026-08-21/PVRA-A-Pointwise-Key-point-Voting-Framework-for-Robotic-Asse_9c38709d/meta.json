@@ -4,5 +4,10 @@
  "title": "PVRA-A-Pointwise-Key-point-Voting-Framework-for-Robotic-Asse",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-21 03:03:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a47546eb-2f7e-4fb5-b9ab-0eec3cde1e1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a47546eb-2f7e-4fb5-b9ab-0eec3cde1e1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:51:07",
+  "chunks": 1
+ }
 }

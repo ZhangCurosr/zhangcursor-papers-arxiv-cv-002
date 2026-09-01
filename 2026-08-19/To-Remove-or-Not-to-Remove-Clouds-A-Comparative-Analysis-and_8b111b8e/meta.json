@@ -4,5 +4,32 @@
  "title": "To-Remove-or-Not-to-Remove-Clouds-A-Comparative-Analysis-and",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-19 02:58:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/106cc862-3dd5-4458-9c8f-6a65ae677d32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/106cc862-3dd5-4458-9c8f-6a65ae677d32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:47:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SAR",
+    "NDWI",
+    "Water Segmentation",
+    "Cloud Removal",
+    "Multi-view Learning",
+    "Remote Sensing",
+    "Transfer Learning"
+   ],
+   "field": "遥感图像处理与洪水监测",
+   "innovations": [
+    "首次系统对比原始SAR与合成NDWI在全云覆盖下的水体分割性能，证明翻译过程的有效去噪作用",
+    "提出Combined Framework多视角融合架构，双向校正SAR镜面反射与生成幻觉误差",
+    "确立预训练Transformer在SAR-to-optical跨域迁移中的参数效率优势及非对称容量扩展法则"
+   ],
+   "benchmarks": [
+    "Microsoft Cloud to Street Flood Dataset",
+    "Sentinel-1 SAR",
+    "Sentinel-2 Optical NDWI"
+   ]
+  }
+ }
 }

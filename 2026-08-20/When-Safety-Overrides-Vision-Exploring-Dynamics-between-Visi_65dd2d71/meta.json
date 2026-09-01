@@ -4,5 +4,31 @@
  "title": "When-Safety-Overrides-Vision-Exploring-Dynamics-between-Visi",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-20 14:34:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/0acf9fce-365d-4ac0-9c64-2a4cfbb8ac86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/0acf9fce-365d-4ac0-9c64-2a4cfbb8ac86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:49:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "安全对齐",
+    "表征可解释性",
+    "激活干预",
+    "拒答行为",
+    "多模态 grounding"
+   ],
+   "field": "多模态模型安全与可解释性",
+   "innovations": [
+    "揭示安全对齐对接地视觉推理的表征覆盖机制",
+    "通过推理时激活干预因果恢复拒答行为",
+    "证明拒答期间视觉感知仍被内部保留"
+   ],
+   "benchmarks": [
+    "VQA-v2",
+    "GQA",
+    "POPE"
+   ]
+  }
+ }
 }

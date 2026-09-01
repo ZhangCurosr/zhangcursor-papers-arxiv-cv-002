@@ -4,5 +4,31 @@
  "title": "Prompt-Conditioned-Channel-Attention-for-Hierarchical-Featur",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-21 14:32:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8f3b2909-28cd-4a62-8824-386d500193ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/8f3b2909-28cd-4a62-8824-386d500193ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:51:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学图像分割",
+    "提示驱动分割",
+    "通道注意力",
+    "层次特征调制",
+    "交互式分割"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "提出 PCCA 机制实现图像与提示特征在共享隐空间的门控融合，完成逐层级通道维度提示调制",
+    "设计 PROMISE-Net 框架，将 PCCA 作为即插即用模块嵌入 CNN 与 Transformer 骨干的全编码器/解码器阶段",
+    "在四类跨解剖、跨模态数据集上验证，IoU 相对基线提升最高达 23%，计算成本远低于 SAM"
+   ],
+   "benchmarks": [
+    "ISIC-2017",
+    "Kvasir-Polyp",
+    "Kvasir-Instrument",
+    "CAMUS-Cardiac"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Spectral-Gradient-Orthogonalization-Improves-Diferentially-P",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-19 02:58:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/94069ce3-ccc9-4e9c-a1e8-2dd5602f0b27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/94069ce3-ccc9-4e9c-a1e8-2dd5602f0b27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:46:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "差分隐私",
+    "谱正交化",
+    "极分解",
+    "梯度去噪",
+    "大批量训练",
+    "相位跃迁",
+    "后处理定理"
+   ],
+   "field": "差分隐私优化",
+   "innovations": [
+    "基于 Wedin sinθ 定理推导谱恢复阈值，揭示正交化效用的相位跃迁现象",
+    "将牛顿-舒尔兹近似极分解作为零额外隐私成本的后处理步骤应用于 DP-SGD",
+    "证明谱正交化与时间滤波（DOPPLER/DiSK）的互补性，组合达到 50.3% 最高精度"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "SVHN",
+    "Tiny-ImageNet",
+    "ImageNet-1k"
+   ]
+  }
+ }
 }

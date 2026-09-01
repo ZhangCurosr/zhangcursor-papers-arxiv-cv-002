@@ -4,5 +4,31 @@
  "title": "PelviNeXt-A-Modality-Agnostic-Hybrid-Network-for-Pelvic-Imag",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-21 14:33:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a191f036-3467-412b-888b-2c8952faaea4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/a191f036-3467-412b-888b-2c8952faaea4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:51:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pelvic imaging",
+    "PCOS detection",
+    "Pelvic fracture classification",
+    "Modality-agnostic learning",
+    "Dataset integrity audit",
+    "DenseNet",
+    "Talking-heads attention"
+   ],
+   "field": "医学影像AI",
+   "innovations": [
+    "模态无关混合架构同时处理超声与X光盆腔影像，无需任务特定修改",
+    "感知哈希审计PCOSGen发现大量重复污染并发布去重数据集与首个可信基线",
+    "在PXR150上超越先前SOTA，准确率87.33%/AUROC 0.8920，全面优于Patch Ensemble"
+   ],
+   "benchmarks": [
+    "PCOSGen（去重版，225张）",
+    "PXR150（150张）"
+   ]
+  }
+ }
 }

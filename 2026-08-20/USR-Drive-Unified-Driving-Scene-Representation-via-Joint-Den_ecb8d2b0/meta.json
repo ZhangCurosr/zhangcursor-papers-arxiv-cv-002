@@ -4,5 +4,30 @@
  "title": "USR-Drive-Unified-Driving-Scene-Representation-via-Joint-Den",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-20 02:56:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/50e6e334-5477-4e5b-af38-38608febd0e6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/50e6e334-5477-4e5b-af38-38608febd0e6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:48:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Unified Driving Scene Representation",
+    "Joint Denoising",
+    "Diffusion Transformer",
+    "3D Object Detection",
+    "Multi-View Reconstruction"
+   ],
+   "field": "自动驾驶场景联合重建与检测",
+   "innovations": [
+    "首次将密集3D高斯与稀疏3D边界框作为共演化隐变量在统一扩散过程中联合去噪",
+    "提出UPE将异构token对齐到共享度量时空坐标实现跨模态互正则",
+    "辅助布局变量解耦为独立扩散头避免锚点设计耦合核心Autoencoder"
+   ],
+   "benchmarks": [
+    "nuScenes val",
+    "VKitti zero-shot"
+   ]
+  }
+ }
 }

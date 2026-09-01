@@ -4,5 +4,34 @@
  "title": "WHEN-MORE-FOUNDATION-MODELS-MEANS-LESS-DI-AGNOSING-AND-ADDRE",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-19 14:31:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/08dd0e1b-0002-4e53-8f9a-e16f7ac51292.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/08dd0e1b-0002-4e53-8f9a-e16f7ac51292.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:48:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-view learning",
+    "foundation models",
+    "model selection",
+    "kernel alignment",
+    "representation fusion"
+   ],
+   "field": "多视图学习与模型融合",
+   "innovations": [
+    "形式化了大型编码器池中的视图集组合问题，揭示了性能先升后降现象",
+    "提出了无训练的标签感知贪心选择器KAGES，基于核对齐最大化进行集合级选择",
+    "在图像分类、检索及大语言模型融合中验证了方法的有效性和泛化能力"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "Oxford Pets",
+    "DTD",
+    "Country211",
+    "GTSRB",
+    "MMLU",
+    "ARC-Challenge"
+   ]
+  }
+ }
 }

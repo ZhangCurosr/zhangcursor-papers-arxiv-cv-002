@@ -4,5 +4,32 @@
  "title": "Teeth2Point-A-Two-Stage-Dental-CBCT-ROI-to-Point-Segmentatio",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-20 02:58:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/5bf90c81-757e-4c53-a9b1-07f2b950ae09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/5bf90c81-757e-4c53-a9b1-07f2b950ae09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:47:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CBCT segmentation",
+    "point cloud transformer",
+    "self-supervised learning",
+    "dental imaging",
+    "two-stage framework",
+    "DINO pretraining"
+   ],
+   "field": "3D医学图像分割",
+   "innovations": [
+    "ROI-to-Point两阶段框架解决CBCT稀疏结构分割",
+    "梯度引导自适应采样平衡分辨率与计算效率",
+    "DINOv2风格点云自监督预训练提升异常案例鲁棒性"
+   ],
+   "benchmarks": [
+    "STS2024",
+    "ToothFairy2",
+    "ToothFairy3",
+    "Internal Dataset"
+   ]
+  }
+ }
 }

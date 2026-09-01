@@ -4,5 +4,35 @@
  "title": "Uncertainty-Aware-Art-Historical-Dating-with-Vision-Language",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-20 14:33:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/33a3bf5e-e2ce-4056-8814-92c0fac0cced.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/33a3bf5e-e2ce-4056-8814-92c0fac0cced.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:49:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Temporal Estimation",
+    "Quantile Regression",
+    "Conformal Calibration",
+    "Cultural Heritage Bias",
+    "Art Historical Dating",
+    "Temporal Entanglement"
+   ],
+   "field": "文化遗产计算分析",
+   "innovations": [
+    "提出时间纠缠诊断框架，将预训练模型的时序信号解读为制度性中介而非创作时间的直接编码",
+    "将艺术年代估计形式化为不确定性感知回归任务，结合分位数回归与分裂共形校准输出校准预测区间",
+    "构建时间可控的 Wikidata 平衡语料库，保留区间型元数据并支持跨世纪跨类型系统性偏差分析"
+   ],
+   "benchmarks": [
+    "Wikidata Art Corpus (1401-2000, 6000 samples)",
+    "CLIP ViT-B/16",
+    "SigLIP2-B/16",
+    "EVA02-CLIP-B/16",
+    "DINOv2-B/14",
+    "I-JEPA ViT-H/14"
+   ]
+  }
+ }
 }

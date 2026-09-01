@@ -4,5 +4,10 @@
  "title": "Primitive-Representation-Learning-for-Unsupervised-Dynamic-C",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-08-19 14:30:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/86df5616-9579-44bc-a0fe-2677b335ff9a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/86df5616-9579-44bc-a0fe-2677b335ff9a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:46:57",
+  "chunks": 1
+ }
 }

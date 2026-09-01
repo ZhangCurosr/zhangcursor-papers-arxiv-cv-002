@@ -4,5 +4,10 @@
  "title": "When-Two-Tracers-Disagree-An-Investigation-of-Multimodal-Fus",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-20 02:56:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a489944d-ab7c-43ce-99cd-36519d393709.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a489944d-ab7c-43ce-99cd-36519d393709.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:49:40",
+  "chunks": 1
+ }
 }

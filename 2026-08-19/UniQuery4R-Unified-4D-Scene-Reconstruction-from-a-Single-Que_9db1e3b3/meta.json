@@ -4,5 +4,33 @@
  "title": "UniQuery4R-Unified-4D-Scene-Reconstruction-from-a-Single-Que",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-19 14:31:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6cc6ff81-e4ef-4344-89ff-8519ca09f7f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6cc6ff81-e4ef-4344-89ff-8519ca09f7f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:47:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "4D重建",
+    "场景流估计",
+    "点跟踪",
+    "查询条件化",
+    "前馈神经网络",
+    "多视图几何"
+   ],
+   "field": "动态场景3D重建",
+   "innovations": [
+    "连续源像素查询联合编码变长度clip，解码时特征选择避免固定时间嵌入",
+    "方向-幅度场景流参数化配合移动/静止点分离监督",
+    "稀疏按需推理与密集重建统一框架，编码计算跨源-目标对复用"
+   ],
+   "benchmarks": [
+    "WorldTrack",
+    "PointOdyssey",
+    "Panoptic Studio",
+    "Dynamic Replica",
+    "Aria Digital Twin"
+   ]
+  }
+ }
 }

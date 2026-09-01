@@ -4,5 +4,32 @@
  "title": "Point-Based-3D-Reconstruction-from-Sparse-Views-under-Known",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-21 03:00:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5461f3b-4162-40d1-96e6-2933a9d46e6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/b5461f3b-4162-40d1-96e6-2933a9d46e6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:51:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse-view 3D reconstruction",
+    "point-based rendering",
+    "differentiable rendering",
+    "adjoint light transport",
+    "beta surfel",
+    "inverse rendering",
+    "Gaussian splatting"
+   ],
+   "field": "可微分渲染与稀疏视图3D重建",
+   "innovations": [
+    "不透明度携带beta surfel的显式局部采样光传输表示",
+    "保留段透射率的伴随梯度公式，解析优化surfels几何/外观/不透明度",
+    "结合物理光传输约束与几何正则化，以267个基元在稀疏视图重建上优于所有基线"
+   ],
+   "benchmarks": [
+    "Teapot, LEGO, Dragon, Horse, Plant (5 synthetic objects, 10 views each)",
+    "Symmetric Chamfer Distance",
+    "Directional Chamfer (Accuracy/Completion)"
+   ]
+  }
+ }
 }
