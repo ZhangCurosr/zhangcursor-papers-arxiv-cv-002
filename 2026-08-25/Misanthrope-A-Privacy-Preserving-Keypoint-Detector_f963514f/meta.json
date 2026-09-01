@@ -4,5 +4,33 @@
  "title": "Misanthrope-A-Privacy-Preserving-Keypoint-Detector",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-25 03:00:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a4093f50-ded0-4d08-b7c8-29641cc35c2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a4093f50-ded0-4d08-b7c8-29641cc35c2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Privacy-Preserving",
+    "Keypoint Detection",
+    "Self-Distillation",
+    "Image Matching",
+    "Inversion Attack",
+    "Person Re-identification"
+   ],
+   "field": "隐私保护视觉定位",
+   "innovations": [
+    "首次展示稀疏特征反演可重识别个体并据此构建评测pipeline",
+    "提出隐私导向自蒸馏框架，无需额外分割网络即从源头抑制人物关键点",
+    "在IMC2021 Phototourism上7/9场景达到稀疏特征提取器最优，同时在Wild-SLAM提升位姿估计精度"
+   ],
+   "benchmarks": [
+    "PascalVOC2012",
+    "PRW",
+    "IMC2021 Phototourism",
+    "HPatches",
+    "Wild-SLAM"
+   ]
+  }
+ }
 }

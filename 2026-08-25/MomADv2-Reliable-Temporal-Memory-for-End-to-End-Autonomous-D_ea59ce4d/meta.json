@@ -4,5 +4,35 @@
  "title": "MomADv2-Reliable-Temporal-Memory-for-End-to-End-Autonomous-D",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-25 03:00:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e0aacf-22eb-4616-aa82-741d4600892b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e0aacf-22eb-4616-aa82-741d4600892b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端自动驾驶",
+    "长时程规划",
+    "状态空间模型",
+    "流匹配",
+    "选择性记忆",
+    "轨迹修正",
+    "Navsim",
+    "MomAD"
+   ],
+   "field": "端到端自动驾驶规划",
+   "innovations": [
+    "提出选择性状态空间记忆查询模块SSM-Q，通过命令一致性、时序连续性和轨迹级对齐三重过滤历史规划查询",
+    "设计流匹配轨迹残差修正器FM-Ref，以锚点规划为起点学习有界残差速度场实现精细轨迹修正",
+    "两阶段解耦训练策略，冻结主干仅微调记忆与修正模块，避免破坏预训练表征"
+   ],
+   "benchmarks": [
+    "nuScenes",
+    "Bench2Drive",
+    "NAVSIM v1 navtest",
+    "NAVSIM v2 navtest",
+    "NAVSIM v2 navhard"
+   ]
+  }
+ }
 }

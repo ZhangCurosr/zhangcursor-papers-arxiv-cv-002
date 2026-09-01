@@ -4,5 +4,10 @@
  "title": "Neural-Operator-based-Multi-Field-Reconstruction-of-Inner-So",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-25 03:01:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/45ea61a9-d849-43cf-baa8-f1996f79f8f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/45ea61a9-d849-43cf-baa8-f1996f79f8f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:28:56",
+  "chunks": 1
+ }
 }

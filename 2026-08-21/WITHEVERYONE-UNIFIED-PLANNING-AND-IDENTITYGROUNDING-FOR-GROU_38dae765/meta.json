@@ -4,5 +4,30 @@
  "title": "WITHEVERYONE-UNIFIED-PLANNING-AND-IDENTITYGROUNDING-FOR-GROU",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-21 14:32:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/abe18a00-7bca-4d09-a397-3220158cc674.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/abe18a00-7bca-4d09-a397-3220158cc674.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:26:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "群像生成",
+    "身份保持生成",
+    "统一多模态模型",
+    "布局规划",
+    "身份损失",
+    "表示强制"
+   ],
+   "field": "多主体图像生成与身份保持",
+   "innovations": [
+    "布局锚定身份损失消除多实例匹配歧义",
+    "统一身份绑定与结构化布局规划的因果推理框架",
+    "表示强制为多身份生成提供可寻址的身份脚手架"
+   ],
+   "benchmarks": [
+    "5-10人身份不相交群像基准",
+    "Sim(Tgt)/Sim(Ref)/Copy-Paste/Coverage/Dup/CLIP-I/DINO-I/CLIP-T"
+   ]
+  }
+ }
 }

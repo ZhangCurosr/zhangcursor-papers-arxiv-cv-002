@@ -4,5 +4,28 @@
  "title": "Neighbor-Aware-View-Synthesis-for-Restoring-Missing-Views-in",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-25 14:42:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4baff7eb-62c5-454d-874d-3a8c13393ff8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4baff7eb-62c5-454d-874d-3a8c13393ff8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:28:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "光场成像",
+    "缺失视角恢复",
+    "条件生成对抗网络",
+    "邻域感知",
+    "几何一致性"
+   ],
+   "field": "光场图像处理与视角合成",
+   "innovations": [
+    "位置编码图提供显式几何先验条件",
+    "3D-2D融合U-Net生成器实现多视角压缩与高质量重建"
+   ],
+   "benchmarks": [
+    "自建光场数据集（121场景）",
+    "MPI Light Field Intrinsic Dataset"
+   ]
+  }
+ }
 }

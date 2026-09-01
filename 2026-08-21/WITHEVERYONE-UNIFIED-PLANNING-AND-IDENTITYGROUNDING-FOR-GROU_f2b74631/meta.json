@@ -4,5 +4,30 @@
  "title": "WITHEVERYONE-UNIFIED-PLANNING-AND-IDENTITYGROUNDING-FOR-GROU",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-21 03:00:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/abe18a00-7bca-4d09-a397-3220158cc674.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/abe18a00-7bca-4d09-a397-3220158cc674.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:26:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多身份图像生成",
+    "身份保持",
+    "布局规划",
+    "统一多模态模型",
+    "Flow Matching",
+    "Identity-Grounded Generation"
+   ],
+   "field": "多模态内容生成",
+   "innovations": [
+    "提出 LG-ID Loss，通过布局标注而非嵌入匹配实现多人身份监督",
+    "在统一模型中交织身份推理与布局规划（Layout CoT）",
+    "ID Representation Forcing 增强共享上下文中的多身份可寻址性"
+   ],
+   "benchmarks": [
+    "自建 5-10 人 identity-disjoint 基准 (210 samples)",
+    "Sim(Tgt), Sim(Ref), Copy-Paste, Coverage, Dup, CLIP-I, DINO-I, CLIP-T"
+   ]
+  }
+ }
 }

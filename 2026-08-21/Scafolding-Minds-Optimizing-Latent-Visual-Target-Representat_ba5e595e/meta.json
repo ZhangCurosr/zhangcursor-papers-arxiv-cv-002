@@ -4,5 +4,38 @@
  "title": "Scafolding-Minds-Optimizing-Latent-Visual-Target-Representat",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-21 14:32:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9352e80d-ea9e-4662-b0c3-1c6e34380416.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/9352e80d-ea9e-4662-b0c3-1c6e34380416.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:25:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent visual reasoning",
+    "multimodal reasoning",
+    "scaffolding encoder",
+    "reinforcement learning",
+    "visual chain-of-thought",
+    "FrozenLake",
+    "VLM"
+   ],
+   "field": "多模态推理与潜视觉推理",
+   "innovations": [
+    "用端到端可学习的 scaffolding encoder 替代冻结通用视觉编码器生成任务优化的潜目标",
+    "在潜 prior 之上学习输入自适应高斯策略对潜残差动作采样以实现奖励驱动的显式潜探索"
+   ],
+   "benchmarks": [
+    "FrozenLake",
+    "V★",
+    "BLINK",
+    "MMVP",
+    "MMStar",
+    "CVBench",
+    "HRBench-4K",
+    "HRBench-8K",
+    "MME-RealWorld-Lite",
+    "Jigsaw"
+   ]
+  }
+ }
 }

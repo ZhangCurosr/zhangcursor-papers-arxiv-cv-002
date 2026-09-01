@@ -4,5 +4,37 @@
  "title": "Mapping-the-Concept-Landscape-Structural-Perception-of-Globa",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-25 02:58:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/27127376-e0a4-419c-8088-1cf08284aa25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/27127376-e0a4-419c-8088-1cf08284aa25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Pruning",
+    "Concept Graph",
+    "Multimodal Data Selection",
+    "Semantic Coverage",
+    "Vision-Language Model",
+    "Training Efficiency"
+   ],
+   "field": "多模态数据选择与剪枝",
+   "innovations": [
+    "提出MCL框架，用样本级概念图替代不透明嵌入实现语义覆盖导向的数据剪枝",
+    "基于边际增益的贪心选择算法，动态评估候选样本对已选子集的语义贡献",
+    "融合稀有性与结构参与度的概念重要性度量，结合逆频率因子与图度修正"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-mix-665k",
+    "COCO 2017",
+    "MME",
+    "SEED-Bench-Image",
+    "POPE",
+    "MMMU",
+    "ScienceQA",
+    "GQA",
+    "TextVQA"
+   ]
+  }
+ }
 }

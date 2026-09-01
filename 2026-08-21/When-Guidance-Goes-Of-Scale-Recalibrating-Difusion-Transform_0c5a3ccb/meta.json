@@ -4,5 +4,33 @@
  "title": "When-Guidance-Goes-Of-Scale-Recalibrating-Difusion-Transform",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-21 03:04:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/cb443331-ae80-42df-92ae-a0f7894ba591.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/cb443331-ae80-42df-92ae-a0f7894ba591.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Transformers",
+    "Classifier-Free Guidance",
+    "Compute-in-Memory",
+    "Hardware Deployment",
+    "Model Calibration",
+    "Sampling Trajectory"
+   ],
+   "field": "AI模型硬件部署与校准",
+   "innovations": [
+    "识别CFG残差为CIM部署下的减法敏感失效通道",
+    "提出无需重新训练的采样器侧导向比例校准方法",
+    "从轨迹级语义盆地动力学解释有限最优导向比例的存在"
+   ],
+   "benchmarks": [
+    "MS-COCO 2014",
+    "ImageNet",
+    "PixArt-Σ",
+    "PixArt-α",
+    "DiT-XL/2"
+   ]
+  }
+ }
 }

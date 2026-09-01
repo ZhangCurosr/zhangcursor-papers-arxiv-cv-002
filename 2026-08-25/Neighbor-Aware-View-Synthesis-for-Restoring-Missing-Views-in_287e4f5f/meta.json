@@ -4,5 +4,30 @@
  "title": "Neighbor-Aware-View-Synthesis-for-Restoring-Missing-Views-in",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-25 03:01:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4baff7eb-62c5-454d-874d-3a8c13393ff8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/4baff7eb-62c5-454d-874d-3a8c13393ff8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:28:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Light Field",
+    "View Synthesis",
+    "Missing View Restoration",
+    "Conditional GAN",
+    "Positional Encoding",
+    "3D-2D Fusion"
+   ],
+   "field": "光场图像重建与视角合成",
+   "innovations": [
+    "提出位置编码图作为显式几何条件先验，显著提升视角合成几何一致性",
+    "3D-2D融合U-Net生成器，在首层用3D卷积融合多视角空间相关性",
+    "基于曼哈顿距离的自适应加权重建损失，动态调节不同合成难度样本的优化强度"
+   ],
+   "benchmarks": [
+    "自建Light Field Dataset (121 scenes, 51x51 views)",
+    "MPI Light Field Intrinsic Dataset"
+   ]
+  }
+ }
 }

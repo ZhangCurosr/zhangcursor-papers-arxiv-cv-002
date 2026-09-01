@@ -4,5 +4,30 @@
  "title": "Motion-Based-Tokenization-for-Cross-Dataset-Egocentric-Gaze",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-25 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c7d978f-dd93-4381-80fd-1e4b4b3a019e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2c7d978f-dd93-4381-80fd-1e4b4b3a019e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "gaze tokenization",
+    "cross-dataset transfer",
+    "egocentric vision",
+    "motion vocabulary",
+    "domain shift",
+    "eye tracking"
+   ],
+   "field": "多模态表征学习",
+   "innovations": [
+    "提出事件对齐角位移tokenization(AD)及其多维度评估协议",
+    "证明事件接口是表示一部分而非中性预处理",
+    "揭示SO(3)过度分段与VQ码本政策对结构保留的差异化影响"
+   ],
+   "benchmarks": [
+    "AEA↔RITW",
+    "EGTEA cross-interface"
+   ]
+  }
+ }
 }

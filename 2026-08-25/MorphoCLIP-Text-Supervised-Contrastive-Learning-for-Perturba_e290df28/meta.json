@@ -4,5 +4,33 @@
  "title": "MorphoCLIP-Text-Supervised-Contrastive-Learning-for-Perturba",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-08-25 02:57:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/83e4896a-5233-49d3-bc1a-08928266361d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/83e4896a-5233-49d3-bc1a-08928266361d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cell Painting",
+    "contrastive learning",
+    "morphological profiling",
+    "CLIP",
+    "batch effect correction",
+    "CPJUMP1",
+    "DINOv3",
+    "gene-compound matching"
+   ],
+   "field": "生物医学图像分析 / 形态学谱型",
+   "innovations": [
+    "冻结 DINOv3+ModernBERT 骨干仅训练 CrossChannelFormer 实现单卡训练文本监督 Cell Painting 对比学习",
+    "扰动感知批次+复本对齐损失 L_rep 显式优化实验重复性",
+    "条件相对板校正 condition-relative plate offsets 解耦技术漂移与条件信号"
+   ],
+   "benchmarks": [
+    "CPJUMP1 pilot",
+    "standard CPJUMP1 benchmark (mAP / fraction retrieved)",
+    "RxRx3-core CORUM (baseline comparison)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Object-Uni-A-Unified-Model-for-Object-Centric-Spatial-Unders",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-08-25 03:01:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1c752e2b-7ef7-46f1-a42d-a4ee61248304.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1c752e2b-7ef7-46f1-a42d-a4ee61248304.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:28:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "object-centric spatial intelligence",
+    "unified understanding and generation",
+    "object pose estimation",
+    "controllable generation",
+    "multi-modal large language model",
+    "UniSpatial-80K",
+    "pose anchor"
+   ],
+   "field": "物体中心空间理解与可控生成",
+   "innovations": [
+    "提出将物体姿态作为连接理解与生成的显式统一几何变量",
+    "提出基于视角的朝向抽象以桥接连续几何监督与语言推理",
+    "设计物体 token 接地姿态锚点 PoseAnchor 提升多物体姿态理解稳定性"
+   ],
+   "benchmarks": [
+    "UniSpatial-80K",
+    "KITTI-Cityscapes",
+    "ImageNet3D",
+    "Objectron"
+   ]
+  }
+ }
 }

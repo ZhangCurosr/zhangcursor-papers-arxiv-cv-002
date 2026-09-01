@@ -4,5 +4,33 @@
  "title": "MomADv2-Reliable-Temporal-Memory-for-End-to-End-Autonomous-D",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-25 14:42:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e0aacf-22eb-4616-aa82-741d4600892b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/17e0aacf-22eb-4616-aa82-741d4600892b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端自动驾驶",
+    "长时域规划",
+    "状态空间模型",
+    "Flow Matching",
+    "时序记忆",
+    "残差修正",
+    "NAVSIM"
+   ],
+   "field": "端到端自动驾驶长时域规划",
+   "innovations": [
+    "提出基于指令/时序/轨迹一致性的选择性 SSM 记忆查询模块，避免无效历史干扰",
+    "设计以规划输出为起点、向专家轨迹学习的 Flow-Matching 残差修正器",
+    "提出先读后写且仅缓存原始查询的可靠记忆更新策略并给出多维度可靠性门控"
+   ],
+   "benchmarks": [
+    "nuScenes",
+    "Bench2Drive",
+    "NAVSIMv1",
+    "NAVSIMv2"
+   ]
+  }
+ }
 }

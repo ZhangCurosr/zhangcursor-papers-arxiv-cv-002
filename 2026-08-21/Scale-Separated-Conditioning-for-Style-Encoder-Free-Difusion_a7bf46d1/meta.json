@@ -4,5 +4,31 @@
  "title": "Scale-Separated-Conditioning-for-Style-Encoder-Free-Difusion",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-21 14:33:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ceecf1a9-c5fc-4b24-8bec-13b5f95fe0a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/ceecf1a9-c5fc-4b24-8bec-13b5f95fe0a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:25:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Stylization",
+    "Style Encoder-Free",
+    "Scale-Separated Conditioning",
+    "Rectified Flow",
+    "Parameter-Efficient Adaptation"
+   ],
+   "field": "参考驱动图像风格迁移",
+   "innovations": [
+    "提出SEFS框架，通过低分辨率裁剪令牌与结构条件实现无辅助编码器的扩散stylization",
+    "设计style-to-denoising re-normalization与cross-block skip fusion，稳定异构token融合并提升内容保持",
+    "从单张未配对图像自监督构造pseudo content-style训练对，无需人工三元组"
+   ],
+   "benchmarks": [
+    "WikiArt",
+    "1000 fixed cross-image content-style pairs",
+    "StyleShot",
+    "CSGO"
+   ]
+  }
+ }
 }

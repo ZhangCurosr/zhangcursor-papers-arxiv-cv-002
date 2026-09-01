@@ -4,5 +4,29 @@
  "title": "Mapping-the-Concept-Landscape-Structural-Perception-of-Globa",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-25 14:42:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f9f45641-72f6-4436-8f18-82444be8e05a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f9f45641-72f6-4436-8f18-82444be8e05a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:27:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data Pruning",
+    "Concept Graph",
+    "Multimodal Dataset Selection",
+    "Greedy Coverage",
+    "Vision-Language Model"
+   ],
+   "field": "多模态数据效率优化",
+   "innovations": [
+    "提出基于实体-事件-属性概念图的结构化透明剪枝框架MCL，将剪枝目标从嵌入几何多样性转为显式语义覆盖",
+    "设计联合稀有度与图结构度的概念重要性度量，并在三类概念内独立归一化",
+    "采用贪心边际覆盖选择替代静态打分，自动平衡主流与长尾概念"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-mix-665k + MME/SEED/POPE/MMMU/ScienceQA/GQA/TextVQA",
+    "COCO 2017 Object Detection (DETR+ResNet-50)"
+   ]
+  }
+ }
 }

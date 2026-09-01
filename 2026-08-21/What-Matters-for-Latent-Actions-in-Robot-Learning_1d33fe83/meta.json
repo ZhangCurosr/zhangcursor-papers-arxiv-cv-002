@@ -4,5 +4,32 @@
  "title": "What-Matters-for-Latent-Actions-in-Robot-Learning",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-21 14:32:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f651fbe0-0710-43fc-83bb-bb4d6573dd66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/f651fbe0-0710-43fc-83bb-bb4d6573dd66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:26:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Latent Action Models",
+    "Robot Learning",
+    "Representation Learning",
+    "Vision-Language-Action Models",
+    "Self-Supervised Learning",
+    "Embodied AI"
+   ],
+   "field": "具身基础模型与表征学习",
+   "innovations": [
+    "首次系统性评估LAM的41种设计选择，统一IDM-FDM与CFD-AE范式比较",
+    "揭示JAP联合预测架构最优，潜在动作应持续参与下游策略学习而非仅作为预训练目标",
+    "建立FDM重建指标为更可靠的代理评估方法，发现潜在动作维度和数据规模的规模化规律"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "RoboTwin2.0",
+    "Franka Panda真实机器人实验"
+   ]
+  }
+ }
 }

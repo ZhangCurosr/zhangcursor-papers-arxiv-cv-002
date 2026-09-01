@@ -4,5 +4,31 @@
  "title": "RIPE-Reinforced-Keypoint-Learning-from-Positive-Pairs-Only",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-21 03:03:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e25db663-dddd-4aae-b05e-b28ea386aaed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/e25db663-dddd-4aae-b05e-b28ea386aaed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:25:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督关键点提取",
+    "强化学习",
+    "几何一致性奖励",
+    "正样本对训练",
+    "LightGlue",
+    "医学图像配准"
+   ],
+   "field": "几何视觉/关键点检测",
+   "innovations": [
+    "仅用正样本对的几何奖励重设计消除负样本依赖",
+    "熵正则化提升关键点定位精度",
+    "弱监督RL范式扩展至LightGlue匹配器训练"
+   ],
+   "benchmarks": [
+    "MegaDepth1500",
+    "SCARED1500",
+    "Aachen Day-Night v1.1"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SafeBranch-Branch-Pair-Safety-Alignment-for-Embodied-Agents",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-21 14:32:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1f48624c-fbdd-48b6-a671-73927d50fae3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/1f48624c-fbdd-48b6-a671-73927d50fae3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:25:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive safety",
+    "embodied agent",
+    "preference optimization",
+    "branch pair",
+    "DPO",
+    "VLM",
+    "OOD generalization"
+   ],
+   "field": "具身智能安全对齐",
+   "innovations": [
+    "提出分支对（branch pair）作为步骤级安全监督信号",
+    "通过环境回滚与事后重标从 Actor 自身 rollouts 构建安全对比数据",
+    "BranchPO 训练目标使 VLM 具身规划器无评论家部署即可保证交互安全"
+   ],
+   "benchmarks": [
+    "IS-Bench",
+    "SafetyALFRED",
+    "OOD-ObjectShift",
+    "OOD-TaskShift"
+   ]
+  }
+ }
 }

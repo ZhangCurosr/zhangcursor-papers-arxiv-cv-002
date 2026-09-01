@@ -4,5 +4,32 @@
  "title": "SafeBranch-Branch-Pair-Safety-Alignment-for-Embodied-Agents",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-21 03:03:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/34bd7481-c556-4f0d-87f6-64a0d25c780d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/34bd7481-c556-4f0d-87f6-64a0d25c780d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:25:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "interactive safety",
+    "embodied agents",
+    "preference optimization",
+    "branch pair",
+    "vision-language model",
+    "safety alignment"
+   ],
+   "field": "具身智能安全对齐",
+   "innovations": [
+    "提出 branch-pair 监督范式，在安全关键步提供步骤级对比信号",
+    "设计 SafeBranch 数据构造管线：环境回滚+critic引导修复+hindsight relabeling",
+    "BranchPO 目标函数实现 critic-free 部署的交互式安全对齐"
+   ],
+   "benchmarks": [
+    "IS-Bench",
+    "SafetyALFRED",
+    "OOD-ObjectShift",
+    "OOD-TaskShift"
+   ]
+  }
+ }
 }

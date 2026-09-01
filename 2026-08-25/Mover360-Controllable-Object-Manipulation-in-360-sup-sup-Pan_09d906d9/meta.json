@@ -4,5 +4,30 @@
  "title": "Mover360-Controllable-Object-Manipulation-in-360-sup-sup-Pan",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-25 14:43:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1cfa1cc5-2423-4b67-b3e4-b753bc00bfa1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1cfa1cc5-2423-4b67-b3e4-b753bc00bfa1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:28:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "360-degree panorama",
+    "equirectangular projection",
+    "object manipulation",
+    "diffusion transformer",
+    "controllable editing",
+    "flow matching"
+   ],
+   "field": "全景图像编辑与对象操纵",
+   "innovations": [
+    "Translation为中心的ERP全景对象操纵统一框架（点/bbox/mask三粒度指令图）",
+    "基于预训练Flux2-Klein的轻量化LoRA适配+4D RoPE多条件坐标分配",
+    "UE5表面感知数据生成管道与双域（合成+真实）配对基准"
+   ],
+   "benchmarks": [
+    "UE5 synthetic test set (210 tuples)",
+    "Real captured test set (50 tuples)"
+   ]
+  }
+ }
 }

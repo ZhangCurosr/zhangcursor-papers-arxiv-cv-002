@@ -4,5 +4,30 @@
  "title": "MLLM-Assisted-Audio-VOS-A-3rd-Place-Report-for-the-MeViS-Aud",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-25 02:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c32bc1b5-475d-4a27-950c-232f65548741.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/c32bc1b5-475d-4a27-950c-232f65548741.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:26:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "音频引导视频分割",
+    "多模态大语言模型",
+    "Segment Anything Model",
+    "免训练框架",
+    "LSVOS挑战赛",
+    "音视频对齐"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "提出ASR+MLLM+SAM的四阶段免训练音频引导视频分割流水线",
+    "引入掩码-文本一致性验证模块显著提升no-target判别能力",
+    "MLLM联合分析实现关键帧选择与细粒度参考提示生成"
+   ],
+   "benchmarks": [
+    "MeViS-Audio Track",
+    "8th LSVOS Challenge"
+   ]
+  }
+ }
 }
