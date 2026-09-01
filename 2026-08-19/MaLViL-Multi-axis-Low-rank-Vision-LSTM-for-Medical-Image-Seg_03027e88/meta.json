@@ -4,5 +4,34 @@
  "title": "MaLViL-Multi-axis-Low-rank-Vision-LSTM-for-Medical-Image-Seg",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-19 14:30:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9e006606-1449-4639-a731-58067dbc91bc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/9e006606-1449-4639-a731-58067dbc91bc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:58:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学图像分割",
+    "Vision-LSTM",
+    "低秩近似",
+    "多分辨率解码器",
+    "跨方向混合器",
+    "跳连调制"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "多轴低秩Vision-LSTM实现全解码器扩展，内存降低最高83倍",
+    "尺度感知正交卷积恢复扁平化断裂的邻域关系",
+    "统计引导跳连调制分离语义与高频边界信息"
+   ],
+   "benchmarks": [
+    "Synapse",
+    "PH²",
+    "HAM10000",
+    "ISIC 2017",
+    "ISIC 2018",
+    "BUSI"
+   ]
+  }
+ }
 }

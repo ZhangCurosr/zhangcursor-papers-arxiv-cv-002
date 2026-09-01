@@ -4,5 +4,27 @@
  "title": "Scanline-Aware-Animatable-Gaussian-Avatars-from-Rolling-Shut",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-19 02:55:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/fecdbd8f-cd89-44ec-8465-d6af90d2e183.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/fecdbd8f-cd89-44ec-8465-d6af90d2e183.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:04:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rolling shutter",
+    "human avatar reconstruction",
+    "3D Gaussian splatting",
+    "image formation model",
+    "scanline compositing",
+    "multi-view synthesis",
+    "motion-aware deblurring"
+   ],
+   "field": "动态人体三维重建与计算摄影",
+   "innovations": [
+    "将滚动快门直接嵌入可动画化 Gaussian Avatar 的 3D 图像形成过程，仅替换子帧渲染的组合算子（均匀平均→行带选择合成）",
+    "证明运动模糊模型的脚手架可复用但算子不可迁移，同一子帧架构下 RS 模型反而超越无视快门的基线",
+    "构建 RS-ZJU 基准并以消融揭示行带离散化不必随框架细化，帧内多项式轨迹才是精度瓶颈"
+   ]
+  }
+ }
 }

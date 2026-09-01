@@ -4,5 +4,34 @@
  "title": "Noisy-group-neurons-with-synchronous-resetting-for-high-perf",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-19 02:57:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/875602d7-61d6-4032-b6a5-101c2e58280e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/875602d7-61d6-4032-b6a5-101c2e58280e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:58:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spiking neural network",
+    "stochastic resonance",
+    "surrogate gradient",
+    "synchronous resetting",
+    "mean-field approximation",
+    "neuromorphic computing"
+   ],
+   "field": "脉冲神经网络训练方法",
+   "innovations": [
+    "提出噪声群神经元模型，通过群体级同步重置和神经随机性同时缓解时空信息损失与梯度失配",
+    "从平均场近似理论推导高斯代理梯度函数，使前后向信号在高群体大小下趋于一致",
+    "引入同步重置机制将K个独立膜电位历史压缩为单一共享状态，降低计算开销"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "DVS-Gesture",
+    "N-Caltech101",
+    "CIFAR10-DVS"
+   ]
+  }
+ }
 }

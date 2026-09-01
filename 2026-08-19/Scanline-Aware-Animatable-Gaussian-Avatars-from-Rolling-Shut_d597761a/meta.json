@@ -4,5 +4,29 @@
  "title": "Scanline-Aware-Animatable-Gaussian-Avatars-from-Rolling-Shut",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-19 14:31:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/fecdbd8f-cd89-44ec-8465-d6af90d2e183.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/fecdbd8f-cd89-44ec-8465-d6af90d2e183.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:03:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "rolling shutter",
+    "3D Gaussian avatar",
+    "human reconstruction",
+    "image formation model",
+    "sub-frame rendering",
+    "RS-ZJU benchmark"
+   ],
+   "field": "可动画人体 avatar 重建",
+   "innovations": [
+    "将滚动快门建模为逐行选择亚帧渲染的组合算子，替换模糊模型的均匀平均",
+    "揭示亚帧建模脚手架可迁移但退化算子不可互换，模糊模型在同等配置下低于无亚帧基线",
+    "构建 RS-ZJU 基准并验证 RS-aware 建模在多主体多视角下的显著收益"
+   ],
+   "benchmarks": [
+    "RS-ZJU"
+   ]
+  }
+ }
 }

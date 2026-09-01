@@ -4,5 +4,30 @@
  "title": "STRUCTURAL-PLAN-TO-MODEL-CONVERSION-WITH-DETERMINISTIC-GEOME",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-19 02:57:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b796fad1-ac67-42b1-a3ba-0ecfc236d473.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b796fad1-ac67-42b1-a3ba-0ecfc236d473.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:04:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structural drawing understanding",
+    "plan-to-model conversion",
+    "vision-language agents",
+    "deterministic geometry",
+    "architecture-engineering-construction AI",
+    "neuro-symbolic AI"
+   ],
+   "field": "工程图纸理解与自动建模",
+   "innovations": [
+    "首个面向结构构件检测与模型绘图的无任务特定训练的VLM智能体框架",
+    "确定性几何提取与受保护智能修订的双层分工架构",
+    "维度共识比例解析与类型化操作准入守卫结合的失败关闭事务机制"
+   ],
+   "benchmarks": [
+    "PD-50 / PD-50-T",
+    "100张程序生成框架图（US/CA双规范×钢/混/木三材料）"
+   ]
+  }
+ }
 }

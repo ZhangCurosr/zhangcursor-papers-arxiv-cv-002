@@ -4,5 +4,10 @@
  "title": "Memory-Tree-Guided-Key-Frame-Querying-for-Eficient-3D-Questi",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-19 14:30:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/daf1538f-571e-4a78-a7e1-24d3c14159e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/daf1538f-571e-4a78-a7e1-24d3c14159e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:58:41",
+  "chunks": 1
+ }
 }

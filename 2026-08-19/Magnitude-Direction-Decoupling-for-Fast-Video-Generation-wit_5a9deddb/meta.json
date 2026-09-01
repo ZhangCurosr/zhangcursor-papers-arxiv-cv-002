@@ -4,5 +4,32 @@
  "title": "Magnitude-Direction-Decoupling-for-Fast-Video-Generation-wit",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-19 14:30:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a8124d7c-3ab4-488c-8d92-e7a2a8128287.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a8124d7c-3ab4-488c-8d92-e7a2a8128287.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:57:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "Video Generation",
+    "Model Acceleration",
+    "Training-free",
+    "Magnitude-Direction Decoupling",
+    "Classifier-Free Guidance"
+   ],
+   "field": "视频生成加速",
+   "innovations": [
+    "提出MDD方法，将大模型输出解耦为幅度与方向分量并分别由小模型和残差复用近似",
+    "发现CFG条件下条件/无条件输出幅度相近，提出CFG幅度复用机制减半推理开销",
+    "引入累积余弦误差驱动的自适应切换策略动态平衡加速效率与视觉质量"
+   ],
+   "benchmarks": [
+    "VBench",
+    "LPIPS",
+    "SSIM",
+    "PSNR"
+   ]
+  }
+ }
 }

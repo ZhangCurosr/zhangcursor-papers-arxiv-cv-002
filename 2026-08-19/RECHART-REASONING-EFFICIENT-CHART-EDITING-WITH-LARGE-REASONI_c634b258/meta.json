@@ -4,5 +4,31 @@
  "title": "RECHART-REASONING-EFFICIENT-CHART-EDITING-WITH-LARGE-REASONI",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-19 14:31:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6d44fdda-dcfd-447f-8ddf-4b1dab4be799.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6d44fdda-dcfd-447f-8ddf-4b1dab4be799.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:00:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chart editing",
+    "large reasoning models",
+    "reinforcement learning",
+    "chain-of-thought efficiency",
+    "multimodal LLM",
+    "overthinking"
+   ],
+   "field": "多模态大模型与视觉推理",
+   "innovations": [
+    "提出 Reason-Score-Refine 多智能体 SFT 轨迹合成框架",
+    "设计 episode-level Efficiency Reward 与多维 Fidelity Reward 混合 RL 训练",
+    "揭示图表编辑任务中推理长度与性能的倒 U 型关系并提出过程级监督方案"
+   ],
+   "benchmarks": [
+    "ChartEdit w/o Code",
+    "ChartMIMIC Customized Mimic",
+    "ChartMIMIC Direct Mimic"
+   ]
+  }
+ }
 }

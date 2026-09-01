@@ -4,5 +4,10 @@
  "title": "SE-MoLoRA-Shared-Expert-LoRA-Adapters-for-Domain-Specific-Ph",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-19 02:58:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/18af4fa3-e3db-4469-83ed-dce8e6219fbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/18af4fa3-e3db-4469-83ed-dce8e6219fbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:02:07",
+  "chunks": 1
+ }
 }

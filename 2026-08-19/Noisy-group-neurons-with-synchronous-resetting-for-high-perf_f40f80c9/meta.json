@@ -4,5 +4,36 @@
  "title": "Noisy-group-neurons-with-synchronous-resetting-for-high-perf",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-08-19 14:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/875602d7-61d6-4032-b6a5-101c2e58280e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/875602d7-61d6-4032-b6a5-101c2e58280e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:59:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spiking neural network",
+    "noisy group neuron",
+    "synchronous resetting",
+    "stochastic resonance",
+    "gradient mismatching",
+    "mean-field learning",
+    "surrogate gradient",
+    "neuromorphic computing"
+   ],
+   "field": "脉冲神经网络高效训练方法",
+   "innovations": [
+    "提出噪声群体神经元模型，通过同步复位机制同时解决时空信息丢失和梯度不匹配问题",
+    "从平均场动力学 principled 推导高斯代理梯度函数，为代理函数选择提供理论基础",
+    "证明有限K群体下NGN梯度失配概率严格低于LIF基线，并揭示随机共振对编码与性能的增益"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "DVS-Gesture",
+    "N-Caltech101",
+    "CIFAR10-DVS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SFMformer-A-Spatial-Frequency-Modulation-Transformer-for-Lig",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-19 14:30:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f2cc452-0aa8-4e57-b8de-380968544fd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6f2cc452-0aa8-4e57-b8de-380968544fd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:01:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像超分辨率",
+    "稀疏注意力",
+    "轻量级Transformer",
+    "频域调制",
+    "边缘部署"
+   ],
+   "field": "轻量级视觉恢复",
+   "innovations": [
+    "稀疏注意力选择-聚合双阶段干预框架",
+    "DFE+WMA非对称模块组合与协同增益量化",
+    "Raspberry Pi 5边缘设备部署验证"
+   ],
+   "benchmarks": [
+    "Set5",
+    "Set14",
+    "BSD100",
+    "Urban100",
+    "Manga109"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "RECHART-REASONING-EFFICIENT-CHART-EDITING-WITH-LARGE-REASONI",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-19 02:59:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6d44fdda-dcfd-447f-8ddf-4b1dab4be799.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6d44fdda-dcfd-447f-8ddf-4b1dab4be799.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:00:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图表编辑",
+    "大型推理模型",
+    "多模态大语言模型",
+    "强化学习",
+    "推理效率",
+    "Chain-of-Thought",
+    "代码生成"
+   ],
+   "field": "多模态大语言模型与可视化代码生成",
+   "innovations": [
+    "提出两阶段训练框架REChart，在SFT阶段通过Role-Specialized Multi-Agent Reason-Score-Refine流程合成200k结构化推理轨迹",
+    "设计episode-level效率奖励与保真度奖励的混合奖励机制，解决过度思考问题并降低79%推理token消耗",
+    "系统揭示图表编辑任务中推理长度与性能的倒U型关系，为高效推理训练提供实证依据"
+   ],
+   "benchmarks": [
+    "ChartEdit w/o Code",
+    "ChartMIMIC Customized Mimic",
+    "ChartMIMIC Direct Mimic"
+   ]
+  }
+ }
 }

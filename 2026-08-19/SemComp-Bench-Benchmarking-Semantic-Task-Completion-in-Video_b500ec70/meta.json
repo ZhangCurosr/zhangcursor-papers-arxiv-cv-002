@@ -4,5 +4,30 @@
  "title": "SemComp-Bench-Benchmarking-Semantic-Task-Completion-in-Video",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-19 02:59:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/64b8ae14-dbdb-47a6-85f7-93c1abba8ee2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/64b8ae14-dbdb-47a6-85f7-93c1abba8ee2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:04:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "基准测试",
+    "语义任务完成",
+    "视觉语言模型",
+    "结果导向生成",
+    "数据构建"
+   ],
+   "field": "视频生成评估与基准",
+   "innovations": [
+    "提出语义任务完成视频生成任务，聚焦结果实现与语义锚定",
+    "构建 SemComp-Data 数据集与四阶段自动化流水线",
+    "设计 SemComp-Bench，联合评估结果实现与生成可靠性并提供可解释证据"
+   ],
+   "benchmarks": [
+    "SemComp-Bench",
+    "SemComp-Data"
+   ]
+  }
+ }
 }

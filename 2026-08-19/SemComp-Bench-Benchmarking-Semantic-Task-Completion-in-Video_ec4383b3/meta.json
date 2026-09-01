@@ -4,5 +4,31 @@
  "title": "SemComp-Bench-Benchmarking-Semantic-Task-Completion-in-Video",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-19 14:31:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/64b8ae14-dbdb-47a6-85f7-93c1abba8ee2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/64b8ae14-dbdb-47a6-85f7-93c1abba8ee2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:04:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "语义任务完成",
+    "视频评估基准",
+    "VLM评估",
+    "语义grounding",
+    "结果达成"
+   ],
+   "field": "视频生成评测基准",
+   "innovations": [
+    "提出语义任务完成视频生成新任务，联合评估结果达成与语义grounding",
+    "构建可扩展四阶段数据流水线SemComp-Data，自动从原始视频生成评测三元组",
+    "设计VLM驱动的双维度评估协议SemComp-Bench，支持可解释的失败诊断"
+   ],
+   "benchmarks": [
+    "SemComp-Bench",
+    "SemComp-Data",
+    "Koala-36M"
+   ]
+  }
+ }
 }

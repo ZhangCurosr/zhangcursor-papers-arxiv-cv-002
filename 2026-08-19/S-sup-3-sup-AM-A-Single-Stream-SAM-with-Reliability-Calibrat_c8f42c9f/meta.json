@@ -4,5 +4,35 @@
  "title": "S-sup-3-sup-AM-A-Single-Stream-SAM-with-Reliability-Calibrat",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-19 02:58:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ad240eb2-f3ac-40a0-b399-bbf7542641a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ad240eb2-f3ac-40a0-b399-bbf7542641a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:01:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-modal salient object detection",
+    "Segment Anything Model",
+    "frequency adaptation",
+    "reliability calibration",
+    "single-stream architecture",
+    "stationary wavelet transform"
+   ],
+   "field": "多模态视觉感知",
+   "innovations": [
+    "提出单流SAM适配框架，通过可靠性校准频率适配器控制辅助模态高频信息的早期注入",
+    "设计频率专家混合模块(MoFE)与双门控校准机制(RCFA)，实现跨模态频域信息的自适应融合与噪声抑制"
+   ],
+   "benchmarks": [
+    "NJU2K",
+    "NLPR",
+    "SSD",
+    "STERE",
+    "VT5000",
+    "VT821",
+    "VT1000",
+    "RGB-NIR cross-modal"
+   ]
+  }
+ }
 }

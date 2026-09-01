@@ -4,5 +4,31 @@
  "title": "Magnitude-Direction-Decoupling-for-Fast-Video-Generation-wit",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-08-19 02:58:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a8124d7c-3ab4-488c-8d92-e7a2a8128287.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/a8124d7c-3ab4-488c-8d92-e7a2a8128287.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:57:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成加速",
+    "Flow Matching",
+    "训练自由加速",
+    "幅度-方向解耦",
+    "残差复用",
+    "大-小模型协作"
+   ],
+   "field": "视频生成模型加速",
+   "innovations": [
+    "提出幅度-方向解耦策略，用小模型估计幅度、残差复用估计方向，弥补单一方法的偏差",
+    "发现 CFG 中条件/非条件输出幅度相近，提出幅度复用进一步减半小模型推理成本",
+    "设计自适应累积误差触发机制动态切换大/小模型，平衡加速比与视觉质量"
+   ],
+   "benchmarks": [
+    "VBench",
+    "Wan2.1-14B",
+    "EasyAnimateV5.1-12B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "PathoArgus-Advancing-Evidence-Grounded-Long-Context-Visual-R",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-19 14:30:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c271300d-a695-4c46-9b86-6f283727e8ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/c271300d-a695-4c46-9b86-6f283727e8ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:59:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Whole-Slide Image",
+    "Evidence-Grounded Reasoning",
+    "Visual Question Answering",
+    "Pathology Benchmark",
+    "Long-Context VLM"
+   ],
+   "field": "病理视觉推理与评估基准",
+   "innovations": [
+    "提出首个涵盖证据链完整性的病理WSI问答基准PathoArgus-Bench",
+    "引入ESG四重对照实验，量化模型对证据的响应性而非仅准确率",
+    "设计固定预算的结构化层次化证据选择机制PathoArgus"
+   ],
+   "benchmarks": [
+    "PathoArgus-Bench",
+    "SlideBench",
+    "WSI-Bench",
+    "WSI-VQA"
+   ]
+  }
+ }
 }

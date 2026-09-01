@@ -4,5 +4,30 @@
  "title": "NeuroPath-Brain-Inspired-Dual-Pathway-Graph-Convolutional-Ne",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-19 02:58:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6cc74f83-1371-4792-b696-fee2d844c71d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6cc74f83-1371-4792-b696-fee2d844c71d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:59:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "骨架动作识别",
+    "空间时间图卷积",
+    "双通路网络",
+    "骨架模态",
+    "动态融合"
+   ],
+   "field": "骨架动作识别",
+   "innovations": [
+    "提出受大脑双通路启发的双通路图卷积网络，显式解耦空间感知与时间感知通路",
+    "设计空间-时间群图卷积块，通过二阶时序差分注入运动线索到空间聚合",
+    "引入级联动态融合机制，实现通路间渐进式自适应交互"
+   ],
+   "benchmarks": [
+    "Kinetics Skeleton 400",
+    "NTU RGB+D 60",
+    "NTU RGB+D 120"
+   ]
+  }
+ }
 }

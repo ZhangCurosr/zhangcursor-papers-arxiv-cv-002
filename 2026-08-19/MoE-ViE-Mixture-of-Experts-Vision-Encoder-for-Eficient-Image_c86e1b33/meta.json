@@ -4,5 +4,33 @@
  "title": "MoE-ViE-Mixture-of-Experts-Vision-Encoder-for-Eficient-Image",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-19 02:57:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/4b13fb80-6914-4020-bc21-d84034973815.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/4b13fb80-6914-4020-bc21-d84034973815.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:58:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "Vision Encoder",
+    "CLIP",
+    "Video Understanding",
+    "Sparse Scaling",
+    "MoE Kernel"
+   ],
+   "field": "视觉语言预训练",
+   "innovations": [
+    "细粒度MoE拓扑设计使稀疏专家在视觉编码器中实现SOTA性能",
+    "magnitude-aware无辅助损失负载均衡提升专家利用率与训练稳定性"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "Kinetics-400",
+    "MSR-VTT",
+    "COCO",
+    "TextCaps",
+    "FGVC Aircraft"
+   ]
+  }
+ }
 }

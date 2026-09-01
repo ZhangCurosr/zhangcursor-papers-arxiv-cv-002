@@ -4,5 +4,31 @@
  "title": "Memory-Tree-Guided-Key-Frame-Querying-for-Eficient-3D-Questi",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-19 02:55:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/daf1538f-571e-4a78-a7e1-24d3c14159e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/daf1538f-571e-4a78-a7e1-24d3c14159e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:57:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Question Answering",
+    "Embodied AI",
+    "Key Frame Selection",
+    "Vision-Language Model",
+    "Scene Representation",
+    "LLM Reasoning"
+   ],
+   "field": "三维视觉语言理解",
+   "innovations": [
+    "提出MemTree3D三层树形场景表示，支持25+ FPS实时构建与LLM驱动的轻量关键帧选择",
+    "LLM基于结构化 cues 推理生成时空引导，替代逐查询全量视觉搜索，实现69.2%速度提升",
+    "感知失败鲁棒恢复：LLM通过上下文关系推理补偿漏检物体，仅造成3.1分性能下降"
+   ],
+   "benchmarks": [
+    "OpenEQA",
+    "ScanQA",
+    "SQA3D"
+   ]
+  }
+ }
 }

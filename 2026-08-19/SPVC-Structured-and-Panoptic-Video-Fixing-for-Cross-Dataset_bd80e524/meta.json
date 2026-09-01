@@ -4,5 +4,32 @@
  "title": "SPVC-Structured-and-Panoptic-Video-Fixing-for-Cross-Dataset",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-19 02:59:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cafe79b4-3740-4f09-b40c-a3f1a7b883b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cafe79b4-3740-4f09-b40c-a3f1a7b883b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:02:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "driving scene rendering",
+    "video diffusion",
+    "artifact fixing",
+    "cross-dataset generalization",
+    "structured control"
+   ],
+   "field": "自动驾驶场景仿真与神经渲染",
+   "innovations": [
+    "两阶段可控视频扩散修复框架：Stage I 时序外观修复 + Stage II 结构化精细修",
+    "跨数据集配对训练数据构建管线（欠训练3DGS/跨视角NVS/随机掩码/TRELLIS前景插入）",
+    "端到端闭环仿真验证：SPVC修复数据微调VAD显著降低碰撞率并提升NeuroNCAP分数"
+   ],
+   "benchmarks": [
+    "Waymo Open Dataset",
+    "nuScenes",
+    "PandaSet",
+    "EUVS (zero-shot)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Probing-Association-Instability-with-Track-State-Perturbatio",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-19 14:31:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/61b8a7f5-65b4-4afa-8759-8af9bf04b913.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/61b8a7f5-65b4-4afa-8759-8af9bf04b913.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:00:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-object tracking",
+    "active learning",
+    "query propagation",
+    "clip-level selection",
+    "association instability",
+    "track-state perturbation"
+   ],
+   "field": "多目标追踪主动学习",
+   "innovations": [
+    "双向轨迹状态扰动探测关联不稳定性",
+    "熵加权置信度差异与定位漂移联合聚合",
+    "track级视觉原型覆盖去重选择高难clip"
+   ],
+   "benchmarks": [
+    "DanceTrack",
+    "SportsMOT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "SE-MoLoRA-Shared-Expert-LoRA-Adapters-for-Domain-Specific-Ph",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-19 14:30:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/18af4fa3-e3db-4469-83ed-dce8e6219fbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/18af4fa3-e3db-4469-83ed-dce8e6219fbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:01:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "参数高效微调",
+    "LoRA",
+    "Mixture-of-Experts",
+    "图像审美评估",
+    "摄影批评",
+    "多模态路由",
+    "正交正则化"
+   ],
+   "field": "视觉语言模型的高效适配与领域批评",
+   "innovations": [
+    "共享-专家分层LoRA适配器实现摄影批评知识的解耦与残差学习",
+    "适配器权重正交正则化抑制多专家表征坍缩",
+    "查询级双路（文本/多模态）路由机制支持可控可归因批评生成"
+   ],
+   "benchmarks": [
+    "Q-Bench",
+    "PhotoBench",
+    "RPCD",
+    "PCCD"
+   ]
+  }
+ }
 }

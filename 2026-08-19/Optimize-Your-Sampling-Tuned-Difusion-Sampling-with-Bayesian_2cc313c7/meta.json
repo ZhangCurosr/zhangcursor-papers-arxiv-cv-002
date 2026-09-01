@@ -4,5 +4,31 @@
  "title": "Optimize-Your-Sampling-Tuned-Difusion-Sampling-with-Bayesian",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-19 14:30:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cb3ac761-d8b8-4403-8cd2-f0cf3c81fb07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/cb3ac761-d8b8-4403-8cd2-f0cf3c81fb07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 00:59:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion sampling",
+    "Bayesian optimization",
+    "sampling schedule",
+    "text-to-image",
+    "few-step generation",
+    "Human Preference Score"
+   ],
+   "field": "生成模型高效采样",
+   "innovations": [
+    "将扩散采样时间步选择建模为黑盒优化问题并直接用贝叶斯优化目标指标而非代理目标",
+    "提出累积积重参数化保证单调递减调度，联合优化时间步与EDM采样超参数"
+   ],
+   "benchmarks": [
+    "COCO Captions",
+    "DiffusionDB",
+    "ImageNet-512",
+    "Prompt Diffusion Inverse Tasks"
+   ]
+  }
+ }
 }

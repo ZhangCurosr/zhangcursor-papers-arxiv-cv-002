@@ -4,5 +4,31 @@
  "title": "RetiWave-Mamba-A-Dual-Stream-Network-for-Retinal-Disease-Det",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-08-19 02:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6ba12518-d947-4158-84f6-96c98bd10955.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/6ba12518-d947-4158-84f6-96c98bd10955.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:01:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OCT图像分类",
+    "视网膜疾病检测",
+    "Mamba",
+    "离散小波变换",
+    "双流网络",
+    "散斑噪声抑制",
+    "多尺度上下文"
+   ],
+   "field": "医学图像分析-眼底OCT自动诊断",
+   "innovations": [
+    "提出基于DWT的双流架构，低频分支MCLM扩大感受野并定位病灶，高频分支AG-HRNet+FAMP抑制噪声传播并捕捉长程纹理依赖",
+    "设计AGF门控融合机制替代传统相加，有效阻断散斑噪声跨尺度污染",
+    "将Mamba与频带自适应重加权结合，在保留局部精细纹理的同时建模全局依赖"
+   ],
+   "benchmarks": [
+    "OCT-C8",
+    "OCT2017"
+   ]
+  }
+ }
 }

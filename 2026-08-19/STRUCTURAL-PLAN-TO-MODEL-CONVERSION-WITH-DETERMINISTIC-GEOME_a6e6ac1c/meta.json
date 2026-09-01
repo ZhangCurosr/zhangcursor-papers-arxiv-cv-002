@@ -4,5 +4,31 @@
  "title": "STRUCTURAL-PLAN-TO-MODEL-CONVERSION-WITH-DETERMINISTIC-GEOME",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-19 14:31:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b796fad1-ac67-42b1-a3ba-0ecfc236d473.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/b796fad1-ac67-42b1-a3ba-0ecfc236d473.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:03:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structural drawing analysis",
+    "plan-to-model conversion",
+    "vision-language agent",
+    "deterministic geometry",
+    "finite-element modeling",
+    "neurosymbolic AI",
+    "CAD parsing"
+   ],
+   "field": "结构工程自动化 / 工程图纸智能解析",
+   "innovations": [
+    "首个将代理视觉语言层应用于结构构件检测与模型起草的框架，无需任务特定检测器训练",
+    "确定性几何与VLM的职责划分：几何测量由规则完成，语义解释由带守卫的typed operation约束VLM",
+    "100张程序生成基准的seed-disjoint双半评估纪律，杜绝开发-测试数据泄漏"
+   ],
+   "benchmarks": [
+    "PD-50 (development half, 50 drawings)",
+    "PD-50-T (held-out half, 50 seed-disjoint drawings)"
+   ]
+  }
+ }
 }

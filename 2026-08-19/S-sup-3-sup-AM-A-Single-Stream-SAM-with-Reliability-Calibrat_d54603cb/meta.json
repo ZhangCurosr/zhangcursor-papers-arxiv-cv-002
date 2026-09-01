@@ -4,5 +4,31 @@
  "title": "S-sup-3-sup-AM-A-Single-Stream-SAM-with-Reliability-Calibrat",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-19 14:31:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ad240eb2-f3ac-40a0-b399-bbf7542641a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-19/ad240eb2-f3ac-40a0-b399-bbf7542641a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:01:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-modal Salient Object Detection",
+    "Segment Anything Model",
+    "Frequency Adaptation",
+    "Single-stream Framework",
+    "Reliability Calibration"
+   ],
+   "field": "多模态计算机视觉",
+   "innovations": [
+    "提出单流SAM适配框架S³AM避免计算冗余",
+    "设计MoFE进行跨模态小波频率聚合",
+    "引入双门控可靠性校准机制过滤噪声高频信号"
+   ],
+   "benchmarks": [
+    "NJU2K",
+    "NLPR",
+    "VT5000",
+    "RGB-NIR"
+   ]
+  }
+ }
 }
