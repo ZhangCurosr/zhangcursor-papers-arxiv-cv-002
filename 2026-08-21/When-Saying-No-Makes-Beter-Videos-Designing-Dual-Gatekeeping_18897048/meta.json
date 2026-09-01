@@ -4,5 +4,30 @@
  "title": "When-Saying-No-Makes-Beter-Videos-Designing-Dual-Gatekeeping",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-21 03:00:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d966ff75-ab5a-4208-b73c-88905db306c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-21/d966ff75-ab5a-4208-b73c-88905db306c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:03:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI教育视频生成",
+    "CTML",
+    "人机协作",
+    "拒绝机制",
+    "多媒体学习",
+    "自动评测"
+   ],
+   "field": "教育AI/人机协作内容生成",
+   "innovations": [
+    "提出有原则的拒绝(principled resistance)概念，将教学摩擦重构为质量保障机制",
+    "设计双层把关(PedaCo)流水线:脚本阶段人工CTML审查+视频阶段自动多维指标",
+    "CTML原则的操作化与可计算化,实现理论锚定的自动化教学视频评估"
+   ],
+   "benchmarks": [
+    "23名教育者13项CTML原则主观评分(5分制)",
+    "7主题14视频自动化指标(coherence/temporal contiguity/redundancy/modality/image quality)"
+   ]
+  }
+ }
 }

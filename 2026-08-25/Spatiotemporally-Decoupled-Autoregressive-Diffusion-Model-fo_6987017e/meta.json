@@ -4,5 +4,30 @@
  "title": "Spatiotemporally-Decoupled-Autoregressive-Diffusion-Model-fo",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-25 14:42:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/83973bb5-c645-412b-bdca-db4ce9e0f597.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/83973bb5-c645-412b-bdca-db4ce9e0f597.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:07:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本驱动人体运动生成",
+    "自回归扩散模型",
+    "时空解耦",
+    "变分自编码器",
+    "运动编辑",
+    "Continuous Motion Representation"
+   ],
+   "field": "文本驱动人体运动生成",
+   "innovations": [
+    "提出时空 VAE 将运动编码为 2D 连续潜在空间，规避 VQ 信息损失",
+    "设计时空/空间/时间三重注意力融合的自回归扩散生成器",
+    "实现无需微调的时序和空间两级细粒度运动编辑能力"
+   ],
+   "benchmarks": [
+    "HumanML3D",
+    "KIT-ML"
+   ]
+  }
+ }
 }

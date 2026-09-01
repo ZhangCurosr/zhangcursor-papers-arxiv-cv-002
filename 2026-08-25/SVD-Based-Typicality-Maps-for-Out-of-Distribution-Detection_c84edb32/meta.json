@@ -4,5 +4,33 @@
  "title": "SVD-Based-Typicality-Maps-for-Out-of-Distribution-Detection",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-25 02:59:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3a116771-6007-45d6-b736-c518bb3ccfd4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3a116771-6007-45d6-b736-c518bb3ccfd4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "SVD",
+    "Out-of-Distribution Detection",
+    "Vision Transformer",
+    "Typicality Maps",
+    "Post-hoc Methods",
+    "Density Modeling",
+    "GMM"
+   ],
+   "field": "分布外检测与模型可靠性",
+   "innovations": [
+    "用类条件密度建模替代 MACS 聚类流程，实现概率化典型性图",
+    "提出 MLSV 无原型跨层软投票分数，无监督 OOD 检测性能最优",
+    "SVD 投影 + ECDF 归一化导出逐层典型性分数，兼顾可解释性与检测精度"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "SVHN",
+    "Places365",
+    "DTD"
+   ]
+  }
+ }
 }

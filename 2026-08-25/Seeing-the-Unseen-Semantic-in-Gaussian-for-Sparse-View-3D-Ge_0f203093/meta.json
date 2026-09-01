@@ -4,5 +4,30 @@
  "title": "Seeing-the-Unseen-Semantic-in-Gaussian-for-Sparse-View-3D-Ge",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-25 03:00:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f88d9662-6e96-4ba9-9e41-35d24c66706a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f88d9662-6e96-4ba9-9e41-35d24c66706a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Generalizable 3D Gaussian Splatting",
+    "Sparse-View Novel View Synthesis",
+    "Semantic-Conditioned Refinement",
+    "Cross-view Entropy-Aware",
+    "Conditional Transformer"
+   ],
+   "field": "稀疏视角三维重建",
+   "innovations": [
+    "提出 Semantic-in-Gaussian 框架，利用语义条件引导高斯空间残差细化",
+    "设计 CEA 模块，结合多视图语义与匹配熵生成不确定性加权条件嵌入",
+    "使用条件高斯变换器进行残差更新，提升弱约束区域几何完整性"
+   ],
+   "benchmarks": [
+    "RealEstate10K",
+    "ACID",
+    "DTU (Zero-shot)"
+   ]
+  }
+ }
 }

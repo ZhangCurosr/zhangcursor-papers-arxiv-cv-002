@@ -4,5 +4,35 @@
  "title": "Semantic-Reconstruction-and-3-D-Detection-via-Learned-Multi",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-25 02:59:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0884fa34-e041-4430-ae32-cdad3312e26c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0884fa34-e041-4430-ae32-cdad3312e26c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multistatic RF imaging",
+    "semantic reconstruction",
+    "3-D detection",
+    "open-set recognition",
+    "outlier exposure",
+    "LASSO",
+    "3-D U-Net",
+    "oriented bounding box"
+   ],
+   "field": "多静态射频感知与语义重建",
+   "innovations": [
+    "先成像后融合的流水线：标准逆求解器输出作为3-D U-Net多通道输入，隐式跨对融合并输出逐体素语义标签",
+    "显式未知类通过outlier exposure训练，使网络能将未见新对象拒识为unknown而非shape-aliasing到已知类",
+    "跨SNR操作包络分析揭示语义重建/检测的可靠工作区远宽于经典强度重建，检测recall稳定至-50 dB"
+   ],
+   "benchmarks": [
+    "E_sdf（强度加权SDF距离）",
+    "Chamfer distance",
+    "mIoU（5类平均，背景排除）",
+    "object-level open-set AUROC",
+    "known-class recall & precision with OBB matching"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "OptiSight-Bridging-Semantic-Reasoning-and-Geometric-Control",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-08-25 14:43:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7f620426-2929-4447-b156-3a401311aefd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/7f620426-2929-4447-b156-3a401311aefd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:04:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Embodied Navigation",
+    "Vision-Language Models",
+    "Chain-of-Thought",
+    "Visual Servoing",
+    "Semantic-to-Geometric Translation",
+    "Finite-State Machine"
+   ],
+   "field": "具身导航",
+   "innovations": [
+    "FSM驱动的稀疏VLM推理架构，仅在关键状态转换时调用VLM，避免持续推理的高延迟",
+    "基于Grounded-SAM与相机投影几何的语义-几何直接翻译模块，无需密集建图实现开集目标导航",
+    "双隔离执行架构实现VLM推理与几何控制的异步解耦，8GB VRAM预算下运行"
+   ],
+   "benchmarks": [
+    "AI Habitat",
+    "Habitat-Sim"
+   ]
+  }
+ }
 }

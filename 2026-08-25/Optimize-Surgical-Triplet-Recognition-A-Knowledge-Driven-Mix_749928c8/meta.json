@@ -4,5 +4,31 @@
  "title": "Optimize-Surgical-Triplet-Recognition-A-Knowledge-Driven-Mix",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-25 03:01:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a954eca9-aea3-4b20-a4e9-df6df6a133b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/a954eca9-aea3-4b20-a4e9-df6df6a133b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:04:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Surgical Triplet Recognition",
+    "Mixture-of-Experts",
+    "Long-tailed Learning",
+    "Knowledge-Driven Learning",
+    "Multi-task Learning",
+    "Surgical Video Understanding",
+    "Gradient Balancing"
+   ],
+   "field": "手术视频理解",
+   "innovations": [
+    "知识驱动的混合专家机制将MLLM提取的器械结构先验转化为高斯分布专家",
+    "组件定制适配器通过时空分离提示解决多任务优化冲突",
+    "协调梯度学习策略从梯度层面重平衡头尾类别正负梯度"
+   ],
+   "benchmarks": [
+    "CholecT45",
+    "CholecT50"
+   ]
+  }
+ }
 }

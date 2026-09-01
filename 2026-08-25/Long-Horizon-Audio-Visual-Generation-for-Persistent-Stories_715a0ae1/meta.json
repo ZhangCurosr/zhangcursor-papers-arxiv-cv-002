@@ -4,5 +4,32 @@
  "title": "Long-Horizon-Audio-Visual-Generation-for-Persistent-Stories",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-08-25 14:42:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1bc8af74-0fd2-4574-b507-0dd1958a61e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/1bc8af74-0fd2-4574-b507-0dd1958a61e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:03:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长程音视频生成",
+    "跨镜头记忆",
+    "世界模型",
+    "Self-Gradient Forcing",
+    "Distribution Matching Distillation",
+    "因果自回归",
+    "6-DoF轨迹控制",
+    "任意步数超分辨率"
+   ],
+   "field": "长程音视频生成与世界模型",
+   "innovations": [
+    "可组合跨镜头音视频记忆实现角色身份持久化",
+    "基于校准6-DoF轨迹的几何感知控制器无关交互接口",
+    "短时距/长时距SGF结合sink-FIFO缓存的因果少步蒸馏训练"
+   ],
+   "benchmarks": [
+    "WBench",
+    "SANA-WM-Bench"
+   ]
+  }
+ }
 }

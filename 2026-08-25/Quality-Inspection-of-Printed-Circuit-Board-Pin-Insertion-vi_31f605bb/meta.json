@@ -4,5 +4,31 @@
  "title": "Quality-Inspection-of-Printed-Circuit-Board-Pin-Insertion-vi",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-25 03:01:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2df784c3-36df-44cd-aa0b-6273e329fd3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2df784c3-36df-44cd-aa0b-6273e329fd3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:05:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PCB质检",
+    "语义分割",
+    "引脚检测",
+    "U-Net",
+    "异常检测",
+    "逻辑回归",
+    "工业视觉"
+   ],
+   "field": "工业缺陷检测",
+   "innovations": [
+    "提出语义分割+轮廓几何特征+逻辑回归的板级引脚歪斜检测pipeline",
+    "首次将PatchCore无监督异常检测应用于PCB引脚质检任务",
+    "在工业与公开双数据集上验证方法跨域有效性"
+   ],
+   "benchmarks": [
+    "工业PCB引脚数据集",
+    "Roboflow PCB Pin Detection公开数据集"
+   ]
+  }
+ }
 }

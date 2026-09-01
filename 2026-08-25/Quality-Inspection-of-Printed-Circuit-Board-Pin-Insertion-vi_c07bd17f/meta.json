@@ -4,5 +4,30 @@
  "title": "Quality-Inspection-of-Printed-Circuit-Board-Pin-Insertion-vi",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-08-25 14:42:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2df784c3-36df-44cd-aa0b-6273e329fd3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/2df784c3-36df-44cd-aa0b-6273e329fd3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:05:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PCB pin inspection",
+    "semantic segmentation",
+    "contour feature extraction",
+    "board-level classification",
+    "anomaly detection",
+    "industrial vision"
+   ],
+   "field": "工业PCB缺陷检测",
+   "innovations": [
+    "提出语义分割结合轮廓几何特征的板级逻辑回归分类流水线",
+    "验证了方法在视觉分布差异显著的跨域数据集上的强鲁棒性",
+    "系统对比了板级、nest级与引脚级检测范式的性能边界与适用条件"
+   ],
+   "benchmarks": [
+    "Industrial PCB pin dataset",
+    "Roboflow pin detection dataset"
+   ]
+  }
+ }
 }

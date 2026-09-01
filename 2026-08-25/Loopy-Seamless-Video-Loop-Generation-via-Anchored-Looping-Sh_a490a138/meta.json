@@ -4,5 +4,34 @@
  "title": "Loopy-Seamless-Video-Loop-Generation-via-Anchored-Looping-Sh",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-25 14:43:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/98851688-5dcc-4476-aa57-d85478a424f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/98851688-5dcc-4476-aa57-d85478a424f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:03:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "循环视频生成",
+    "位置编码",
+    "DiT",
+    "RoPE",
+    "RGBA视频生成",
+    "时间一致性"
+   ],
+   "field": "视频生成与动画",
+   "innovations": [
+    "首次揭示DiT中RoPE在不同注意力层的时序控制差异并识别锚点层",
+    "提出锚定分组偏移策略将时间感知从线性转为环形以实现无缝循环",
+    "统一支持RGB和RGBA高质量循环视频生成并兼容AIGC控制特性"
+   ],
+   "benchmarks": [
+    "VBench",
+    "GPT-4o text alignment",
+    "Cyclic Smoothness",
+    "Dynamic Score",
+    "Naturalness",
+    "Motion Smoothness"
+   ]
+  }
+ }
 }

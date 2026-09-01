@@ -4,5 +4,29 @@
  "title": "Results-of-the-1st-Asynchronous-CASTLE-Challenge-at-the-Join",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-25 03:00:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9fce3806-ea61-465a-945a-500d79c43760.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9fce3806-ea61-465a-945a-500d79c43760.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:05:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自我中心视觉",
+    "长视频问答",
+    "多模态理解",
+    "知识图谱检索",
+    "反幻觉",
+    "LLM agent"
+   ],
+   "field": "多模态长视频理解",
+   "innovations": [
+    "证据感知检索+问题类型路由的闭环QA框架",
+    "源选择性智能体动态调度多模态证据",
+    "多阶段SVA反幻觉管线与四规则约束"
+   ],
+   "benchmarks": [
+    "CASTLE 2024 Challenge"
+   ]
+  }
+ }
 }

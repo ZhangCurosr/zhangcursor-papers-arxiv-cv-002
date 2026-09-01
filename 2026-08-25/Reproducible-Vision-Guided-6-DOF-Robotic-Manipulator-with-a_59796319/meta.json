@@ -4,5 +4,32 @@
  "title": "Reproducible-Vision-Guided-6-DOF-Robotic-Manipulator-with-a",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-25 14:42:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/082d617e-df8b-4e35-be8e-2ab7eb0808e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/082d617e-df8b-4e35-be8e-2ab7eb0808e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:05:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "6-DOF robotic arm",
+    "open hardware",
+    "stepper motor driver",
+    "STM32",
+    "Web Serial API",
+    "inverse kinematics",
+    "vision-guided manipulation"
+   ],
+   "field": "开源机器人硬件与嵌入式控制",
+   "innovations": [
+    "单控制器混合步进驱动器架构（板载TMC2209+外部闭环DM542/CL57T共存）",
+    "浏览器原生Web Serial API零安装控制界面",
+    "系统文档化PCB移植故障模式与调试经验"
+   ],
+   "benchmarks": [
+    "pick-and-place cycle time: 12.5s",
+    "positioning repeatability: ±1.3mm",
+    "task success rate: 97%"
+   ]
+  }
+ }
 }

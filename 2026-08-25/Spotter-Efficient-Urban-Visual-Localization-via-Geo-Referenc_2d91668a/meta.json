@@ -4,5 +4,34 @@
  "title": "Spotter-Efficient-Urban-Visual-Localization-via-Geo-Referenc",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-25 14:42:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3c206e0c-e51d-408f-b562-ef0bfaf6842c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3c206e0c-e51d-408f-b562-ef0bfaf6842c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:07:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Localization",
+    "GPS-Degraded Environments",
+    "Facade Landmarks",
+    "Google Street View",
+    "Wearable Navigation",
+    "Geometric Verification",
+    "Urban Canyons"
+   ],
+   "field": "视觉定位与导航",
+   "innovations": [
+    "GPS与视觉匹配解耦：GPS仅作为搜索引导，位姿完全由2D-3D立面特征匹配决定",
+    "OSM边界辅助的3D地标过滤：用矢量地图边界验证深度估计点的空间合理性，减少数据库噪声",
+    "级联检索+自适应搜索半径：空间/航向/视觉三级候选缩减配合成功率驱动的半径缩放，实现实时推理"
+   ],
+   "benchmarks": [
+    "Barcelona Wearable Dataset",
+    "OSMLocGPS",
+    "OrienterNetGPS",
+    "DPVO",
+    "AnyLocGPS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SiZeUp-Fast-3D-Proxy-from-Aerial-Images-via-Depth-Ordinal-Lo",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-25 02:59:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3e8bf281-e817-48f6-87fc-404fa5cf7736.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3e8bf281-e817-48f6-87fc-404fa5cf7736.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D proxy reconstruction",
+    "aerial imagery",
+    "ordinal depth loss",
+    "differentiable rendering",
+    "building footprint extraction",
+    "dynamic view selection",
+    "monocular depth prior"
+   ],
+   "field": "城市三维重建与代理建模",
+   "innovations": [
+    "提出高度-轮廓低维表示+深度序数一致性损失，绕过SfM/MVS直接从标定倾斜影像优化代理高度",
+    "设计动态视图选择策略，仅用10%-27%输入视图完成多视角序数优化",
+    "构建融合SAM 3与DA3的FPSAM轮廓提取器并发布VertiFP基准"
+   ],
+   "benchmarks": [
+    "VertiFP",
+    "Res-1/Res-2, Ind-1/Ind-2 真实倾斜航测场景",
+    "UrbanScene3D (非网格轨迹验证)"
+   ]
+  }
+ }
 }

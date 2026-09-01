@@ -4,5 +4,29 @@
  "title": "ParallelWorld-Test-Time-Scaling-for-Embodied-Reasoning",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-25 14:42:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/22dd7859-fbb4-4fc7-8bc3-39001cc5091c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/22dd7859-fbb4-4fc7-8bc3-39001cc5091c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:04:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied reasoning",
+    "test-time scaling",
+    "active perception",
+    "tree search",
+    "spatial reasoning",
+    "world simulation"
+   ],
+   "field": "具身空间推理",
+   "innovations": [
+    "提出ParallelWorld多视距测试时缩放框架，通过模拟器并行展开多条未来轨迹进行评估",
+    "引入验证器引导的树搜索与branch-width奇偶调度策略，平衡探索多样性与收敛效率",
+    "设计Top-1路由答案机制，将内部多假设搜索与外部单轨迹物理执行解耦"
+   ],
+   "benchmarks": [
+    "ESI-Bench"
+   ]
+  }
+ }
 }

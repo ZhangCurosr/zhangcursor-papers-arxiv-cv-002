@@ -4,5 +4,31 @@
  "title": "Spotter-Efficient-Urban-Visual-Localization-via-Geo-Referenc",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-08-25 02:59:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3c206e0c-e51d-408f-b562-ef0bfaf6842c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/3c206e0c-e51d-408f-b562-ef0bfaf6842c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:07:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Localization",
+    "GPS-Degraded Environments",
+    "Building Facade Landmarks",
+    "Google Street View",
+    "Cascaded Retrieval",
+    "Kalman Filter"
+   ],
+   "field": "城市视觉定位",
+   "innovations": [
+    "提出级联检索与几何验证结合的实时视觉定位框架 Spotter，GPS 仅作粗粒度搜索先验",
+    "利用 Geo-Referenced 建筑立面关键点替代密集 SfM 重建，实现 700 MB 紧凑数据库",
+    "设计 GPS 辅助与 GPS-free 双模式机制，在 GPS 退化场景下优雅降级并保持实时性"
+   ],
+   "benchmarks": [
+    "Barcelona Wearable Dataset",
+    "APE (Absolute Position Error)",
+    "R@3m/R@5m/R@10m (Recall at distance thresholds)"
+   ]
+  }
+ }
 }

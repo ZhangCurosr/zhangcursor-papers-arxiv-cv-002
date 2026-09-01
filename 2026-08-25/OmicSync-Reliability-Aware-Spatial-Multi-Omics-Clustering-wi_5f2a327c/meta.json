@@ -4,5 +4,34 @@
  "title": "OmicSync-Reliability-Aware-Spatial-Multi-Omics-Clustering-wi",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-25 03:01:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f1d9095e-1b87-4205-ba61-34419b0c0e26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f1d9095e-1b87-4205-ba61-34419b0c0e26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:04:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial multi-omics",
+    "domain clustering",
+    "reliability-aware",
+    "LLM reasoning",
+    "mixture-of-experts",
+    "REINFORCE",
+    "uncertainty estimation",
+    "explainable AI"
+   ],
+   "field": "空间多组学数据分析",
+   "innovations": [
+    "可靠性感知的三模态空间聚类框架，输出每斑点软置信度、认知路由不确定性与模态路由权重",
+    "证据约束的五策略LLM推理模块，将模型内部信号直接转化为可审计的自然语言报告",
+    "REINFORCE推理引导训练变体，将非可微推理质量评分作为RL奖励反馈到聚类头优化"
+   ],
+   "benchmarks": [
+    "Human Tonsil (10x CytAssist FFPE)",
+    "Human Breast Cancer (10x CytAssist FFPE)",
+    "Human Glioblastoma (10x CytAssist FFPE)",
+    "Human Tonsil with Add-on Antibodies (10x CytAssist FFPE)"
+   ]
+  }
+ }
 }

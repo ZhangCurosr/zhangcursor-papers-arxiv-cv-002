@@ -4,5 +4,30 @@
  "title": "Simplified-Cross-Modal-Calibration-for-Heterogeneous-Event-R",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-25 03:00:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9f34a334-5a85-42c1-bc5b-c300af8a303a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/9f34a334-5a85-42c1-bc5b-c300af8a303a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "event camera calibration",
+    "cross-modal calibration",
+    "ChArUco",
+    "static calibration",
+    "RGB-event stereo"
+   ],
+   "field": "事件相机标定与多模态传感器融合",
+   "innovations": [
+    "基于时间混合图案的免运动交叉模态标定方法，消除对专用硬件和神经重建的依赖",
+    "粗粒度软件同步替代硬件级同步，简化部署流程",
+    "通过ChArUco混合叠加策略实现事件触发与RGB持续可见的统一"
+   ],
+   "benchmarks": [
+    "E2Calib",
+    "E2Calib+Kalibr",
+    "Plasberg et al."
+   ]
+  }
+ }
 }

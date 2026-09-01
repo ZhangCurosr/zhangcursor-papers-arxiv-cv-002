@@ -4,5 +4,32 @@
  "title": "Seeing-the-Unseen-Semantic-in-Gaussian-for-Sparse-View-3D-Ge",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-08-25 14:42:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f88d9662-6e96-4ba9-9e41-35d24c66706a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/f88d9662-6e96-4ba9-9e41-35d24c66706a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:06:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "G-3DGS",
+    "Sparse-View Novel View Synthesis",
+    "Semantic Conditioning",
+    "Entropy-Aware",
+    "Conditional Gaussian Transformer",
+    "Residual Refinement",
+    "Extrapolation"
+   ],
+   "field": "稀疏视角可泛化3D高斯泼溅",
+   "innovations": [
+    "提出CEA语义+熵感知多视角条件模块，弱化对像素对齐深度的依赖",
+    "基于DiT的Conditional Gaussian Transformer在高斯空间进行残差精炼",
+    "在插值/外推/零样本跨数据集设定下统一验证渲染与几何精度"
+   ],
+   "benchmarks": [
+    "RealEstate10K",
+    "ACID",
+    "DTU (zero-shot)"
+   ]
+  }
+ }
 }

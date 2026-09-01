@@ -4,5 +4,31 @@
  "title": "RACO-Reliability-Aware-Coarse-Goal-Optimization-for-Inspecti",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-25 03:01:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6e4f5cb6-5e2d-47e7-a45b-1f03a2746548.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/6e4f5cb6-5e2d-47e7-a45b-1f03a2746548.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:05:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "UAV vision-language navigation",
+    "inspection-oriented evaluation",
+    "coarse-to-fine navigation",
+    "reliability-aware correction",
+    "object-level grounding",
+    "urban aerial navigation"
+   ],
+   "field": "无人机视觉语言导航与检测导向导航",
+   "innovations": [
+    "阶段感知粗目标可靠性校正：将粗目标视为运行时假设并通过对象锚点检核修正",
+    "尺度自适应终端细化：针对20–35 m近失区间通过几何基移动与离散缩放因子在线修复终点",
+    "LG-UVI检测导向基准：解耦坐标级成功与检测区到达、对象确认、误验风险四项诊断指标"
+   ],
+   "benchmarks": [
+    "LG-UVI (CityNav/CityRefer extension)",
+    "Validation Unseen",
+    "Test Unseen"
+   ]
+  }
+ }
 }

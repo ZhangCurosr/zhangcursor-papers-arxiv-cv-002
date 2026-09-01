@@ -4,5 +4,26 @@
  "title": "Stochastic-Separability-of-Embedding-Manifolds",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-08-25 14:42:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/8e5f4fdd-4df8-4923-8fe1-4ce104777129.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/8e5f4fdd-4df8-4923-8fe1-4ce104777129.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:07:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "随机可分性",
+    "嵌入流形",
+    "测度集中",
+    "高维概率",
+    "有界总方差",
+    "投影集中"
+   ],
+   "field": "高维统计学习与表示理论",
+   "innovations": [
+    "提出嵌入流形的投影测度集中定理与双层尾界分析技术",
+    "建立有界总方差与非奇异性条件下的两类流形随机可分性定理",
+    "将Gorban随机可分理论从单数据集内推广至跨流形可分性"
+   ]
+  }
+ }
 }
