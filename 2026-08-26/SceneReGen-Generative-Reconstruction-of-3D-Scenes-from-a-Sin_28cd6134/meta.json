@@ -4,5 +4,29 @@
  "title": "SceneReGen-Generative-Reconstruction-of-3D-Scenes-from-a-Sin",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-26 03:02:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/10cf9f82-f376-4aef-9951-d5afce111c86.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/10cf9f82-f376-4aef-9951-d5afce111c86.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:17:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单视角3D重建",
+    "生成式重建",
+    "3D场景生成",
+    "姿态分解",
+    "diffusion transformer",
+    "VGGT"
+   ],
+   "field": "单视角3D场景生成与重建",
+   "innovations": [
+    "选择性姿态分解：将旋转编码进生成网格，平移与尺度由场景分支显式估计，解耦全参数优化",
+    "旋转感知DiT增强：在预训练3D生成器中注入几何条件cross-attention，实现朝向保持的对象补全",
+    "共享VGGT-Ω编码器：统一提取对象级与全局场景几何线索，服务生成与定位双分支"
+   ],
+   "benchmarks": [
+    "3D-FUTURE (150-scene subset)"
+   ]
+  }
+ }
 }

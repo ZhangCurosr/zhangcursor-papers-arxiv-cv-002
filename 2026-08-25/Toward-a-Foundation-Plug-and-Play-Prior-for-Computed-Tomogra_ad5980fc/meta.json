@@ -4,5 +4,30 @@
  "title": "Toward-a-Foundation-Plug-and-Play-Prior-for-Computed-Tomogra",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-25 03:02:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5c62c19b-1ed7-484e-8028-0d5153f24edc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/5c62c19b-1ed7-484e-8028-0d5153f24edc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:16:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "computed tomography",
+    "plug-and-play priors",
+    "diffusion models",
+    "foundation models",
+    "inverse problems"
+   ],
+   "field": "计算成像与医学/科学CT重建",
+   "innovations": [
+    "跨多模态多域训练的扩散ViT作为可复用PnP基础先验，无需重训练即可适配不同CT扫描条件",
+    "归一化去噪强度参数实现跨数据集统一超参迁移（σ=0.25在三种数据集上PSNR损失≤0.5 dB）",
+    "单步DDIM反向映射将扩散模型转化为高效PnP去噪器，每次迭代仅需一次网络评估"
+   ],
+   "benchmarks": [
+    "Nickel AM cone-beam X-ray CT (simulated)",
+    "Steel AM cone-beam X-ray CT (measured)",
+    "Concrete microstructure parallel-beam neutron CT (measured)"
+   ]
+  }
+ }
 }

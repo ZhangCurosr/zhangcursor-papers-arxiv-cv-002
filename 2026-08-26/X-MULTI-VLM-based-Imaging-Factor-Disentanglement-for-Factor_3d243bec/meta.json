@@ -4,5 +4,10 @@
  "title": "X-MULTI-VLM-based-Imaging-Factor-Disentanglement-for-Factor",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-26 03:04:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/62b38cb2-fe13-438e-a5f3-242a6cd7e3b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/62b38cb2-fe13-438e-a5f3-242a6cd7e3b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:22:55",
+  "chunks": 1
+ }
 }

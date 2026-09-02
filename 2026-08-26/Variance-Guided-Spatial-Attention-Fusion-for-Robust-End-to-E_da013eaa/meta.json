@@ -4,5 +4,29 @@
  "title": "Variance-Guided-Spatial-Attention-Fusion-for-Robust-End-to-E",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-26 14:42:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/27cd7a6c-04ba-4e99-8516-9bd80362bbb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/27cd7a6c-04ba-4e99-8516-9bd80362bbb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:20:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "end-to-end driving",
+    "multimodal fusion",
+    "uncertainty estimation",
+    "sensor degradation",
+    "heteroscedastic variance",
+    "autonomous vehicles"
+   ],
+   "field": "鲁棒端到端驾驶与多模态融合",
+   "innovations": [
+    "将像素级异方方差从下游诊断提升为融合注意力的结构性输入",
+    "物理增强器+连续损坏掩码提供无需人工标注的密集可靠性监督",
+    "跨分支log空间密集蒸馏+解耦局部门控与跨模态信任的混合注意力机制"
+   ],
+   "benchmarks": [
+    "CARLA Longest6"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "TransPhy-Visual-In-Context-Learning-for-Physically-Grounded",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-26 03:04:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a4575da9-c401-4bb1-a55e-0a18a0192454.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a4575da9-c401-4bb1-a55e-0a18a0192454.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:18:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理感知图像编辑",
+    "视觉上下文学习",
+    "MoE-LoRA",
+    "物理规则推断",
+    "ViT 特征差分"
+   ],
+   "field": "物理感知视觉生成",
+   "innovations": [
+    "将 VICL 分解为显式物理规则推断与 token-wise 过渡对齐渲染两阶段",
+    "提出 STC 模块利用冻结 ViT 特征差分提供 token-level 过渡监督信号"
+   ],
+   "benchmarks": [
+    "PhysVICL-74",
+    "Relation252K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Weakly-Supervised-Seafloor-Segmentation-for-Seagrass-Habitat",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-26 14:41:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8f089951-9c5c-4609-b33b-afc6575c656c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8f089951-9c5c-4609-b33b-afc6575c656c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:21:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督语义分割",
+    "侧扫声呐",
+    "海底生境映射",
+    "海草床",
+    "类激活图",
+    "Lovasz-Softmax",
+    "自监督预训练",
+    "EsViT"
+   ],
+   "field": "声学遥感图像分割",
+   "innovations": [
+    "首次将弱监督语义分割应用于侧扫声呐海底生境映射",
+    "针对声学成像特性重调dCRF并结合Lovasz-Softmax损失缓解类别不平衡",
+    "在100万张未标注SSS数据上进行EsViT自监督预训练提升分割性能"
+   ],
+   "benchmarks": [
+    "BenthiCat",
+    "mIoU 87.6% (无像素级标注)",
+    "mIoU 89.3% (dCRF细化伪标签)"
+   ]
+  }
+ }
 }

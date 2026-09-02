@@ -4,5 +4,40 @@
  "title": "What-Does-Prompt-Learning-Change-A-Natural-Language-Concept",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-26 14:42:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f207b965-827f-485f-bff8-dfe4bf2f2aa6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f207b965-827f-485f-bff8-dfe4bf2f2aa6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:22:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt learning",
+    "vision-language models",
+    "interpretability",
+    "concept decomposition",
+    "CLIP",
+    "Sparse Linear Concept Embeddings",
+    "CoOp"
+   ],
+   "field": "视觉-语言模型可解释性",
+   "innovations": [
+    "提出 PromptSpLiCE 后验分析方法，用固定自然语言词典将 prompt embedding 映射到统一概念坐标系",
+    "系统揭示 CoOp 在 11 数据集上的概念 profile 大规模重组行为",
+    "推导嵌入层局部梯度表达式，提供概念方向损失敏感性的几何解释"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "EuroSAT",
+    "OxfordPets",
+    "Caltech101",
+    "StanfordCars",
+    "Food101",
+    "Flowers102",
+    "FGVCAircraft",
+    "SUN397",
+    "DTD",
+    "UCF101"
+   ]
+  }
+ }
 }

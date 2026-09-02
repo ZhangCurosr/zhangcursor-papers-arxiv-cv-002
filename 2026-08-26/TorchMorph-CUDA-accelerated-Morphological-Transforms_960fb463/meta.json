@@ -4,5 +4,31 @@
  "title": "TorchMorph-CUDA-accelerated-Morphological-Transforms",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-26 14:41:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4dc35489-243b-4ea9-b377-43170ad9d89a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4dc35489-243b-4ea9-b377-43170ad9d89a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:18:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mathematical Morphology",
+    "Distance Transform",
+    "Optimal Transport",
+    "CUDA",
+    "PyTorch Extension",
+    "GPU Acceleration"
+   ],
+   "field": "GPU-accelerated image processing",
+   "innovations": [
+    "Unified PyTorch-native batched CUDA kernels for 22 morphological/distance/transport operators with scipy.ndimage-compatible API",
+    "Fused morphology kernels with host-resolved geometry and interior fast path eliminating per-voxel boundary tests",
+    "Batch-tiled Sinkhorn solver with CUDA-graph replay for fixed-point iterations"
+   ],
+   "benchmarks": [
+    "scipy.ndimage throughput",
+    "POT Sinkhorn solver",
+    "EDT/Chamfer/BFDT accuracy"
+   ]
+  }
+ }
 }

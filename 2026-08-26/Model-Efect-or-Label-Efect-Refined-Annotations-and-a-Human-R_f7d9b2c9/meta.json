@@ -4,5 +4,10 @@
  "title": "Model-Efect-or-Label-Efect-Refined-Annotations-and-a-Human-R",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-26 03:02:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3317842f-f4bd-40cb-939f-ff38a40fc089.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/3317842f-f4bd-40cb-939f-ff38a40fc089.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:17:15",
+  "chunks": 1
+ }
 }

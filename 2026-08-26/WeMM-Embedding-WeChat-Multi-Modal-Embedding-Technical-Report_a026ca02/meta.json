@@ -4,5 +4,10 @@
  "title": "WeMM-Embedding-WeChat-Multi-Modal-Embedding-Technical-Report",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-26 03:02:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/91f583af-db1d-478e-a93f-0ab9a6d710e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/91f583af-db1d-478e-a93f-0ab9a6d710e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:22:08",
+  "chunks": 1
+ }
 }

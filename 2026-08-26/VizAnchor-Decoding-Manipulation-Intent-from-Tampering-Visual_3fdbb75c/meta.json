@@ -4,5 +4,10 @@
  "title": "VizAnchor-Decoding-Manipulation-Intent-from-Tampering-Visual",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-26 03:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a330eaac-6f16-4f2f-b77a-21191f388c29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a330eaac-6f16-4f2f-b77a-21191f388c29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:21:11",
+  "chunks": 1
+ }
 }

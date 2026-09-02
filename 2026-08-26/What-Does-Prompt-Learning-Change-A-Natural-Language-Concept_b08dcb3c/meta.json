@@ -4,5 +4,39 @@
  "title": "What-Does-Prompt-Learning-Change-A-Natural-Language-Concept",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-26 03:04:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f207b965-827f-485f-bff8-dfe4bf2f2aa6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/f207b965-827f-485f-bff8-dfe4bf2f2aa6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:22:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt learning",
+    "vision-language models",
+    "interpretability",
+    "concept decomposition",
+    "CLIP",
+    "SpLiCE"
+   ],
+   "field": "多模态可解释性",
+   "innovations": [
+    "提出 PromptSpLiCE 事后分析方法，将学习前后提示嵌入投影到固定自然语言字典坐标系统，量化概念配置变化",
+    "系统分析 CoOp 在 11 个数据集上的概念重组现象，揭示 Top‑10 概念留存率仅 1.6 且变化程度与准确率提升正相关",
+    "推导嵌入级局部敏感度表达式，提供几何直觉解释图像对齐概念方向的高损失灵敏度"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "OxfordPets",
+    "Caltech101",
+    "StanfordCars",
+    "Food101",
+    "Flowers102",
+    "FGVCAircraft",
+    "SUN397",
+    "DTD",
+    "EuroSAT",
+    "UCF101"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Progressively-Learning-Heterogeneous-Skills-in-a-Unified-Lat",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-25 03:00:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0ef7ac50-b4cd-4f34-80c5-63a34c26954d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/0ef7ac50-b4cd-4f34-80c5-63a34c26954d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:15:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理角色控制",
+    "潜在空间学习",
+    "文本到运动生成",
+    "渐进式技能累积",
+    "多模态条件控制",
+    "语言引导适应"
+   ],
+   "field": "基于物理的角色动画与运动控制",
+   "innovations": [
+    "统一潜在空间中渐进式学习异构技能（追踪/文本到运动/补全/适应）",
+    "运动直觉蒸馏（MID）通过随机初始化消除捷径学习",
+    "标准化任务接口支持异构技能的长时程组合与LLM编排"
+   ],
+   "benchmarks": [
+    "AMASS",
+    "HumanML3D",
+    "SAMP"
+   ]
+  }
+ }
 }

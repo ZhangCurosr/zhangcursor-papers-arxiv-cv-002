@@ -4,5 +4,10 @@
  "title": "TorchMorph-CUDA-accelerated-Morphological-Transforms",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-26 03:01:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4dc35489-243b-4ea9-b377-43170ad9d89a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/4dc35489-243b-4ea9-b377-43170ad9d89a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:18:45",
+  "chunks": 1
+ }
 }

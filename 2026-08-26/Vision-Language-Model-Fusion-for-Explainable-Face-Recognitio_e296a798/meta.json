@@ -4,5 +4,30 @@
  "title": "Vision-Language-Model-Fusion-for-Explainable-Face-Recognitio",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-26 14:42:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ea96b5d2-c6fa-4547-8365-b181ee9af7f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ea96b5d2-c6fa-4547-8365-b181ee9af7f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:21:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态融合",
+    "视觉语言模型",
+    "人脸识别",
+    "可解释生物特征",
+    "决策融合",
+    "VLM基准测试"
+   ],
+   "field": "可解释人脸识别 / 多模态融合",
+   "innovations": [
+    "提出多VLM多模态决策融合框架，融合分数、解释、图像提升识别精度与可解释性",
+    "通过四种渐进式融合场景分析各模态贡献，发现Gemma←Qwen+Intern配置EER达1.06%超越SOTA",
+    "揭示文本解释可作为机器可读证据，辅助决策VLM纠正源模型视觉推理偏差"
+   ],
+   "benchmarks": [
+    "LFW (200k pairs)",
+    "AdaFace/LVFace/MagFace baseline"
+   ]
+  }
+ }
 }

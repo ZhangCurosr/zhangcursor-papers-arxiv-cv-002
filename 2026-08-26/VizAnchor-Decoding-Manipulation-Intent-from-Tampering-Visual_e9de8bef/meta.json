@@ -4,5 +4,31 @@
  "title": "VizAnchor-Decoding-Manipulation-Intent-from-Tampering-Visual",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-26 14:42:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a330eaac-6f16-4f2f-b77a-21191f388c29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a330eaac-6f16-4f2f-b77a-21191f388c29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:21:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可视化篡改检测",
+    "可逆水印",
+    "多智能体VLM推理",
+    "误导意图推断",
+    "双锚点证据",
+    "数据可视化可信性"
+   ],
+   "field": "可信可视化与虚假信息检测",
+   "innovations": [
+    "提出双锚点证据构造机制，联合语义锚点（溯源原始图表）与空间锚点（像素级篡改掩码）供VLM推理",
+    "设计基于INN的可逆水印模块IWM，同时嵌入81-bit元数据与位置图，支持强鲁棒的来源恢复与裁剪对齐",
+    "构建MGA-CNRA-IIA三Agent渐进式推理管线，实现对篡改过程与误导意图的证据驱动解释"
+   ],
+   "benchmarks": [
+    "VisGuard Dataset (VGD)",
+    "VizDefender Dataset (VDD)",
+    "VizAnchor Dataset (VAD)"
+   ]
+  }
+ }
 }

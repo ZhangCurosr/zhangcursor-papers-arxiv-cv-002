@@ -4,5 +4,10 @@
  "title": "When-Seeing-Is-Not-Enough-Benchmarking-Interactive-Visual-Gr",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-26 14:42:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ca4c417b-b5ab-41ab-be86-357b2dd0583a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ca4c417b-b5ab-41ab-be86-357b2dd0583a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:22:56",
+  "chunks": 1
+ }
 }

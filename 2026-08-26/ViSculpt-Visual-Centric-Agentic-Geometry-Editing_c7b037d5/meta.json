@@ -4,5 +4,29 @@
  "title": "ViSculpt-Visual-Centric-Agentic-Geometry-Editing",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-26 14:42:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a7686a28-a8a3-4152-90b0-a539c667c83b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a7686a28-a8a3-4152-90b0-a539c667c83b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:20:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D geometry editing",
+    "visual-centric agent",
+    "multi-agent system",
+    "Blender GUI interaction",
+    "primitive action abstraction",
+    "VLM visual grounding"
+   ],
+   "field": "多模态大模型与图形学交叉",
+   "innovations": [
+    "将3D几何编辑建模为视觉中心的多智能体GUI交互范式，无需训练即可对现有网格进行就地局部编辑",
+    "提出Smear/Drag/Draw三种原始鼠标轨迹抽象，并结合QuadLoc多轮定位策略稳定VLM驱动的GUI控制"
+   ],
+   "benchmarks": [
+    "自建20任务3D编辑benchmark（专家手工before/after对照）",
+    "盲测用户研究（48人：39非专家+9专家，三项0-10分主观评分）"
+   ]
+  }
+ }
 }

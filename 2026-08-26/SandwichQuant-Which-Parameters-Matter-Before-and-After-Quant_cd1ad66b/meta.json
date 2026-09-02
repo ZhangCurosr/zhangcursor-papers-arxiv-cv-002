@@ -4,5 +4,38 @@
  "title": "SandwichQuant-Which-Parameters-Matter-Before-and-After-Quant",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-26 03:02:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c249586f-be89-4caf-95db-337604677fcd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/c249586f-be89-4caf-95db-337604677fcd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:16:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Post-Training Quantization",
+    "Normalization Affine Tuning",
+    "Parameter Subspace",
+    "Low-bit LLM",
+    "Quantization Correction",
+    "SandwichQuant"
+   ],
+   "field": "低比特量化与模型压缩",
+   "innovations": [
+    "在匹配预算下证明归一化仿射参数子空间是高杠杆量化修正方向",
+    "提出 Phi_pre -> PTQ -> Phi_post 双阶段即插即用框架，无需新增推理算子",
+    "给出 Jacobian 投影视角的解释与结构化误差几何诊断"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "C4",
+    "PIQA",
+    "ARC-Easy",
+    "ARC-Challenge",
+    "HellaSwag",
+    "WinoGrande",
+    "BoolQ",
+    "ImageNet-1K",
+    "Cityscapes"
+   ]
+  }
+ }
 }

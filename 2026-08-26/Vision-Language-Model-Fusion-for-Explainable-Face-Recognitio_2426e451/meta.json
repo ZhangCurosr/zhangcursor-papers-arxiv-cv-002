@@ -4,5 +4,33 @@
  "title": "Vision-Language-Model-Fusion-for-Explainable-Face-Recognitio",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-26 03:05:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ea96b5d2-c6fa-4547-8365-b181ee9af7f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/ea96b5d2-c6fa-4547-8365-b181ee9af7f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:21:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "人脸验证",
+    "视觉语言模型",
+    "多模态融合",
+    "可解释人脸识别",
+    "决策融合",
+    "LFW基准"
+   ],
+   "field": "可解释生物识别系统",
+   "innovations": [
+    "首个多VLM决策融合人脸验证框架，利用两个源模型提供分数和解释，第三个VLM作为决策者",
+    "四种渐进式多模态融合场景设计，揭示文本解释作为机器可读证据的跨模型推理价值",
+    "系统评估开源VLM人脸验证性能并证明融合可超越单模型及专用FR基线"
+   ],
+   "benchmarks": [
+    "LFW",
+    "FNMR@0.1%FMR",
+    "FNMR@0.01%FMR",
+    "EER",
+    "AUC"
+   ]
+  }
+ }
 }

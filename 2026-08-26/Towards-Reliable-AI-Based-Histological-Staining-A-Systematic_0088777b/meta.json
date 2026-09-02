@@ -4,5 +4,34 @@
  "title": "Towards-Reliable-AI-Based-Histological-Staining-A-Systematic",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-26 14:42:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8ee2c988-f91d-4c29-9fc3-d5e1228f11a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8ee2c988-f91d-4c29-9fc3-d5e1228f11a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:18:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "虚拟组织染色",
+    "无配对图像到图像转换",
+    "认知不确定性",
+    "肝纤维化",
+    "Sirius Red",
+    "深度集成",
+    "CycleDiffusion",
+    "CPA MAE"
+   ],
+   "field": "数字病理学中的生成式AI",
+   "innovations": [
+    "系统性比较六种无配对I2I架构在54种缩放配置下的H&E到SR虚拟染色性能",
+    "首次对无配对组织病理学染色转换架构进行系统性的认知不确定性深度集成分析",
+    "提出联合任务特定误差、感知质量和集成一致性的多轴评估框架，揭示三者的相对独立性"
+   ],
+   "benchmarks": [
+    "CPA MAE (胶原比例面积平均绝对误差)",
+    "FID",
+    "LPIPS",
+    "Patch-SSIM"
+   ]
+  }
+ }
 }

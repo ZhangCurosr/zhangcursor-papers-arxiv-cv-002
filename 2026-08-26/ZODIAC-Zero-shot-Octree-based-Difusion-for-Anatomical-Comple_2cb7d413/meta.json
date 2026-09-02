@@ -4,5 +4,10 @@
  "title": "ZODIAC-Zero-shot-Octree-based-Difusion-for-Anatomical-Comple",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-08-26 14:41:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8c09345f-a86c-4dd2-810a-76e0eaba944d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/8c09345f-a86c-4dd2-810a-76e0eaba944d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:23:41",
+  "chunks": 1
+ }
 }

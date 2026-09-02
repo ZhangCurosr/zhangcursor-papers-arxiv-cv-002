@@ -4,5 +4,31 @@
  "title": "ViSculpt-Visual-Centric-Agentic-Geometry-Editing",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-26 03:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a7686a28-a8a3-4152-90b0-a539c667c83b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/a7686a28-a8a3-4152-90b0-a539c667c83b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:19:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Geometry Editing",
+    "Vision-Language Models",
+    "Agentic Systems",
+    "Blender GUI Interaction",
+    "Multimodal AI",
+    "Training-free Methods"
+   ],
+   "field": "3D 视觉生成与编辑",
+   "innovations": [
+    "提出视觉为中心的无需训练的 Blender GUI 多智能体编辑系统",
+    "将复杂雕刻操作抽象为 Smear/Drag/Draw 三种原始鼠标轨迹原语",
+    "设计基于 VLM 视觉评分和细化循环的反射机制及四象限精确定位策略 QuadLoc"
+   ],
+   "benchmarks": [
+    "自构建 20 任务 3D 几何编辑基准",
+    "盲用户研究 (48人)",
+    "VLM 辅助评估 (多个主流模型)"
+   ]
+  }
+ }
 }

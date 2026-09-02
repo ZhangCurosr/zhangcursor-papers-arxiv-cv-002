@@ -4,5 +4,29 @@
  "title": "TransPhy-Visual-In-Context-Learning-for-Physically-Grounded",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-26 14:42:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/52311d2f-df5e-48ba-8b24-a83c3677c994.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/52311d2f-df5e-48ba-8b24-a83c3677c994.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 02:18:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual In-Context Learning",
+    "Physically Grounded Image Editing",
+    "Mixture-of-Experts LoRA",
+    "Physical Rule Induction",
+    "PhysVICL-74"
+   ],
+   "field": "物理感知图像编辑与视觉上下文学习",
+   "innovations": [
+    "提出TransPhy分层框架，将物理VICL分解为显式规则归纳与token级专家对齐渲染两阶段",
+    "设计State-Transition Capturer(STC)，利用冻结ViT特征差指导MoE-LoRA路由的空间语义对齐",
+    "构建PhysVICL-74数据集(74条规则,5240对图像,75K上下文)及双协议评测基准"
+   ],
+   "benchmarks": [
+    "PhysVICL-74",
+    "Relation252K"
+   ]
+  }
+ }
 }
