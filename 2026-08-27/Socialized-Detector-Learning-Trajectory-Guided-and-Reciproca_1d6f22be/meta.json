@@ -4,5 +4,10 @@
  "title": "Socialized-Detector-Learning-Trajectory-Guided-and-Reciproca",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-27 23:34:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c76bd393-444f-44c2-a0a0-e4454c8f4621.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c76bd393-444f-44c2-a0a0-e4454c8f4621.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:52:53",
+  "chunks": 1
+ }
 }

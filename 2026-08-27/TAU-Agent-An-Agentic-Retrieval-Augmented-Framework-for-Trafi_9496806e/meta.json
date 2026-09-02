@@ -4,5 +4,31 @@
  "title": "TAU-Agent-An-Agentic-Retrieval-Augmented-Framework-for-Trafi",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-27 12:20:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/593e4beb-fcec-4fdf-856e-a89585923948.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/593e4beb-fcec-4fdf-856e-a89585923948.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:55:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Traffic Anomaly Understanding",
+    "Agentic AI",
+    "Vision-Language Model",
+    "Retrieval-Augmented Generation",
+    "Video Question Answering",
+    "AI City Challenge"
+   ],
+   "field": "视频异常理解与交通智能",
+   "innovations": [
+    "提出多阶段智能体检索增强框架，协调视频字幕与开放词汇追踪双工具自适应检索查询相关证据",
+    "设计两级语义字幕与混合检测追踪工具，兼顾全局上下文与细粒度时空证据",
+    "引入证据验证机制与任务特异性Prompt工程，提升VLM训练效率与生成质量"
+   ],
+   "benchmarks": [
+    "AI City Challenge Track 3 (TAR Test)",
+    "FETV (FishEye Traffic Violation, Track 7)",
+    "PSI-VQA (Track 8)"
+   ]
+  }
+ }
 }

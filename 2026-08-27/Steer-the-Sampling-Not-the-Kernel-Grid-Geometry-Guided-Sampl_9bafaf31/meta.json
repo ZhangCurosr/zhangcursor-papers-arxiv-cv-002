@@ -4,5 +4,10 @@
  "title": "Steer-the-Sampling-Not-the-Kernel-Grid-Geometry-Guided-Sampl",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-27 12:22:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8d0ba798-ddef-43e3-b7e5-5174a6f1d7b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8d0ba798-ddef-43e3-b7e5-5174a6f1d7b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:55:14",
+  "chunks": 1
+ }
 }

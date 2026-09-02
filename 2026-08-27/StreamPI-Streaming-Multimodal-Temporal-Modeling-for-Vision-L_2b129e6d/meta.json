@@ -4,5 +4,31 @@
  "title": "StreamPI-Streaming-Multimodal-Temporal-Modeling-for-Vision-L",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-27 12:20:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/be1807b8-bf5b-49be-8e16-843c4b8a262b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/be1807b8-bf5b-49be-8e16-843c4b8a262b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:55:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action (VLA)",
+    "Streaming Temporal Modeling",
+    "Instruction-Anchored Modeling",
+    "Robot Manipulation",
+    "Long-Horizon Reasoning",
+    "Parameter-Free Extension"
+   ],
+   "field": "具身智能与机器人学习",
+   "innovations": [
+    "Instruction-anchored temporal modeling with bidirectional intra-pair and causal inter-pair attention",
+    "Random-interval streaming training strategy for deployment robustness",
+    "Parameter-free temporal extension via length extrapolation and attention mask re-design"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "CALVIN",
+    "Real-robot manipulation tasks"
+   ]
+  }
+ }
 }

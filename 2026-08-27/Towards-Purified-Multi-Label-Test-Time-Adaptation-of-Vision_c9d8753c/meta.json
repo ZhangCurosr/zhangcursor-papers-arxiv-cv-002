@@ -4,5 +4,32 @@
  "title": "Towards-Purified-Multi-Label-Test-Time-Adaptation-of-Vision",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-27 12:25:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3d0a3f1-bf57-497c-9e06-dd4cd2ab6ee4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3d0a3f1-bf57-497c-9e06-dd4cd2ab6ee4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:56:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Test-Time Adaptation",
+    "Multi-Label Recognition",
+    "Vision-Language Models",
+    "Cache-Based Methods",
+    "Domain Generalization"
+   ],
+   "field": "多标签测试时适应",
+   "innovations": [
+    "提出区域净化机制通过多粒度一致性筛选可靠局部区域，解决全局表征类别纠缠问题",
+    "设计缓存净化策略结合episodic区域缓存构建与temporal衰减刷新，实现类别特异的长期适配",
+    "首次将缓存型TTA范式系统扩展至多标签场景，在5个基准上超越SOTA"
+   ],
+   "benchmarks": [
+    "VOC07",
+    "VOC12",
+    "MS-COCO2014",
+    "MS-COCO2017",
+    "NUS-WIDE"
+   ]
+  }
+ }
 }

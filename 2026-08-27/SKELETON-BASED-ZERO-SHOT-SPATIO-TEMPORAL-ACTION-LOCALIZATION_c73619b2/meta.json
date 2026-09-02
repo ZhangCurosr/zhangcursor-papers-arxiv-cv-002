@@ -4,5 +4,33 @@
  "title": "SKELETON-BASED-ZERO-SHOT-SPATIO-TEMPORAL-ACTION-LOCALIZATION",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-27 23:34:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7c9fe033-9598-4e3e-a96e-5d76047b4d00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/7c9fe033-9598-4e3e-a96e-5d76047b4d00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:50:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "骨骼动作识别",
+    "零样本定位",
+    "弱监督预训练",
+    "时空动作定位",
+    "视觉-语言模型",
+    "对比学习",
+    "场景混合"
+   ],
+   "field": "骨骼动作识别与零样本定位",
+   "innovations": [
+    "提出SLPS池化切换机制实现弱监督零样本时空定位",
+    "设计SM-DCL场景混合对比学习增强实例判别性",
+    "仅用视频级标签预训练即达到媲美全监督方法的定位精度"
+   ],
+   "benchmarks": [
+    "UCF101-24",
+    "FDD",
+    "RWF-2000",
+    "MF"
+   ]
+  }
+ }
 }

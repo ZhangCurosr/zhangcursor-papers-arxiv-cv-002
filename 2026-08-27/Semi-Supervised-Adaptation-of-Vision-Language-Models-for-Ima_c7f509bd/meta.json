@@ -4,5 +4,31 @@
  "title": "Semi-Supervised-Adaptation-of-Vision-Language-Models-for-Ima",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-27 12:21:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/708e2c10-d8e6-4cd8-9582-4a90f8d4b70b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/708e2c10-d8e6-4cd8-9582-4a90f8d4b70b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:51:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CLIP",
+    "半监督学习",
+    "遥感图像分类",
+    "LoRA",
+    "文本锚点",
+    "递归挖掘",
+    "视觉-语言模型"
+   ],
+   "field": "遥感视觉-语言模型适配",
+   "innovations": [
+    "递归顶-k文本锚点挖掘替代硬阈值伪标签过滤",
+    "类平衡迁移策略防止易学习类别主导",
+    "log-参数化温度e^τ自适应校准跨模态对齐"
+   ],
+   "benchmarks": [
+    "UC Merced (UCM)",
+    "NWPU-RESISC45 (NWPU)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Socialized-Detector-Learning-Trajectory-Guided-and-Reciproca",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-27 12:20:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c76bd393-444f-44c2-a0a0-e4454c8f4621.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/c76bd393-444f-44c2-a0a0-e4454c8f4621.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:52:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Socialized Detector Learning",
+    "Knowledge Distillation",
+    "Heterogeneous Detectors",
+    "Trajectory Planning",
+    "Reciprocal Transfer",
+    "Object Detection"
+   ],
+   "field": "目标检测知识蒸馏",
+   "innovations": [
+    "IDTD引导的有向轨迹规划实现异构检测器间的兼容性aware知识整合",
+    "渐进并集类别carrier构建与互惠回传的SDL协议",
+    "条件代理证书理论分析证明渐进整合优于聚合对比"
+   ],
+   "benchmarks": [
+    "MS COCO 2017"
+   ]
+  }
+ }
 }

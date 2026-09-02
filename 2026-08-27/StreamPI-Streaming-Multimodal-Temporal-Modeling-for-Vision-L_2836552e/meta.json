@@ -4,5 +4,29 @@
  "title": "StreamPI-Streaming-Multimodal-Temporal-Modeling-for-Vision-L",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-27 23:34:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/be1807b8-bf5b-49be-8e16-843c4b8a262b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/be1807b8-bf5b-49be-8e16-843c4b8a262b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:53:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "流式推理",
+    "时序建模",
+    "多模态学习",
+    "机器人操作"
+   ],
+   "field": "具身智能/视觉-语言-动作模型",
+   "innovations": [
+    "指令锚定原子时序单元：将(视觉,语言指令)对作为不可分割单元，组内双向+组间因果注意力实现无参数时序扩展",
+    "随机间隔流式训练：对帧间隔施加均匀扰动提升异步部署鲁棒性",
+    "流式KV-Cache推理：增量编码新帧，推理开销随时序长度近乎恒定"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "CALVIN"
+   ]
+  }
+ }
 }

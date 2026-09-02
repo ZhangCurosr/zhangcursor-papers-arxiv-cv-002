@@ -4,5 +4,32 @@
  "title": "Source-Face-Authenticity-Detection-for-3D-Gaussian-Heads-Rec",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-26 03:02:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/75ed486b-43e6-42a4-85ff-4e932fe49497.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/75ed486b-43e6-42a4-85ff-4e932fe49497.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:49:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Face Forgery Detection",
+    "AI-Generated Image Detection",
+    "Self-Supervised Learning",
+    "Multi-View Consistency"
+   ],
+   "field": "3D人脸伪造检测",
+   "innovations": [
+    "首个3D高斯头源脸真实性检测大规模基准与数据集",
+    "两阶段检测器结合MAE细粒度保留与多视角对比学习",
+    "多级CLS token融合策略提升分类性能"
+   ],
+   "benchmarks": [
+    "IID基准",
+    "GPT-Image-2 OOD子集",
+    "HyperSwapper OOD子集",
+    "PersonaLive OOD子集",
+    "Any3DAvatar OOD子集"
+   ]
+  }
+ }
 }

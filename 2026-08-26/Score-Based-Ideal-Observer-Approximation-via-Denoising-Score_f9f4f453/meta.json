@@ -4,5 +4,32 @@
  "title": "Score-Based-Ideal-Observer-Approximation-via-Denoising-Score",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-26 14:41:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b9340d71-6d2b-408c-be03-da477388df59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/b9340d71-6d2b-408c-be03-da477388df59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:48:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ideal Observer",
+    "Score-based Generative Modeling",
+    "Denoising Score Matching",
+    "Signal Detection",
+    "Image Quality Assessment",
+    "Observer Modeling"
+   ],
+   "field": "医学图像感知与观测器建模",
+   "innovations": [
+    "将IO检验统计量重新表述为评分函数路径积分，提出SIO框架",
+    "仅用无信号图像训练的评分网络即可泛化到任意加法信号检测",
+    "证明高斯噪声下DSM等价于残差学习，简化评分估计实现"
+   ],
+   "benchmarks": [
+    "AUC",
+    "ROC曲线",
+    "MCMC-IO",
+    "Hotelling Observer"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SMART-MLLM-guided-Temporal-Alignment-for-Unifying-Sign-Langu",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-27 12:21:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0401feff-3695-4792-aa1c-7b349073cf4d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0401feff-3695-4792-aa1c-7b349073cf4d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:50:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "连续手语识别",
+    "手语定位",
+    "多模态大语言模型",
+    "视频-文本对齐",
+    "时序适配器",
+    "CTC峰值对齐"
+   ],
+   "field": "多模态手语理解",
+   "innovations": [
+    "MLLM生成的帧级运动描述+SigLIP小批量视频-文本对齐",
+    "MSTA多尺度时序适配器保留CLIP预训练表征",
+    "CSFormer将识别词素logits注入边界感知定位模块实现联合训练"
+   ],
+   "benchmarks": [
+    "PHOENIX14-T",
+    "CSL-Daily",
+    "Large-scale KSL",
+    "DS KSL"
+   ]
+  }
+ }
 }

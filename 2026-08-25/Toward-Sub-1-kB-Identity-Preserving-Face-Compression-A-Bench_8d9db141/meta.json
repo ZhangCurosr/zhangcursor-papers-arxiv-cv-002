@@ -4,5 +4,10 @@
  "title": "Toward-Sub-1-kB-Identity-Preserving-Face-Compression-A-Bench",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-25 03:01:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/de07f90d-7a2f-4b88-be22-70d0539f1afe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-25/de07f90d-7a2f-4b88-be22-70d0539f1afe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:54:31",
+  "chunks": 10
+ }
 }

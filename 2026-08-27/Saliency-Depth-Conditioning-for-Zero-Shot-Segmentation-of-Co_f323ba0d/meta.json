@@ -4,5 +4,30 @@
  "title": "Saliency-Depth-Conditioning-for-Zero-Shot-Segmentation-of-Co",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-27 23:35:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:51:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot segmentation",
+    "grounded-sam",
+    "sam 3",
+    "uav imagery",
+    "saliency-depth conditioning",
+    "infrastructure inspection",
+    "towing dataset"
+   ],
+   "field": "零样本实例分割与基础设施巡检",
+   "innovations": [
+    "提出模型无关的显著性-深度前景conditioning策略,融合外观与几何先验抑制复杂UAV背景干扰",
+    "面向Grounded-SAM设计几何与深度感知的框精炼阶段,通过尺寸/包含/深度三重过滤显著降低误检",
+    "在两套架构不同的零样本框架(两阶段检测-分割与一体化)上统一验证conditioning增益并揭示互补性"
+   ],
+   "benchmarks": [
+    "TOW-300"
+   ]
+  }
+ }
 }

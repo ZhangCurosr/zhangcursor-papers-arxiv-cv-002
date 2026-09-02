@@ -4,5 +4,10 @@
  "title": "Plans-You-Can-Check-Verifier-Grounded-Learning-of-an-Open-We",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-27 12:25:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc8cb8fe-6114-4fd5-9cec-1996fb1b7cf9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bc8cb8fe-6114-4fd5-9cec-1996fb1b7cf9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:50:04",
+  "chunks": 1
+ }
 }

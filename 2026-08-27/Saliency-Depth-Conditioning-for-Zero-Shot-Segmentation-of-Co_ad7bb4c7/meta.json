@@ -4,5 +4,30 @@
  "title": "Saliency-Depth-Conditioning-for-Zero-Shot-Segmentation-of-Co",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-27 12:25:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/054554a5-622b-46bf-bf3e-1ceb5fabe33e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:51:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot segmentation",
+    "UAV inspection",
+    "communication tower",
+    "saliency-depth fusion",
+    "Grounded-SAM",
+    "SAM 3",
+    "infrastructure monitoring"
+   ],
+   "field": "基础设施视觉检测",
+   "innovations": [
+    "显著性-深度前景条件策略减少背景歧义",
+    "塔体几何与深度感知的box refinement机制",
+    "首个通信塔组件UAV零样本实例分割数据集TOW-300"
+   ],
+   "benchmarks": [
+    "TOW-300"
+   ]
+  }
+ }
 }

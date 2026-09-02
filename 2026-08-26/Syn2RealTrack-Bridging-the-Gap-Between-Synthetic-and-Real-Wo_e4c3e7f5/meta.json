@@ -4,5 +4,30 @@
  "title": "Syn2RealTrack-Bridging-the-Gap-Between-Synthetic-and-Real-Wo",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-26 03:06:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7db62437-54a7-400d-bd71-044d7844ea9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-26/7db62437-54a7-400d-bd71-044d7844ea9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:49:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-camera 3D tracking",
+    "synthetic-to-real transfer",
+    "multi-target multi-view tracking",
+    "camera distortion estimation",
+    "visibility-weighted association",
+    "monocular height estimation"
+   ],
+   "field": "多相机3D多目标跟踪",
+   "innovations": [
+    "将合成→真实域偏差分解到校准/形状先验/封闭世界计数三个可独立修复接口",
+    "可见性加权部件关联允许被遮挡部位拒止（距离+∞）而非插补",
+    "闭式单目人体高度反解（Eq.7）替代仿真尺寸先验，无需深度监督"
+   ],
+   "benchmarks": [
+    "AI City Challenge 2026 Track 1 (MTMC Tracking 2026)",
+    "3D HOTA / DetA / AssA / LocA"
+   ]
+  }
+ }
 }

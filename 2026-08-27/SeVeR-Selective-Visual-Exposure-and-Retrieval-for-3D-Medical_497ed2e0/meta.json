@@ -4,5 +4,32 @@
  "title": "SeVeR-Selective-Visual-Exposure-and-Retrieval-for-3D-Medical",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-08-27 23:35:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cb7dcc8a-3ef1-4108-86ce-98d71bf53c59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/cb7dcc8a-3ef1-4108-86ce-98d71bf53c59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:51:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D医学VQA",
+    "多序列MRI",
+    "视觉token压缩",
+    "选择性视觉暴露",
+    "门控注意力",
+    "医学多模态大模型",
+    "乳腺MRI"
+   ],
+   "field": "3D医学影像视觉语言模型",
+   "innovations": [
+    "提出GPS+CaGA+SCR-MU三组件的选择性视觉暴露框架，解决多序列3D医学影像的视觉冗余与信号稀释问题",
+    "构建BreMRIs-VQA基准（1.19M QA对、71K序列、12.9K患者），填补多序列MRI VQA评测空白",
+    "设计边际效用自一致性正则化防止门控检索退化，实现问题条件化的动态细粒度证据检索"
+   ],
+   "benchmarks": [
+    "BreMRIs-VQA",
+    "3D-RAD",
+    "DeepTumorVQA"
+   ]
+  }
+ }
 }

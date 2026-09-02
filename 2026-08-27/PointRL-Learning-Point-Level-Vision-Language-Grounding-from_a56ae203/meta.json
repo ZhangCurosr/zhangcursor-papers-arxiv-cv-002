@@ -4,5 +4,33 @@
  "title": "PointRL-Learning-Point-Level-Vision-Language-Grounding-from",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-27 12:24:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/ffe173f9-7d30-43c9-8ff7-e67a2c1e23f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/ffe173f9-7d30-43c9-8ff7-e67a2c1e23f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:49:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉-语言定位",
+    "点级定位",
+    "可验证强化学习",
+    "VLM",
+    "GRPO",
+    "异构标注",
+    "空间推理"
+   ],
+   "field": "视觉-语言定位",
+   "innovations": [
+    "从异构标注构建隐藏验证器证据 V=(T,C)，将 box/mask/instance label 转化为点级 RL 训练信号",
+    "分层奖励机制：软定位高斯评分+匈牙利匹配+基数一致性+去重抑制+防短路守卫",
+    "同 backbone 在 PointArena 提升 9.47pp，并在 RoboSpatial/BLINK/Ref-Adv 上验证跨基准迁移"
+   ],
+   "benchmarks": [
+    "PointArena Point-Bench",
+    "RoboSpatial",
+    "BLINK",
+    "Ref-Adv"
+   ]
+  }
+ }
 }

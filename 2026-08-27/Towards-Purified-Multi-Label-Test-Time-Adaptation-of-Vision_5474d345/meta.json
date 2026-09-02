@@ -4,5 +4,31 @@
  "title": "Towards-Purified-Multi-Label-Test-Time-Adaptation-of-Vision",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-27 23:35:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3d0a3f1-bf57-497c-9e06-dd4cd2ab6ee4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/e3d0a3f1-bf57-497c-9e06-dd4cd2ab6ee4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:56:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Test-Time Adaptation",
+    "Vision-Language Models",
+    "Multi-Label Recognition",
+    "Cache-based Adaptation",
+    "Region Purification",
+    "Domain Shift"
+   ],
+   "field": "多标签测试时适应",
+   "innovations": [
+    "提出双净化缓存框架PuRF，首次将缓存机制扩展到多标签TTA",
+    "设计基于多粒度一致性的区域净化机制，缓解一对多映射偏差",
+    "引入时间衰减刷新策略，缓解多标签缓存饱和并维持长期适应性"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2007/2012",
+    "MS-COCO 2014/2017",
+    "NUS-WIDE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Steer-the-Sampling-Not-the-Kernel-Grid-Geometry-Guided-Sampl",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-27 23:35:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8d0ba798-ddef-43e3-b7e5-5174a6f1d7b9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/8d0ba798-ddef-43e3-b7e5-5174a6f1d7b9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:52:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D medical image segmentation",
+    "geometry-guided sampling",
+    "deformable convolution",
+    "SO(3) frame field",
+    "volumetric segmentation",
+    "boundary-aware operator",
+    "U-Net"
+   ],
+   "field": "3D医学图像分割",
+   "innovations": [
+    "以SO(3)局部旋转框架引导对称采样替代变形卷积核，统一stride-1细化与stride>1下采样",
+    "提取归一化一阶/二阶差分Token（梯度与曲率类），奇偶分量符号稳定",
+    "旋转一致Consensus Field在跳连处对齐跨尺度几何方向场"
+   ],
+   "benchmarks": [
+    "BraTS",
+    "MSD Hepatic Vessel",
+    "TDSC-ABUS"
+   ]
+  }
+ }
 }

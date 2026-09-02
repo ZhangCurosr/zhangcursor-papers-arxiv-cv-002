@@ -4,5 +4,31 @@
  "title": "TAU-Agent-An-Agentic-Retrieval-Augmented-Framework-for-Trafi",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-27 23:34:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/593e4beb-fcec-4fdf-856e-a89585923948.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/593e4beb-fcec-4fdf-856e-a89585923948.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:54:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Traffic Anomaly Understanding",
+    "Agentic AI",
+    "Vision-Language Model",
+    "Retrieval-Augmented Generation",
+    "Video Question Answering",
+    "AI City Challenge"
+   ],
+   "field": "视频异常理解与多模态推理",
+   "innovations": [
+    "提出多阶段代理式检索增强框架TAU-Agent解构交通异常理解任务",
+    "设计混合检测流水线结合YOLO和GroundingDINO处理开放词汇对象追踪",
+    "构建跨问题上下文Agent利用相关问题补充证据并引入证据验证机制"
+   ],
+   "benchmarks": [
+    "AI City Challenge Track 3 TAR Test",
+    "FETV FishEye Traffic Violation",
+    "PSI-VQA Pedestrian Crossing Intent VQA"
+   ]
+  }
+ }
 }

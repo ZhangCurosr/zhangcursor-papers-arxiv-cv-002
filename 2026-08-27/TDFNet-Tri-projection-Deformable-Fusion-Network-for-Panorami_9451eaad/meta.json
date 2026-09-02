@@ -4,5 +4,31 @@
  "title": "TDFNet-Tri-projection-Deformable-Fusion-Network-for-Panorami",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-27 23:35:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0353c4b3-fb78-44e8-8d62-af1a06e594e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/0353c4b3-fb78-44e8-8d62-af1a06e594e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 06:55:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Panoramic Salient Object Detection",
+    "Multi-projection Fusion",
+    "Deformable Attention",
+    "Geometric Distortion",
+    "Tangent Projection"
+   ],
+   "field": "全景图像理解",
+   "innovations": [
+    "首个三投影可变形融合网络TDFNet，整合ERP/CMP/切线投影",
+    "跨投影可变形注意力CDA，利用异构投影空间对应关系指导自适应采样",
+    "纬度引导融合LGF，结合球面几何先验与切线语义参考实现自适应对齐"
+   ],
+   "benchmarks": [
+    "360-SOD",
+    "360-SSOD",
+    "ODI-SOD",
+    "F-360iSOD"
+   ]
+  }
+ }
 }
