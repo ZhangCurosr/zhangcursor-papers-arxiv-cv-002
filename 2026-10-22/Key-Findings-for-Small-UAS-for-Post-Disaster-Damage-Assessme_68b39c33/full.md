@@ -1,0 +1,206 @@
+# Key Findings for Small UAS for Post-Disaster Damage Assessment from the CURSE’26 Exercise
+
+Thomas Manzini<sup>1∗</sup>, Stephen Johnson<sup>1</sup>, Priyankari Perali<sup>2</sup>, David Merrick<sup>3</sup>, and Robin Murphy<sup>1</sup>
+
+Abstract— The CLARKE building and road damage assessment AI classifier was incorporated into the Catastrophic Unmanned Remote Sensing Exercise (CURSE) 2026, which trained 23 small uncrewed aerial systems (sUAS) teams from state and local agencies and non-governmental organizations in Florida and Missouri on how to collect imagery for an incident command Remote Sensing Cell. Although CLARKE has been operationally deployed to two hurricanes (Debby and Helene), CURSE’26 presented an opportunity to evaluate the machine learning model with a larger set of never-before-seen orthomosaics. The results show that building and road damage assessment together ran in 3.5 minutes on average, and that building damage assessment achieved a Micro F1 of 0.834 with no manual adjustments to correct spatial misalignment and delivered that performance in both Florida and Missouri, demonstrating good geographic transfer. It also showed that road damage assessment performed poorly due to sensitivity to misalignment between road maps and the images, and to lighting and environmental conditions in an urban setting. The analysis of CURSE’26 presents five other findings of value to the sUAS community: that the use of sUAS and machine learning is now operationally normalized and accepted, sUAS teams in the field can improve classification accuracy by timing their flights, exercises are good operational tests but their value for evaluating learning models is less clear, edge computing is needed to overcome the wireless upload barrier, and the application of sUAS and AI to disaster response has ethical and legal ramifications for pilots and data managers.
+
+Index Terms— Small Uncrewed Aerial Systems (sUAS), Disaster Response, Damage Assessment, Test and Evaluation, Computer Vision, Machine Learning, Responsible AI, Edge Computing
+
+## I. INTRODUCTION
+
+On May 19, 2026, Florida State University’s Emergency Management and Homeland Security (EMHS) program conducted the Catastrophic Unmanned Remote Sensing Exercise (CURSE) 2026. The full-scale exercise was designed to evaluate the use of small uncrewed aerial systems (sUAS) and remote sensing workflows during a catastrophic incident. The 20 participating agencies and non-governmental organizations in Florida and Missouri operated from their home jurisdictions, flying sUAS to collect and process imagery locally, then transmitting the imagery and derived products to a centralized Remote Sensing Cell (RSC) located in Tallahassee (Fig. 1). The RSC integrated the data from the sUAS into a common operating picture and distributed products to stakeholders, completing the sUAS data-to-decision process as would be done during an actual disaster.
+
+![](images/3a0d8b5b00d437c4e6252efe62227786401eeb7f1be1d1c160fc37b025eb3b56.jpg)  
+Fig. 1. The Remote Sensing Cell at CURSE’26 integrating sUAS imagery.
+
+An integral part of the CURSE sUAS data-to-decision process was CLARKE (Computer vision and Learning for Analysis of Roads and Key Edifices), an automatic building and road damage assessment classifier. CLARKE had been deployed during the operational responses to Hurricanes Debby and Helene in 2024 [1], [2] and was included in CURSE’26 as the “new normal” for producing initial damage assessment reports within minutes. CLARKE provides automated building and road damage assessment for sUASacquired orthomosaics. Building damage assessment is labeled according to the commonly used Joint Damage Scale (JDS) [3], while road damage uses a novel labeling schema as there are no existing standards. The building damage assessment component uses an encoder-decoder architecture consisting of a fine-tuned Vision Transformer [4] encoder and a UperNet [5] decoder, and the road damage assessment component uses an Attention U-Net architecture [6] trained on the CRASAR-U-DROIDs dataset [7]. This dataset ensures models have high operational fidelity because it contains over 67 gigapixels of imagery collected directly by responding agencies across 10 federally declared disasters.
+
+The CURSE’26 exercise provided a mechanism to explore the sUAS data-to-decision pipeline, rather than just the veracity of the CLARKE output. It confirmed sUAS and machine learning problems encountered at Debby and Helene [2] and Hurricane Ian [8], obtained positive feedback from real users, and identified new challenges and research needs. CURSE’26 also presented an opportunity for examining whether exercises are realistic tests of sUAS and machine learning for sUAS-acquired imagery.
+
+This paper is organized as follows. A brief description of prior work provides background for comparing the exercise to previous research. Next, a description of the exercise follows, including background aimed at roboticists on how sUAS are situated within the larger data-to-decision process for damage assessment. The lessons learned for building damage assessment are presented, followed by the results from the road damage assessment. Three cross-cutting issues are discussed. The paper concludes with eight findings expected to be of value for the continued responsible innovation of sUAS systems for disaster management.
+
+## II. PRIOR WORK
+
+The CURSE’26 exercise differs from previously published field research on sUAS for damage assessment in general and CLARKE in particular. At the time of writing, CLARKE is one of two known operationally deployed sUAS damage assessment systems [2], [9]. However, the integration of both systems into the sUAS data-to-decision process has been ad hoc and applied to only a small number of orthomosaics, with four used by CLARKE in the US [2] and four from the 2024 Valencia flash flooding in Spain [9]. Consequently, the CURSE’26 exercise serves as a testbed offering a larger-scale deployment to systematically evaluate the formal operational pipeline.
+
+## A. Automated Damage Assessment
+
+The research community predominantly assumes a seamless data-to-decision pipeline heavily reliant on wireless connectivity and cloud computing infrastructure [10]–[12]. However, operational deployments have repeatedly demonstrated that wireless connectivity in post-disaster environments is either severely degraded or entirely unavailable, creating a critical bottleneck [1], [2], [8]. For instance, during the response to Hurricane Ian, the massive volume of highresolution sUAS data generated in bursts by field teams consistently overwhelmed available cellular and satellite uplinks, forcing data managers to physically transport hard drives to intact emergency operations centers [8], [13]. Because existing ML frameworks fail to account for these bandwidth constraints, an exercise such as CURSE’26 can highlight the distinct gap in understanding how to effectively execute inference at the edge during an active deployment.
+
+## B. CLARKE
+
+Previous efforts with processing sUAS imagery and developing and deploying CLARKE identified four issues: testing with a small set of never-before-seen orthomosaics [2], transfer to new geographical locations [2], wireless bandwidth limitations [8], and pilot error [8], [14]. The deployments of CLARKE enabled evaluation of the first three, with pilot error out of the scope for feasible data collection.
+
+The BDA and RDA classifiers that comprise the machine learning element were described in [1], [2], along with how they were used at Hurricanes Debby and Helene [2]. Those works show that CLARKE has been tested for only a small set of never-before-seen orthomosaics (4) at Debby and Helene [2]. Further, CLARKE showed weak transfer performance on imagery from Pennsylvania, where Hurricane Debby degenerated into its post-tropical remnants. This is most likely due to the differences between the rural mountains of Pennsylvania and the flat coastal regions where hurricanes and tropical storms normally occur. The CRASAR-U-DROIDs dataset does not contain mountainous regions. Wireless bandwidth limitations that the sUAS pilots encountered with the data-to-decision process during the response to Hurricane Ian (2022) were discussed in [8], where an expert manually classified the images. The CURSE’26 normative workflow is a codification of the Ian workflow, where CLARKE replaces the expert, so concerns about wireless limitations are still valid.
+
+## III. OVERVIEW OF SUAS DAMAGE ASSESSMENT AT CURSE’26
+
+An overview of the sUAS Damage Assessment workflow at CURSE’26 consists of two parts. One is a description of the data-to-decision workflow that responders were trained on. The other is a summary of the nine CURSE’26 missions, which are compared with the Debby and Helene deployments in terms of geography, scale, land use, and type of damage. Fig. 2 presents the operational sUAS-to-damage assessment process for the nine sUAS damage assessment (DA) missions conducted in two states, captured in Table I. The nine orthomosaics analyzed here were collected by seven teams.
+
+## A. Pipeline from sUAS to Emergency Managers
+
+The pipeline diagram in Fig. 2 illustrates the workflow that CURSE’26 participants were trained on in generating actionable damage assessment information from sUAS imagery. It is a formalization of the process used at Debby and Helene.
+
+Steps 1-3 are actions taken by the sUAS team. The team conducts an aerial survey, collecting raw imagery from a nadir perspective at a flight altitude determined by the pilot. The teams then create an orthomosaic map from the images using PIX4Dreact, a lightweight software package that can produce an orthomosaic reliably on a consumer laptop [15]. Other programs could be used, but PIX4Dreact has become the standard of practice because of cost, speed, and reliability. In step 4, the orthomosaics are uploaded by the teams to the data manager, either via wireless from the field or by transporting an external drive or SD card to the nearest base of operations, and are passed with the building polygons and road lines to the model for inference.
+
+Steps 5-8 are where the data manager, one of the authors, applies the machine learning model to infer the damage categories of buildings and roads. The data manager does not know the sUAS or any details of the flights; they work only with the data. To reduce computational effort, the labeled damage is restricted to known building polygons and known roads. The pipeline uses Microsoft’s US Building Footprints [16] for buildings and OpenStreetMap [17] roads, as they are commonly used in emergency management, are comprehensive, and are publicly available. If locally sourced building and road polygons are available, they could be readily leveraged as well. The output of step 5 is labeled buildings and roads. In order to accommodate the multiple possible uses and concurrent users, the output in step 6 is packaged into different outputs (e.g., a GIS-compatible file, a .png suitable for visual inspection, a spreadsheet of building addresses and damage, a map showing road conditions, etc.).
+
+![](images/21a08550ef6bec64cba32b107d29593eedff31ded6edf481e28b48d25070c38b.jpg)  
+Fig. 2. The sUAS to emergency manager pipeline. The pipeline takes sUAS imagery and spatial data that are provided as input to the CLARKE system, providing DA for buildings and roads in the form of data products, which are reviewed by trained personnel and uploaded to a shared location for emergenc managers.
+
+In step 7, the results are examined by the data manager for correctness before being distributed to emergency managers. This examination is necessary for two reasons. The first reason is, as described in [18], that ground maps and sUASgenerated maps have GPS errors, often leading to spatial misalignment of polygons and road lines. The CLARKE system does not correct the spatial misalignment of building polygons or roads. Fortunately, manual alignment, while not ideal in terms of speed and workforce, can be applied to both. The second reason is transfer of the ML model to new geographical locations and settings, or encountering new outof-distribution disasters, as discussed in Sec. II-B.
+
+Finally, the workflow finishes with step 8, which sends the data products to the emergency managers at the RSC. Neither the sUAS teams nor the data manager usually has any direct interaction with the emergency managers or each other; all three groups are working in silos. The emergency managers, as data consumers, expect the data products to be correct within their expectations.
+
+## B. sUAS Damage Assessment Missions
+
+The differences between the nine orthomosaics and those generated at Debby and Helene are:
+
+• Geographic diversity. Seven of the nine missions were conducted at different sites in Florida, with the remaining two in Missouri. This replicates the geographical diversity experienced at Debby, which spanned Florida and Pennsylvania.
+
+TABLE I  
+SUAS DAMAGE ASSESSMENT MISSIONS AT CURSE’26. GSD IS THE GROUND SAMPLE DISTANCE OF EACH ORTHOMOSAIC.
+<table><tr><td>Mission</td><td>State</td><td>sUAS Model</td><td>GSD (cm/px)</td><td>Orthomosaic Area (km2)</td><td>Number of Buildings</td><td>Length of Roads (km)</td><td>BDA+RDA Inference Time (s)</td></tr><tr><td>1</td><td>FL</td><td>Skydio X10</td><td>2.28</td><td>0.1048</td><td>21</td><td>0.24</td><td>214</td></tr><tr><td>2</td><td>FL</td><td>Skydio X10</td><td>1.27</td><td>0.0469</td><td></td><td>0.70</td><td>188</td></tr><tr><td>3</td><td>FL</td><td>Skydio X10</td><td>1.35</td><td>0.0261</td><td>0</td><td>0.25</td><td>139</td></tr><tr><td>4</td><td>FL</td><td>WingtraOne</td><td>5.00</td><td>0.2085</td><td>6</td><td>2.64</td><td>161</td></tr><tr><td>5</td><td>FL</td><td>Skydio X10</td><td>3.26</td><td>0.5701</td><td>149</td><td>22.85</td><td>341</td></tr><tr><td>6</td><td>FL</td><td>Skydio X10</td><td>2.16</td><td>0.0730</td><td>21</td><td>3.25</td><td>204</td></tr><tr><td>7</td><td>FL</td><td>Skydio X10</td><td>1.59</td><td>0.1204</td><td>24</td><td>1.52</td><td>235</td></tr><tr><td>8</td><td>MO</td><td>DJI Matrice 30</td><td>4.02</td><td>0.1587</td><td>19</td><td>1.75</td><td>181</td></tr><tr><td>9</td><td>MO</td><td>DJI Matrice 30</td><td>12.70</td><td>1.8807</td><td>98</td><td>17.31</td><td>214</td></tr></table>
+
+• Scale. The average orthomosaic at CURSE’26 covered 0.354 km<sup>2</sup>, half the size of the average orthomosaic at Debby and Helene, which was 0.792 km<sup>2</sup> [2]. The CURSE’26 orthomosaics were also smaller than the average of 1.307 km<sup>2</sup> collected at Hurricane Ian [7], the largest known deployment of sUAS at a disaster [8], [13]. As indicated by the number of buildings, the mission locations ranged from rural (0 buildings in mission 3) to high-density urban (149 buildings in mission 5). The average road length was 5.61 km.
+
+• Land use. Because these nine missions were conducted during non-disaster training exercises, they provide a unique opportunity to evaluate the models against new land uses. To avoid any public concern over safety or privacy, CURSE’26 missions were generally tasked to fly over industrial parks, urban facilities, or underpopulated rural areas rather than targeting residential neighborhoods, which were a high priority during Debby and Helene.
+
+• Types of damage. The missions also provide a unique opportunity to evaluate the models against a near-zero damage baseline. A manual assessment of all captured imagery found only 31 instances of building damage out of 320 buildings, or 9.7% of buildings. For roads, the baseline physical road damage was estimated to be ≈ 5%, primarily due to roads obscured by vegetation and construction.
+
+Although a direct comparison between the inference times at CURSE’26 listed in Table I and Debby and Helene is not possible, the fast inference time at CURSE’26 is expected to be applicable to deployments using laptop computers. The average inference time using a desktop computer with an NVIDIA GeForce RTX 4090 (24 GB) GPU and an Intel Core Ultra 9 285K (3.70 GHz) CPU with 128 GB RAM was 209 seconds (3.5 minutes). Such hardware is reasonably deployable at a base of operations, and even though the CURSE’26 orthomosaics were smaller, it is expected that equivalent inference times can be achieved on laptops with similar NVIDIA GPUs.
+
+![](images/1b597bfadae70748d2b0c040520a30437ca46ea0ff977dc252b4d83e142c2f46.jpg)  
+Fig. 3. The confusion matrix for all building damage assessment missions.
+
+## IV. BUILDING DAMAGE ASSESSMENT
+
+The Building Damage Assessment (BDA) component functioned well for each of the eight missions that captured buildings, measured in terms of F1, transfer, and lack of need for manual adjustments to correct spatial misalignment. It should be noted that as this event was an exercise, the system was not run on actual disaster imagery, meaning that the system performance on the complete collection of JDS classes could not be evaluated. However, the exercise did highlight three potentially significant failure modes, particularly in commercial and larger buildings. Of these failure modes, only poor illumination can be mitigated by the sUAS; pilots should try to fly as close to noon as possible, though the operations tempo of a real disaster may not permit this.
+
+## A. Performance
+
+While fully evaluating the correctness of model predictions is not possible given the incomplete and otherwise highly unbalanced class distributions, Fig. 3 shows the full confusion matrix and that the performance of the model was acceptable on the CURSE’26 orthomosaics, as it presents a Micro F1 of 0.834. The ground truth labels were collected by the authors who have direct expertise responding to major disasters and curating building damage assessment labels for use in machine learning models [7]. The reader should note the heavy class imbalance towards the “no damage” class, and that prior work has evaluated these models on CRASAR-U-DROIDs using Macro F1 [1]. This limited class distribution forces an evaluation using micro-average F1.
+
+![](images/81ce074919c94f848b3aa528b6677bfd9ef1e9b6b7ccd6b22490c7ddc7a3ed4d.jpg)  
+Fig. 4. Three examples of failure modes for the BDA model. [Upper-Left] Example of an incorrect spatial polygon for a building. [Upper-Right] Example of incorrect building damage classification of the left side buildings affected by illumination factors. [Bottom] Example of incorrect building damage classification for a large building (predicted “un-classified” vs. actual label “no damage”). Classes are represented by the following colors: (green, “no damage”), (yellow, “minor damage”), (blue, “un-classified”).
+
+In addition to the reasonable F1 score, the model showed positive transfer to the orthomosaics from Missouri. Given the amount of hurricane imagery from the state of Florida in the CRASAR-U-DROIDs training set, it was not surprising that the model performed well on the six Florida missions. It was surprising to see that the model transferred to the two Missouri missions, given the different terrain and the problems encountered with the deployment of the model during Hurricane Debby. Though claims of complete transfer cannot be made as this exercise did not permit the evaluation of the model on the complete set of JDS classes, there was no obvious or persistent failure across the imagery. Notably, the most similar data in the CRASAR-U-DROIDs dataset, the 2021 Mayfield, Kentucky, tornado disaster, was included in the test set and was not used for model training. From a practical workflow aspect, the BDA component did not require any manual adjustments to the spatial alignment of building polygons.
+
+## B. Failure Modes
+
+Fig. 4 shows three different cases of failures: incorrect building polygons, under-representation of large structures, and illumination issues. The large apartment complex in the upper left is represented by a single green polygon in Microsoft’s US Building Footprints [16]. This is a failure of the footprint data, not of the model. The polygon for the long, narrow manufacturing facility at the bottom is correct, but the model classifies it as “un-classified” despite no obvious damage, possibly because large commercial and multi-unit residential structures are under-represented in the CRASAR-U-DROIDs dataset [7]. The upper right image again shows instances where a building is mislabeled as “unclassified” likely due to illumination factors (e.g., shadow casts) affecting the buildings’ visual representations. Those images were taken in early morning or late afternoon rather than the desired midday lighting.
+
+TABLE II  
+ROAD DAMAGE PER MISSION. NOTE: ALL MISSIONS SHOULD HAVE REPORTED 95% OR HIGHER VALUES FOR “NO DAMAGE”.
+<table><tr><td rowspan=1 colspan=1>Mission</td><td rowspan=1 colspan=1>Length ofRoads (km)</td><td rowspan=1 colspan=1>No Damage(%)</td><td rowspan=1 colspan=1>Partial Damage(%)</td><td rowspan=1 colspan=1>Total Damage(%)</td></tr><tr><td rowspan=1 colspan=1>1</td><td rowspan=1 colspan=1>0.24</td><td rowspan=1 colspan=1>74.5</td><td rowspan=1 colspan=1>0.0</td><td rowspan=1 colspan=1>25.5</td></tr><tr><td rowspan=1 colspan=1>2</td><td rowspan=1 colspan=1>0.70</td><td rowspan=1 colspan=1>85.2</td><td rowspan=1 colspan=1>6.5</td><td rowspan=1 colspan=1>8.3</td></tr><tr><td rowspan=1 colspan=1>3</td><td rowspan=1 colspan=1>0.25</td><td rowspan=1 colspan=1>15.3</td><td rowspan=1 colspan=1>5.0</td><td rowspan=4 colspan=1>79.714.238.749.0</td></tr><tr><td rowspan=1 colspan=1>4</td><td rowspan=1 colspan=1>2.64</td><td rowspan=1 colspan=1>85.7</td><td rowspan=1 colspan=1>0.1</td></tr><tr><td rowspan=2 colspan=1>56</td><td rowspan=1 colspan=1>22.85</td><td rowspan=2 colspan=1>49.934.0</td><td rowspan=1 colspan=1>11.4</td></tr><tr><td rowspan=1 colspan=1>3.25</td><td rowspan=1 colspan=1>17.0</td></tr><tr><td rowspan=1 colspan=1>7</td><td rowspan=1 colspan=1>1.52</td><td rowspan=1 colspan=1>61.7</td><td rowspan=1 colspan=1>0.6</td><td rowspan=1 colspan=1>37.7</td></tr><tr><td rowspan=1 colspan=1>8</td><td rowspan=1 colspan=1>1.75</td><td rowspan=1 colspan=1>89.5</td><td rowspan=1 colspan=1>2.1</td><td rowspan=1 colspan=1>8.4</td></tr><tr><td rowspan=1 colspan=1>9</td><td rowspan=1 colspan=1>17.31</td><td rowspan=1 colspan=1>84.1</td><td rowspan=1 colspan=1>0.9</td><td rowspan=1 colspan=1>15.0</td></tr></table>
+
+## V. ROAD DAMAGE ASSESSMENT
+
+Based on the qualitative performance during the CURSE’26 exercise, the Road Damage Assessment (RDA) component of the CLARKE system is not ready for operational deployment. It labeled 35.3% of the road length across the nine orthomosaics as damaged against an expected baseline of approximately 5%, with one orthomosaic showing nearly 80% “total damage”. The poor performance of the RDA component appears to be due to three failure modes present in the imagery. These three are discussed in detail below.
+
+## A. Performance
+
+The performance of the RDA component was poor for all orthomosaics. As shown in Table II, the nine orthomosaics contained a total of 50.52 km of roads, ranging from 0.24 to 22.85 km per image. For example, in Table II, the orthomosaic from mission 3 labeled nearly 80% of the roads as “total damage”. None of the missions were labeled with ≈ 95% of the roads as “no damage”, as would be expected from the manual inspection of the imagery. Given the obvious disparity between reality and predictions, generating a confusion matrix was not considered necessary.
+
+## B. Failure Modes
+
+Three primary failure modes for the CLARKE RDA component were identified: spatial misalignment, unfavorable illumination and road color (e.g., shadows, tar roads), and environmental obscurations (e.g., trees). Of the three, spatial misalignment appears to have had the most significant impact on mislabeling. Only unfavorable illumination can be addressed by sUAS pilots, favoring flying midday or overcast conditions. Spatial alignment during post-processing could be improved by integrating a dedicated alignment model, following [19]. The environmental obscurations are a property of the real world and cannot be addressed by pilots or software directly. However, future efforts should be considered to better manage prediction uncertainty when faced with these types of obscurations.
+
+![](images/583e5ec056e0116921cf8f364db065f729044ab7075592cc2e22669ac81e5755.jpg)  
+Fig. 5. Three examples of failure modes for the RDA model. Road damage labels are represented as green (“no damage”), yellow (“partial damage”), and red (“total damage”). [Left] Example of RDA misclassifications due to misaligned, incorrect spatial road lines, and illumination factors. [Upper-Right] Example of failure mode with road medians. [Bottom-Right] Example of RDA misclassifications with dark road color (tar roads).
+
+The RDA component exhibits a sensitivity to the spatial alignment of road lines, reflecting a vulnerability previously documented in the literature [18]. Specifically, the underlying training set expects the structural centerline of the spatial road line to rest exactly in the center of the road within the imagery [20]. However, the operational version of CLARKE routinely encounters non-uniform spatial alignments when utilizing the publicly available a priori road maps (Steps 5 to 8 in Fig. 2). As shown in the upper right panel of Fig. 5, spatial misalignments, especially with roads with medians, direct the classifier to adjacent off-road terrain, generating false damage labels.
+
+The RDA model also appears sensitive to illumination and road material variations. The left panel of Fig. 5 illustrates a failure mode where shadows from landscaping elements direct the model to falsely predict “total damage” (red) on an intact surface. This effect is also present in the upper-right panel, where a central median with landscaping, coupled with spatial misalignment, leads the model to predict “total damage” (red) and “partial damage” (yellow) throughout the image. Furthermore, the bottom-right panel of Fig. 5 demonstrates the RDA model’s apparent response to dark road surface colors as it predicts “total damage” (red) on an otherwise clear road.
+
+## VI. DISCUSSION
+
+The CURSE’26 exercise provides broader insights into the design and deployment of sUAS and artificial intelligence. The first insight is the complex role exercises can play in evaluating data-to-decision systems involving sUAS. The second insight is that even under ideal conditions, edge computing is necessary. The third insight is that sUAS deployments engender ethical concerns for pilots and data managers.
+
+## A. Role of Exercises in Evaluating sUAS and ML
+
+CURSE’26 raises the issue of the role of real-world exercises in evaluating sUAS and artificial intelligence systems such as CLARKE for disasters. Are exercises operational tests of the pipeline but not good inference tests, or can they be both? CURSE’26 suggests that exercises are strong tests of the operational pipeline but weak tests of inference on the damage seen to date, although they are a useful source of edge cases that operational data cannot easily supply.
+
+The exercise was a realistic test of how CLARKE performed as part of the operational workflow, but it was not a realistic test of the ML model. The imagery collected by the sUAS teams was not representative of the types of damage observed by actual sUAS deployments. The CURSE’26 imagery contained no disaster damage, and only 31 of the 320 buildings showed any damage at all. Missions were also often in commercial areas, versus the residential or rural areas typically targeted after an event.
+
+Even though the exercise was not a good test of the ML model for typical damage, CURSE’26 illustrates how an exercise can be a source for identifying or testing for future conditions. As described in Sec. III-B, the imagery of undamaged commercial or rural areas did not represent the types of buildings, roads, or damage seen to date in real-world disasters. Consider that the current practice is to send sUAS to a relatively small set of areas where there is expected to be damage based on hazard prediction maps or the emergency managers’ knowledge of the community. As such, an entire orthomosaic with no damage is an important edge case that does not exist in the CRASAR-U-DROIDs dataset, which contains naturalistic disaster damage.
+
+## B. Need for Edge Computing
+
+The exercise confirms prior expectations that edge computing of inference rather than reliance on cloud computing is needed to speed up the sUAS-to-decision pipeline. The pipeline in Fig. 2 suggests three ways the process could be executed faster: faster data acquisition by the sUAS teams (step 1), post-processing (steps 2-7), and upload to a shared location thus enabling human decision-making (step 8). It is not clear that sUAS teams can fly faster, though there may be improvements in assigning missions. This leaves the steps of getting the imagery to the data manager and then processing it. The generation of orthomosaics is already done on the edge by the sUAS teams using commercial software optimized for speed. The inference time was on the order of 3.5 minutes. However, the upload times for the orthomosaics to the data manager were on the order of 1 hour, consistent with Hurricane Ian, though specific upload times were not recorded. It should be noted that CURSE’26 was conducted under ideal conditions for communications, as the wireless infrastructure was intact, unlike in a real disaster. Therefore, it is expected that, based on the findings detailed in [8], [13], the biggest gain in decision speed with sUAS imagery is running inference at the edge.
+
+## C. Responsible Innovation
+
+Although CLARKE is autonomous for BDA, it requires human oversight of the data products. Such oversight is needed to ensure that there are no major degradations in accuracy due to different disasters, geographies, or other outof-distribution situations. The human oversight is not a casual glance at the output; it requires a data manager skilled in machine learning.
+
+It should be noted that applying CLARKE without human oversight may be a form of negligent misrepresentation, because emergency managers form expectations about accuracy that the developers have neither corrected nor restricted, and thus developers may be legally liable for harms [21]. The sUAS pilots and data manager should be aware that it is their responsibility to ensure that their outputs are of the highest quality and do not show any of the failure modes in Secs. IV and V because how the damage assessment products will be used and by whom is unknown. As shown in Fig. 2 step 8, the data products are uploaded to a common store in the RSC for access potentially by anyone in the incident command enterprise. If the data products are not within expectations, the decision-maker would not be aware of the problems. Although running at the edge is desirable, it may not be an easy solution given the current state of automatic classification, the potential for errors to negatively affect the response, and the developers’ legal liability.
+
+## VII. FINDINGS
+
+The examination of the CURSE’26 exercise in the context of previous deployments and research experimentation leads to eight findings. These findings contribute to disaster robotics research and practitioner communities:
+
+1) The use of sUAS with computer vision/machine learning for automated damage assessment is now operationally normalized and accepted. It was incorporated into training 23 sUAS teams from two states at CURSE’26 as standard operating procedures for the upcoming hurricane season. The participants expressed satisfaction with CLARKE outputs.
+
+2) sUAS teams in the field can improve CLARKE automated damage assessment by flying in overcast or midday conditions to minimize shadows. As described in Sec. IV and Sec. V, illumination has a noticeable impact on labeling damage. While the operational tempo of a response may not permit teams to choose when to fly, if they do have a choice, they should strive for the conditions that produce the highest image quality.
+
+3) The use of sUAS with CLARKE for building damage assessment is mature. As described in Sec. IV, CLARKE performed well in terms of F1, transfer, and lack of need for manual adjustments to correct spatial misalignment. CURSE’26 addressed the issue of being exposed to a small set of never-before-seen images raised in Sec. II-B. The exercise increased the number of new orthomosaics from 4 to 13. Although the CURSE’26 orthomosaics were smaller than previous events, the average inference time of 3.5 minutes given in Sec. III is consistent with the 5-7 minute times on the CRASAR-U-DROIDs dataset test set orthomosaics [7].
+
+4) CLARKE BDA should perform well in novel geographies. CLARKE demonstrated zero-shot transferability to a novel geography, addressing the second issue raised in Sec. II-B. As described in Sec. IV, CLARKE performed well in terms of F1 score, demonstrating strong positive transfer on the Missouri missions (8 and 9). This geographical generalization is particularly notable because similar Midwestern terrain (specifically the Mayfield, Kentucky, tornado imagery) in the CRASAR-U-DROIDs dataset was not used for training the models but was instead isolated for testing. This indicates that the BDA model can successfully generalize to out-of-distribution terrains, such as Missouri.
+
+5) The use of sUAS with CLARKE for road damage assessment (RDA) is not mature. Unlike the BDA component, the RDA classifier misclassified portions of undamaged roads as having some form of damage; in one case, nearly 80% of the roads were mislabeled. The primary culprit appears to be the model’s high sensitivity to non-uniform spatial alignment errors between the road lines and the orthomosaics.
+
+6) Exercises are good operational tests, but their value in evaluating machine learning is less clear. CURSE’26 introduced imagery with two deviations from what has been collected from actual deployments. The first was the general lack of damage in the imagery, representing an inconsistency with respect to actual disaster imagery. The second was the prevalence of commercial buildings and urban areas. As described in Sec. VI, this means CURSE’26 was not realistic in that it was not consistent with imagery seen in the past, but it could be realistic as the scope of sUAS deployments expands.
+
+7) Edge computing with the sUAS teams is needed to overcome the wireless upload barrier. CURSE’26 confirms the concern over wireless bandwidth raised in Sec. II-B. Although specific quantitative upload times were not recorded during the CURSE’26 exercise, it should be clear from Fig. 2 that transferring the data from the field to a data manager in a base of operations or emergency operations center introduces notable time delays, even for a one-day exercise.
+
+8) The application of sUAS and AI to disaster response merits close attention to the principles of responsible innovation. Technologists must be aware of the ways in which their systems may fail when used for a disaster event and proactively prevent misunderstandings of accuracy or propagation of poor results. Human oversight is absolutely critical, and the introduction of faulty data products into an operational data-to-decision workflow could lead to negligent misrepresentation and induce meaningful harms. Technologists and operators must bear the ethical responsibility to verify model outputs and prevent the propagation of failures during operations.
+
+CLARKE BDA is positioned to be used during the 2026 hurricane cycle by Florida and will continue to be refined. The findings show a strong need for edge computing by field teams, but at the same time argue for human supervision. Future work will improve the RDA component and explore automatic uncertainty quantification, so that the system itself can flag out-of-distribution situations.
+
+## ACKNOWLEDGMENT
+
+This work is supported by the AI Research Institutes Program funded by the National Science Foundation under the AI Institute for Societal Decision Making (NSF AI-SDM). The authors thank the FL-UAS1 task force, Florida State University, and the organizers of the CURSE’26 Exercise for their support.
+
+## REFERENCES
+
+[1] T. Manzini, P. Perali, and R. R. Murphy, “Deploying rapid damage assessments from sUAS imagery for disaster response,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 47, 2026, pp. 40 336–40 343.
+
+[2] T. Manzini, P. Perali, R. R. Murphy, and D. Merrick, “Challenges and research directions from the operational use of a machine learning damage assessment system via small uncrewed aerial systems at Hurricanes Debby and Helene,” in 2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). IEEE, 2025, pp. 267–272.
+
+[3] R. Gupta, B. Goodman, N. Patel, R. Hosfelt, S. Sajeev, E. Heim, J. Doshi, K. Lucas, H. Choset, and M. Gaston, “Creating xBD: A dataset for assessing building damage from satellite imagery,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, 2019, pp. 10–17.
+
+[4] C. J. Reed, R. Gupta, S. Li, S. Brockman, C. Funk, B. Clipp, K. Keutzer, S. Candido, M. Uyttendaele, and T. Darrell, “Scale-MAE: A scale-aware masked autoencoder for multiscale geospatial representation learning,” in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2023, pp. 4088–4099.
+
+[5] T. Xiao, Y. Liu, B. Zhou, Y. Jiang, and J. Sun, “Unified perceptual parsing for scene understanding,” in Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp. 418–434.
+
+[6] O. Oktay, J. Schlemper, L. L. Folgoc, M. Lee, M. Heinrich, K. Misawa, K. Mori, S. McDonagh, N. Y. Hammerla, B. Kainz et al., “Attention U-Net: Learning where to look for the pancreas,” arXiv preprint arXiv:1804.03999, 2018.
+
+[7] T. Manzini, P. Perali, R. Karnik, and R. Murphy, “CRASAR-U-DROIDs: A large scale benchmark dataset for building alignment and damage assessment in georectified sUAS imagery,” arXiv preprint arXiv:2407.17673, 2024.
+
+[8] T. Manzini, R. Murphy, D. Merrick, and J. Adams, “Wireless network demands of data products from small uncrewed aerial systems at Hurricane Ian,” in 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2023, pp. 9941–9946.
+
+[9] A. Roman, A. Tovar-S ´ anchez, M. Larrad, F. J. Rubiano-S ´ anchez, J. M. ´ Zafra, R. Pineiro,˜ A. Castillo, F. A. L<sup>´</sup> opez, A. L. Vela, A. Allende´ et al., “UAV imagery in natural disasters: Real-time damage assessment of flash flooding events,” Ecological Informatics, vol. 91, p. 103433, 2025.
+
+[10] C. Qu, P. Calyam, J. Yu, A. Vandanapu, O. Opeoluwa, K. Gao, S. Wang, R. Chastain, and K. Palaniappan, “DroneCOCoNet: Learning-based edge computation offloading and control networking for drone video analytics,” Future Generation Computer Systems, vol. 125, pp. 247–262, 2021.
+
+[11] M. Erdelj, M. Krol, and E. Natalizio, “Wireless sensor networks´ and multi-UAV systems for natural disaster management,” Computer Networks, vol. 124, pp. 72–86, 2017.
+
+[12] P. Boccadoro, D. Striccoli, and L. A. Grieco, “An extensive survey on the Internet of Drones,” Ad Hoc Networks, vol. 122, p. 102600, 2021.
+
+[13] T. Manzini, R. Murphy, and D. Merrick, “Quantitative data analysis: CRASAR small unmanned aerial systems at Hurricane Ian,” in 2023 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR). IEEE, 2023, pp. 7–12.
+
+[14] R. R. Murphy, T. Manzini, and S. C. Peres, “Analysis of human errors in small uncrewed aerial systems used during Hurricane Ian,” in 2024 IEEE International Symposium on Safety, Security, and Rescue Robotics (SSRR). IEEE, 2024, pp. 64–71.
+
+[15] Pix4D SA, “PIX4Dreact,” https://www.pix4d.com/product/pix4dreact, 2026, computer software, version 1.6.
+
+[16] Microsoft, “Microsoft US building footprints,” https://github.com/Microsoft/USBuildingFootprints, 2018.
+
+[17] OpenStreetMap contributors, “Planet dump retrieved from https://planet.osm.org,” https://www.openstreetmap.org [Accessed: 2026-05-19], 2026.
+
+[18] T. Manzini, P. Perali, R. Karnik, M. Godbole, H. Abdullah, and R. Murphy, “Non-uniform spatial alignment errors in sUAS imagery from wide-area disasters,” in 2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN). IEEE, 2025, pp. 273–278.
+
+[19] A. Zampieri, G. Charpiat, N. Girard, and Y. Tarabalka, “Multimodal image alignment through a multiscale chain of neural networks with application to remote sensing,” in Proceedings of the European Conference on Computer Vision (ECCV), 2018, pp. 657–673.
+
+[20] T. Manzini, P. Perali, R. Karnik, and R. R. Murphy, “A benchmark dataset for spatially aligned road damage assessment in small uncrewed aerial systems disaster imagery,” in Proceedings of the AAAI Conference on Artificial Intelligence, vol. 40, no. 46, 2026, pp. 39 016– 39 024.
+
+[21] M. Hu, Introduction to AI Law and Policy: Primary Legal and Policy Sources on AI and Emerging Technologies. Aspen Publishing, 2026.
